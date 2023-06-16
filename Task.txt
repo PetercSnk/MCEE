@@ -1,0 +1,7 @@
+Technocamps Islands
+
+Using Minecraft for Education, create islands that will allow users to explore core computational 
+thinking theories and methods through play. The islands should include a range of interactive activities 
+and supporting educational materials that will engage and encourage children and young people to explore
+computer science as an option at GCSE and beyond. The islands will need to align with the new 2022 Welsh
+curriculum for science. This includes all elements of CS and can be adapted for teaching cyber security.
