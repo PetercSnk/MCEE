@@ -1,0 +1,5 @@
+# disables feedback from commands
+/gamerule sendcommandfeedback false
+
+# hide scoreboard
+/scoreboard objectives setdisplay sidebar
