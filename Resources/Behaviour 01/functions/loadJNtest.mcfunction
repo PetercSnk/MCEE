@@ -1,1 +1,0 @@
-codebuilder navigate @p false https://github.com/PetercSnk/MCEE/blob/main/Resources/Behaviour%2001/functions/test.json
