@@ -1,0 +1,16 @@
+{
+    "commands" : {
+
+    },
+    "codebuilder":{
+		"defaulturi": "https://raw.githubusercontent.com/PetercSnk/MCEE/main/Jupyter%20Notebooks/Variables_0.ipynb",
+		"disableLegacyTitleBar": true,
+		"capabilities": {
+			"agent":{
+				"permissions":{
+					"canModifyBlocks": true
+					}
+				}
+			}
+	}
+}
