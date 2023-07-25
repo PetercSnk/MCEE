@@ -1,0 +1,8 @@
+
+# npc names
+headmaster.name=Headmaster
+
+# act 0 scene 0
+0.0.dialogue=Hello
+0.0.button.hello=Hello
+0.0.button.goodbye=Goodbye

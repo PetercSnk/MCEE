@@ -1,25 +1,24 @@
 {
-  "format_version": 2,
-  "header": {
-    "description": "",
-    "name": "My Behavior Pack",
-    "uuid":"fd006a79-65fc-44e4-b162-430c7681b367",
-    "version": [1, 0, 0],
-    "min_engine_version": [1, 19, 52]
-  },
-  "modules":
-    [
-      {
-        "description": "",
-          "type": "data",
-          "uuid": "079652fa-b50f-4384-85cd-66ce3d74e367",
-          "version": [1, 0, 0]
-      }
+    "format_version": 2,
+    "header": {
+        "description": "Behavior Pack for ABACWS",
+        "name": "ABACWS Behaviour Pack",
+        "uuid": "fd006a79-65fc-44e4-b162-430c7681b367",
+        "version": [1, 0, 0],
+        "min_engine_version": [1, 19, 52]
+    },
+    "modules": [
+        {
+            "description":"Behavior Pack for ABACWS",
+            "type": "data",
+            "uuid": "079652fa-b50f-4384-85cd-66ce3d74e367",
+            "version": [1, 0, 0]
+        }
     ],
-  "dependencies": [
-    {
-    "uuid":"784cb7e4-75be-4186-abb7-673d997c5027",
-     "version":[1,0,0]
-   }
-  ]
+    "dependencies": [
+        {
+            "uuid": "784cb7e4-75be-4186-abb7-673d997c5027",
+            "version": [1, 0, 0]
+        }
+    ]
 }

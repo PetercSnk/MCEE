@@ -1,0 +1,26 @@
+{
+    "format_version": "1.14",
+    "minecraft:npc_dialogue": {
+        "scenes": [
+            {
+                "scene_tag": "a0s0d0",
+                "npc_name": {"rawtext": [{"translate": "headmaster.name"}]},
+                "text": {"rawtext": [{"translate": "0.0.dialogue", "with": ["\n"]}]},
+                "buttons": [
+                    {
+                        "name": {"rawtext": [{"translate": "0.0.button.hello"}]},
+                        "commands": [
+                            "execute as @e [tag=headmaster] run say hello"
+                        ]
+                    },
+                    {
+                        "name": {"rawtext": [{"translate": "0.0.button.goodbye"}]},
+                        "commands": [
+                            "execute say Goodbye"
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

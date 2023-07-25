@@ -1,0 +1,12 @@
+{
+    "skins": [
+        {
+            "localization_name": "wizard",
+            "geometry": "geometry.humanoid.custom",
+            "texture": "wizard.png",
+            "type": "free"
+        }
+    ],
+    "serialize_name": "ABACWS_skinpack",
+    "localization_name": "ABACWS_skinpack"
+}
