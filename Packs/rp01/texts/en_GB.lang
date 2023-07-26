@@ -3,6 +3,10 @@
 headmaster.name=Headmaster
 
 # act 0 scene 0
-0.0.dialogue=Hello
-0.0.button.hello=Hello
-0.0.button.goodbye=Goodbye
+0.0.dialogue=Greetings, I am the headmaster at ABACWS school of magic. I noticed a strange source of energy coming from this location! It seems that you may possess the ability to control magic, would you like to attend ABACWS and develop your skills? 
+0.0.button.0=Visit ABACWS
+0.0.button.1=Not right now
+
+# act 0 scene 1
+0.1.dialogue=We have arrived! This is the ABACWS building where all our students come to learn magic. Head on inside and my assistant will explain further. Feel free to look around too!
+0.1.button.0=Sure thing

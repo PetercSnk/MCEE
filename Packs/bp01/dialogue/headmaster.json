@@ -8,15 +8,28 @@
                 "text": {"rawtext": [{"translate": "0.0.dialogue", "with": ["\n"]}]},
                 "buttons": [
                     {
-                        "name": {"rawtext": [{"translate": "0.0.button.hello"}]},
+                        "name": {"rawtext": [{"translate": "0.0.button.0"}]},
                         "commands": [
-                            "execute as @e [tag=headmaster] run say hello"
+                            ""
                         ]
                     },
                     {
-                        "name": {"rawtext": [{"translate": "0.0.button.goodbye"}]},
+                        "name": {"rawtext": [{"translate": "0.0.button.1"}]},
                         "commands": [
-                            "execute say Goodbye"
+                            ""
+                        ]
+                    }
+                ]
+            },
+            {
+                "scene_tag": "a0s1d0",
+                "npc_name": {"rawtext": [{"translate": "headmaster.name"}]},
+                "text": {"rawtext": [{"translate": "0.1.dialogue", "with": ["\n"]}]},
+                "buttons": [
+                    {
+                        "name": {"rawtext": [{"translate": "0.1.button.0"}]},
+                        "commands": [
+                            ""
                         ]
                     }
                 ]
