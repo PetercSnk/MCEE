@@ -1,12 +1,229 @@
-
 # npc names
-headmaster.name=Headmaster
+npc.name.0=Headmaster Edgar
+npc.name.1=Melina
+npc.name.2=Rogier
+npc.name.3=Tanith
+npc.name.4=Kale
+npc.name.5=Sellen
+npc.name.6=Rennala
+npc.name.7=Ranni
 
+# generic answer buttons
+generic.answer.0=I'm ready
+generic.answer.1=Not yet
+generic.answer.2=Okay
+generic.answer.3=Thank you
+generic.answer.4=Yes
+generic.answer.5=No
+generic.answer.6=Understood
+
+# all class buttons
+class.button.0=Potions
+class.button.1=Herbology
+class.button.2=Spells
+class.button.3=Alchemy
+class.button.4=Astronomy
+
+# introduction
 # act 0 scene 0
-0.0.dialogue=Greetings, I am the headmaster at ABACWS school of magic. I noticed a strange source of energy coming from this location! It seems that you may possess the ability to control magic, would you like to attend ABACWS and develop your skills? 
-0.0.button.0=Visit ABACWS
-0.0.button.1=Not right now
+0.0.0.dialogue=Greetings, I am Edgar, the headmaster at ABACWS school of magic. I noticed a strange source of energy coming from this location! It seems that you may possess the ability to control magic, would you like to attend ABACWS and develop your skills? 
+# generic answer 4
+# generic answer 1
+0.0.1.dialogue=Are you ready now?
+# generic answer 4
+# generic answer 1
 
 # act 0 scene 1
-0.1.dialogue=We have arrived! This is the ABACWS building where all our students come to learn magic. Head on inside and my assistant will explain further. Feel free to look around too!
-0.1.button.0=Sure thing
+0.1.dialogue=We have arrived! This is the ABACWS building where all our students come to learn magic. Head on inside and my assistant will explain further. Feel free to look around beforehand!
+# generic answer 2
+
+# act 0 scene 2
+0.2.0.dialogue=Welcome to ABACWS! I am Melina, the headmasters assistant. A little birdy told me you have magical talent. Before I let you attend any classes you will first need a pet.
+# generic answer 2
+0.2.1.dialogue=Good choice! Are you ready to attend class?
+# generic answer 0
+# generic answer 1
+0.2.2.dialogue=Are you ready now?
+# generic answer 0
+# generic answer 1
+0.2.3.dialogue=Nice to see you eager to learn. The timetable for today can be found in room 0.01 on this floor, Darius will be waiting there for you.
+# generic answer 2
+# npc disappears
+
+# act 0 scene 3
+0.3.0.dialogue=Hi there, I'm Rogier! I am in charge of todays classes. What class would you like to attend?
+# class button 0
+# class button 1
+# class button 2
+# class button 3
+# class button 4
+0.3.1.dialogue=Remember, when you finish a class or you'd like to attend a different class come back to me or speak to one of the student reps. They should be around the stairs of each floor.
+0.3.1.button.0=Got it
+
+# act 0 scene 4
+0.4.0.dialogue=What class would you like to attend?
+# class button 0
+# class button 1
+# class button 2
+# class button 3
+# class button 4
+
+# student reps
+student.rep.dialogue=Hello, I'm a student rep, what class are you trying to attend?
+# class button 0
+# class button 1
+# class button 2
+# class button 3
+# class button 4
+
+# potions class
+# act 1 scene 0 
+1.0.0.dialogue=Welcome to potions class, I am Tanith. In this class you will teach your pet to gather ingredients which can then be used to brew potions.
+# generic answer 2
+1.0.1.dialogue=Remember to follow the recipes, otherwise you'll end up with the wrong potion!
+1.0.1.button.0=Got it
+# open codebuilder tutorial
+
+# act 1 scene 1
+1.1.0.dialogue=To complete this class you'll need to provide me with a potion of strength II.
+1.1.0.button.0=I have it right here!
+1.1.0.button.1=I still need to brew it
+1.1.1.dialogue=Wow! You're amazing at this.
+# generic answer 3
+# potions complete
+
+# herbology class
+# act 2 scene 0
+2.0.0.dialogue=Welcome to Herbology, I'm Kale. In this class we will learn about various plants and their properties.
+# generic answer 2
+2.0.1.dialogue=I will meet you at Alexandra Gardens for this class. Do you want to walk there or travel using the rift.
+2.0.1.button.0=I'll walk
+2.0.1.button.1=I'll use the rift
+# npc disappears and is summoned at gardens
+
+# act 2 scene 1
+2.1.0.dialogue=Welcome to Alexandra Gardens. We have a variety of plants kept here for research purposes. They are also nice to admire during breaks.
+# generic answer 2
+2.1.1.dialogue=To complete this class you will need to find 5 different plants and record their properties in appropriate formats. I will provide some of my written notes for you.
+2.1.1.button.0=I'll give it a go
+# open codebuilder tutorial
+
+# act 2 scene 2
+2.2.0.dialogue=Which plant would you like to know more about?
+2.2.0.button.0=Dandelion
+2.2.0.button.1=Poppy
+2.2.0.button.2=Blue orchid
+2.2.0.button.3=Allium
+2.2.0.button.4=Azure bluet
+2.2.0.button.5=Tulip
+2.2.0.button.6=Oxeye daisy
+2.2.0.button.7=Cornflower
+2.2.0.button.8=Lily of the valley
+2.2.1.dialogue=Dandelions are a common wildflower that are seen all year round. They are yellow and are found in grassland, woodland, towns, and gardens.
+2.2.2.dialogue=Poppies can grow to over a metre tall with flowers 15 centimetres across. Poppies produce edible seeds and are a symbol of rememberance.
+2.2.3.dialogue=Blue orchids are a very rare and sought after by many. Some of its species can be found naturally in India, China, and Australia.
+2.2.4.dialogue=Alliums have hundreds of species, inlcluding the cultivated onion, garlic, scallion, shallot, leek, and chives.
+2.2.5.dialogue=Azure bluets are a species in the Rubiaceae family. They are native to easten Canada and United States. They are found on cliffs, alpine zones, forests, meadows, and shores of rivers and lakes.
+2.2.6.dialogue=Tulips bloom in the spring and their flowers are usually large, showy, and brightly coloured. These colours include red, orange, pink, yellow, and white.
+2.2.7.dialogue=Oxeye daisys are widespread in Europe and temperate regions of Asia. They grow to 80 centimetres tall and the lower parts of the steam are hairy.
+2.2.8.dialogue=Cornflowers are native to Europe and are part of the Asteraceae family. In the past it would often grow as a weed in cornfields, hence its name.
+2.2.9.dialogue=Lilys of the valley are a woodland flowering plant with sweetly scented bell-shaped white flowers. It is native throughout the cool temperate northern hemisphere in Europe and Asia.
+# generic answer 6
+
+# act 2 scene 3
+2.3.0.dialogue=Well done! You have collected 5 samples.
+# generic answer 3
+# herbology complete
+
+# spells class
+# act 3 scene 0
+3.0.0.dialogue=Welcome to spells class! I am Sellen. Today I will teach you how to cast certain spells.
+# generic answer 2
+3.0.1.dialogue=To cast a spell we need to recite a specific incantation. Some of these incantations are listed on the whiteboard. The handbook I made for you will explain in further detail.
+# generic answer 6
+# open codebuilder tutorial
+
+# act 3 scene 1
+3.1.0.dialogue=To complete this class you are required to cast 3 different spells.
+# generic answer 6
+# use scoreboard to check if 3 have been cast
+# spells complete
+
+# alchemy class
+# act 4 scene 0
+4.0.0.dialogue=Hi there, I'm Rennala. I'll be your alchemy teacher for today.
+4.0.0.button.0=Nice to meet you
+4.0.1.dialogue=In order to artificially create new materials from others we will be using transmutation. That being said we must first solve the alchemic equations around the classroom.
+# generic answer 2
+4.0.2.dialogue=Correct answers will reward you with materials which can be placed in the transmutation table. When all materials are placed, the process will start. Don't forget to use the guide!
+# generic answer 6
+# open codebuilder tutorial
+
+# act 4 scene 1
+4.1.0.dialogue=To pass my class you will need to create a gold block from the materials rewarded!
+# generic answer 2
+
+# act 4 scene 2
+4.2.0.dialogue=You managed to do it, that's incredible!
+4.2.0.button.0=Thanks alot!
+# alchemy complete
+
+# astronomy class
+# act 5 scene 0
+5.0.0.dialogue=Hiya, I'm Ranni. You are currently in my laboratory, to take part in the class make your way to the rooftop. I will meet you there.
+# generic answer 2
+
+# act 5 scene 1
+5.1.0.dialogue=In this class we will harness the power of the stars. To do this we will be create and plot constellations. Take a look inside this notebook for guidance.
+5.1.0.button.0=Thanks, Will do
+# open codebuilder tutorial
+
+# act 5 scene 2
+5.2.0.dialogue=To pass astronomy you will need to complete the final task in the constuction of constellation Capricornus.
+# generic answer 2
+
+# act 5 scene 3
+5.3.0.dialogue=You did a great job! 
+# generic answer 3
+# astronomy complete
+
+# 3 or 4 out of 5 classes complete
+# act 6 scene 0
+6.0.0.dialogue=Yo, the names Blaidd. You haven't met me yet, but I work behind the scenes to protect this school and there seems to be something sinister going on.
+6.0.0.button.0=Can I help?
+6.0.0.button.1=Let me complete my classes first
+6.0.1.dialogue=You sure you want to skip the rest of your classes? You won't be able to finish them if you come with me.
+6.0.1.button.0=Yes
+6.0.1.button.1=No
+6.0.2.dialogue=Understandable, it is probably best you complete your classes.
+6.0.2.button.0=I'll be back after I'm done
+6.0.3.dialogue=Let's go protect ABACWS!
+6.0.3.button=Yes Sir!
+# start end sequence
+
+# 5 out of 5 classes complete
+# act 7 scene 0
+7.0.0.dialogue=We should be more than ready to protect ABACWS now you've completed all your classes.
+7.0.0.button.0=Let's go!
+# start end sequence
+
+# end sequence
+# act 8 scene 0
+8.0.0.dialogue=The weathers taking a turn for the worst. Wait, look over there! Some sort of create is approaching.
+8.0.0.button.0=We need to defeat it.
+8.0.1.dialogue=The only way to defeat it is to place protection stones around ABACWS. The issue is they're only given to exceptional students.
+8.0.1.button.0=I may be able to help with that
+8.0.2.dialogue=You're right! I reckon if you complete 1 final task for each class you completed you'll be rewarded. I'll create some final tasks for you now.
+8.0.2.button=I'll make sure I succeed.
+# tasks appear for each class completed
+
+# act 8 scene 1
+8.1.0.dialogue=You did it! Place those 4 protection stones on the pedestals located around the building.
+8.1.0.button.0=I'm on it
+
+# act 8 scene 2
+8.2.0.dialogue=Look the barriers going up. The creature is retreating.
+8.2.0.button.0=I did it
+8.2.1.dialogue=You did a great job, you're an excellent student.
+# generic answer 3
+# end title scene
