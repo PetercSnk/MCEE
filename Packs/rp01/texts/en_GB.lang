@@ -8,6 +8,7 @@ npc.name.5=Sellen
 npc.name.6=Rennala
 npc.name.7=Ranni
 npc.name.8=Student Rep
+npc.name.9=Blaidd
 
 # generic answer buttons
 generic.answer.0=I'm ready
@@ -194,8 +195,8 @@ student.rep.dialogue=Hello, I'm a student rep, what class are you trying to atte
 6.0.0.button.0=Can I help?
 6.0.0.button.1=Let me complete my classes first
 6.0.1.dialogue=You sure you want to skip the rest of your classes? You won't be able to finish them if you come with me.
-6.0.1.button.0=Yes
-6.0.1.button.1=No
+# generic answer 4
+# generic answer 5
 6.0.2.dialogue=Understandable, it is probably best you complete your classes.
 6.0.2.button.0=I'll be back after I'm done
 6.0.3.dialogue=Let's go protect ABACWS!
