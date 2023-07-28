@@ -1,0 +1,85 @@
+{
+    "format_version": "1.14",
+    "minecraft:npc_dialogue": {
+        "scenes": [
+            {
+                "scene_tag": "a8s0d0",
+                "npc_name": {"rawtext": [{"translate": "npc.name.9"}]},
+                "text": {"rawtext": [{"translate": "8.0.0.dialogue", "with": ["\n"]}]},
+                "buttons": [
+                    {
+                        "name": {"rawtext": [{"translate": "8.0.0.button.0"}]},
+                        "commands": [
+                            ""
+                        ]
+                    }
+                ]
+            },
+            {
+                "scene_tag": "a8s0d1",
+                "npc_name": {"rawtext": [{"translate": "npc.name.9"}]},
+                "text": {"rawtext": [{"translate": "8.0.1.dialogue", "with": ["\n"]}]},
+                "buttons": [
+                    {
+                        "name": {"rawtext": [{"translate": "8.0.1.button.0"}]},
+                        "commands": [
+                            ""
+                        ]
+                    }
+                ]
+            },
+            {
+                "scene_tag": "a8s0d2",
+                "npc_name": {"rawtext": [{"translate": "npc.name.9"}]},
+                "text": {"rawtext": [{"translate": "8.0.2.dialogue", "with": ["\n"]}]},
+                "buttons": [
+                    {
+                        "name": {"rawtext": [{"translate": "8.0.2.button.0"}]},
+                        "commands": [
+                            ""
+                        ]
+                    }
+                ]
+            },
+            {
+                "scene_tag": "a8s1d0",
+                "npc_name": {"rawtext": [{"translate": "npc.name.9"}]},
+                "text": {"rawtext": [{"translate": "8.1.0.dialogue", "with": ["\n"]}]},
+                "buttons": [
+                    {
+                        "name": {"rawtext": [{"translate": "8.1.0.button.0"}]},
+                        "commands": [
+                            ""
+                        ]
+                    }
+                ]
+            },
+            {
+                "scene_tag": "a8s2d0",
+                "npc_name": {"rawtext": [{"translate": "npc.name.9"}]},
+                "text": {"rawtext": [{"translate": "8.2.0.dialogue", "with": ["\n"]}]},
+                "buttons": [
+                    {
+                        "name": {"rawtext": [{"translate": "8.2.0.button.0"}]},
+                        "commands": [
+                            ""
+                        ]
+                    }
+                ]
+            },
+            {
+                "scene_tag": "a8s2d1",
+                "npc_name": {"rawtext": [{"translate": "npc.name.9"}]},
+                "text": {"rawtext": [{"translate": "8.2.1.dialogue", "with": ["\n"]}]},
+                "buttons": [
+                    {
+                        "name": {"rawtext": [{"translate": "generic.answer.3"}]},
+                        "commands": [
+                            ""
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
