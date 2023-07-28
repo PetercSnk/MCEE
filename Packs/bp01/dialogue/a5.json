@@ -1,0 +1,59 @@
+{
+    "format_version": "1.14",
+    "minecraft:npc_dialogue": {
+        "scenes": [
+            {
+                "scene_tag": "a5s0d0",
+                "npc_name": {"rawtext": [{"translate": "npc.name.7"}]},
+                "text": {"rawtext": [{"translate": "5.0.0.dialogue", "with": ["\n"]}]},
+                "buttons": [
+                    {
+                        "name": {"rawtext": [{"translate": "generic.answer.2"}]},
+                        "commands": [
+                            ""
+                        ]
+                    }
+                ]
+            },
+            {
+                "scene_tag": "a5s1d0",
+                "npc_name": {"rawtext": [{"translate": "npc.name.7"}]},
+                "text": {"rawtext": [{"translate": "5.1.0.dialogue", "with": ["\n"]}]},
+                "buttons": [
+                    {
+                        "name": {"rawtext": [{"translate": "5.1.0.button.0"}]},
+                        "commands": [
+                            ""
+                        ]
+                    }
+                ]
+            },
+            {
+                "scene_tag": "a5s2d0",
+                "npc_name": {"rawtext": [{"translate": "npc.name.7"}]},
+                "text": {"rawtext": [{"translate": "5.2.0.dialogue", "with": ["\n"]}]},
+                "buttons": [
+                    {
+                        "name": {"rawtext": [{"translate": "generic.answer.2"}]},
+                        "commands": [
+                            ""
+                        ]
+                    }
+                ]
+            },
+            {
+                "scene_tag": "a5s3d0",
+                "npc_name": {"rawtext": [{"translate": "npc.name.7"}]},
+                "text": {"rawtext": [{"translate": "5.3.0.dialogue", "with": ["\n"]}]},
+                "buttons": [
+                    {
+                        "name": {"rawtext": [{"translate": "generic.answer.3"}]},
+                        "commands": [
+                            ""
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
