@@ -1,0 +1,65 @@
+{
+    "format_version": "1.14",
+    "minecraft:npc_dialogue": {
+        "scenes": [
+            {
+                "scene_tag": "a1s0d0",
+                "npc_name": {"rawtext": [{"translate": "npc.name.3"}]},
+                "text": {"rawtext": [{"translate": "1.0.0.dialogue", "with": ["\n"]}]},
+                "buttons": [
+                    {
+                        "name": {"rawtext": [{"translate": "generic.answer.2"}]},
+                        "commands": [
+                            ""
+                        ]
+                    }
+                ]
+            },
+            {
+                "scene_tag": "a1s0d1",
+                "npc_name": {"rawtext": [{"translate": "npc.name.3"}]},
+                "text": {"rawtext": [{"translate": "1.0.1.dialogue", "with": ["\n"]}]},
+                "buttons": [
+                    {
+                        "name": {"rawtext": [{"translate": "1.0.1.button.0"}]},
+                        "commands": [
+                            ""
+                        ]
+                    }
+                ]
+            },
+            {
+                "scene_tag": "a1s1d0",
+                "npc_name": {"rawtext": [{"translate": "npc.name.3"}]},
+                "text": {"rawtext": [{"translate": "1.1.0.dialogue", "with": ["\n"]}]},
+                "buttons": [
+                    {
+                        "name": {"rawtext": [{"translate": "1.1.0.button.0"}]},
+                        "commands": [
+                            ""
+                        ]
+                    },
+                    {
+                        "name": {"rawtext": [{"translate": "1.1.0.button.1"}]},
+                        "commands": [
+                            ""
+                        ]
+                    }
+                ]
+            },
+            {
+                "scene_tag": "a1s1d1",
+                "npc_name": {"rawtext": [{"translate": "npc.name.3"}]},
+                "text": {"rawtext": [{"translate": "1.1.1.dialogue", "with": ["\n"]}]},
+                "buttons": [
+                    {
+                        "name": {"rawtext": [{"translate": "generic.answer.3"}]},
+                        "commands": [
+                            ""
+                        ]
+                    }
+                ]
+            },
+        ]
+    }
+}

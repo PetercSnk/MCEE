@@ -7,6 +7,7 @@ npc.name.4=Kale
 npc.name.5=Sellen
 npc.name.6=Rennala
 npc.name.7=Ranni
+npc.name.8=Student Rep
 
 # generic answer buttons
 generic.answer.0=I'm ready
@@ -34,7 +35,7 @@ class.button.4=Astronomy
 # generic answer 1
 
 # act 0 scene 1
-0.1.dialogue=We have arrived! This is the ABACWS building where all our students come to learn magic. Head on inside and my assistant will explain further. Feel free to look around beforehand!
+0.1.0.dialogue=We have arrived! This is the ABACWS building where all our students come to learn magic. Head on inside and my assistant will explain further. Feel free to look around beforehand!
 # generic answer 2
 
 # act 0 scene 2
@@ -46,7 +47,7 @@ class.button.4=Astronomy
 0.2.2.dialogue=Are you ready now?
 # generic answer 0
 # generic answer 1
-0.2.3.dialogue=Nice to see you eager to learn. The timetable for today can be found in room 0.01 on this floor, Darius will be waiting there for you.
+0.2.3.dialogue=Nice to see you eager to learn. The timetable for today can be found in room 0.01 on this floor, Rogier will be waiting there for you.
 # generic answer 2
 # npc disappears
 

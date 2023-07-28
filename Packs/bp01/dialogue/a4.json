@@ -1,0 +1,72 @@
+{
+    "format_version": "1.14",
+    "minecraft:npc_dialogue": {
+        "scenes": [
+            {
+                "scene_tag": "a4s0d0",
+                "npc_name": {"rawtext": [{"translate": "npc.name.6"}]},
+                "text": {"rawtext": [{"translate": "4.0.0.dialogue", "with": ["\n"]}]},
+                "buttons": [
+                    {
+                        "name": {"rawtext": [{"translate": "4.0.0.button.0"}]},
+                        "commands": [
+                            ""
+                        ]
+                    }
+                ]
+            },
+            {
+                "scene_tag": "a4s0d1",
+                "npc_name": {"rawtext": [{"translate": "npc.name.6"}]},
+                "text": {"rawtext": [{"translate": "4.0.1.dialogue", "with": ["\n"]}]},
+                "buttons": [
+                    {
+                        "name": {"rawtext": [{"translate": "generic.answer.2"}]},
+                        "commands": [
+                            ""
+                        ]
+                    }
+                ]
+            },
+            {
+                "scene_tag": "a4s0d2",
+                "npc_name": {"rawtext": [{"translate": "npc.name.6"}]},
+                "text": {"rawtext": [{"translate": "4.0.2.dialogue", "with": ["\n"]}]},
+                "buttons": [
+                    {
+                        "name": {"rawtext": [{"translate": "generic.answer.6"}]},
+                        "commands": [
+                            ""
+                        ]
+                    }
+                ]
+            },
+            {
+                "scene_tag": "a4s1d0",
+                "npc_name": {"rawtext": [{"translate": "npc.name.6"}]},
+                "text": {"rawtext": [{"translate": "4.1.0.dialogue", "with": ["\n"]}]},
+                "buttons": [
+                    {
+                        "name": {"rawtext": [{"translate": "generic.answer.2"}]},
+                        "commands": [
+                            ""
+                        ]
+                    }
+                ]
+            },
+            {
+                "scene_tag": "a4s2d0",
+                "npc_name": {"rawtext": [{"translate": "npc.name.6"}]},
+                "text": {"rawtext": [{"translate": "4.2.0.dialogue", "with": ["\n"]}]},
+                "buttons": [
+                    {
+                        "name": {"rawtext": [{"translate": "4.2.0.button.0"}]},
+                        "commands": [
+                            ""
+                        ]
+                    }
+                ]
+            },
+        ]
+    }
+}

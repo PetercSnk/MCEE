@@ -1,0 +1,46 @@
+{
+    "format_version": "1.14",
+    "minecraft:npc_dialogue": {
+        "scenes": [
+            {
+                "scene_tag": "a3s0d0",
+                "npc_name": {"rawtext": [{"translate": "npc.name.5"}]},
+                "text": {"rawtext": [{"translate": "3.0.0.dialogue", "with": ["\n"]}]},
+                "buttons": [
+                    {
+                        "name": {"rawtext": [{"translate": "generic.answer.2"}]},
+                        "commands": [
+                            ""
+                        ]
+                    }
+                ]
+            },
+            {
+                "scene_tag": "a3s0d1",
+                "npc_name": {"rawtext": [{"translate": "npc.name.5"}]},
+                "text": {"rawtext": [{"translate": "3.0.1.dialogue", "with": ["\n"]}]},
+                "buttons": [
+                    {
+                        "name": {"rawtext": [{"translate": "generic.answer.6"}]},
+                        "commands": [
+                            ""
+                        ]
+                    }
+                ]
+            },
+            {
+                "scene_tag": "a3s1d0",
+                "npc_name": {"rawtext": [{"translate": "npc.name.5"}]},
+                "text": {"rawtext": [{"translate": "3.1.0.dialogue", "with": ["\n"]}]},
+                "buttons": [
+                    {
+                        "name": {"rawtext": [{"translate": "generic.answer.6"}]},
+                        "commands": [
+                            ""
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
