@@ -26,6 +26,18 @@ class.button.2=Spells
 class.button.3=Alchemy
 class.button.4=Astronomy
 
+# student reps
+student.rep.dialogue=Hello, I'm a student rep, what class are you trying to attend?
+# class button 0
+# class button 1
+# class button 2
+# class button 3
+# class button 4
+
+# leave class
+leave.class.dialogue=Shouldn't you be in class? You can't attend this class until you're finished.
+# generic answer 2
+
 # introduction
 # act 0 scene 0
 0.0.0.dialogue=Greetings, I am Edgar, the headmaster at ABACWS school of magic. I noticed a strange source of energy coming from this location! It seems that you may possess the ability to control magic, would you like to attend ABACWS and develop your skills? 
@@ -70,14 +82,6 @@ class.button.4=Astronomy
 # class button 3
 # class button 4
 
-# student reps
-student.rep.dialogue=Hello, I'm a student rep, what class are you trying to attend?
-# class button 0
-# class button 1
-# class button 2
-# class button 3
-# class button 4
-
 # potions class
 # act 1 scene 0 
 1.0.0.dialogue=Welcome to potions class, I am Tanith. In this class you will teach your pet to gather ingredients which can then be used to brew potions.
@@ -90,6 +94,7 @@ student.rep.dialogue=Hello, I'm a student rep, what class are you trying to atte
 1.1.0.dialogue=To complete this class you'll need to provide me with a potion of strength II.
 1.1.0.button.0=I have it right here!
 1.1.0.button.1=I still need to brew it
+1.1.0.button.2=Reset agent
 1.1.1.dialogue=Wow! You're amazing at this.
 # generic answer 3
 # potions complete
@@ -183,6 +188,7 @@ student.rep.dialogue=Hello, I'm a student rep, what class are you trying to atte
 # act 5 scene 2
 5.2.0.dialogue=To pass astronomy you will need to complete the final task in the constuction of constellation Capricornus.
 # generic answer 2
+5.2.0.button.0=Reset task
 
 # act 5 scene 3
 5.3.0.dialogue=You did a great job! 
@@ -190,6 +196,7 @@ student.rep.dialogue=Hello, I'm a student rep, what class are you trying to atte
 # astronomy complete
 
 # 3 or 4 out of 5 classes complete
+# title scene to notify player of new npc
 # act 6 scene 0
 6.0.0.dialogue=Yo, the names Blaidd. You haven't met me yet, but I work behind the scenes to protect this school and there seems to be something sinister going on.
 6.0.0.button.0=Can I help?
