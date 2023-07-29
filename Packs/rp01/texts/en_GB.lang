@@ -88,6 +88,9 @@ leave.class.dialogue=Shouldn't you be in class? You can't attend this class unti
 # generic answer 2
 1.0.1.dialogue=Remember to follow the recipes, otherwise you'll end up with the wrong potion!
 1.0.1.button.0=Got it
+1.0.2.dialogue=Are you ready to start?
+# generic answer 4
+# generic answer 5
 # open codebuilder tutorial
 
 # act 1 scene 1
@@ -103,9 +106,9 @@ leave.class.dialogue=Shouldn't you be in class? You can't attend this class unti
 # act 2 scene 0
 2.0.0.dialogue=Welcome to Herbology, I'm Kale. In this class we will learn about various plants and their properties.
 # generic answer 2
-2.0.1.dialogue=I will meet you at Alexandra Gardens for this class. Do you want to walk there or travel using the rift.
-2.0.1.button.0=I'll walk
-2.0.1.button.1=I'll use the rift
+2.0.1.dialogue=This class will take place in Alexandra Gardens. You can travel there using the rift, just let me know when you are ready!
+generic.answer.0
+generic.answer.1
 # npc disappears and is summoned at gardens
 
 # act 2 scene 1
@@ -146,8 +149,9 @@ leave.class.dialogue=Shouldn't you be in class? You can't attend this class unti
 # act 3 scene 0
 3.0.0.dialogue=Welcome to spells class! I am Sellen. Today I will teach you how to cast certain spells.
 # generic answer 2
-3.0.1.dialogue=To cast a spell we need to recite a specific incantation. Some of these incantations are listed on the whiteboard. The handbook I made for you will explain in further detail.
-# generic answer 6
+3.0.1.dialogue=To cast a spell we need to recite a specific incantation. Some of these incantations are listed on the whiteboards. Let me know when you are ready, and I will provide the handbook.
+# generic answer 0
+# generic answer 1
 # open codebuilder tutorial
 
 # act 3 scene 1
@@ -160,10 +164,13 @@ leave.class.dialogue=Shouldn't you be in class? You can't attend this class unti
 # act 4 scene 0
 4.0.0.dialogue=Hi there, I'm Rennala. I'll be your alchemy teacher for today.
 4.0.0.button.0=Nice to meet you
-4.0.1.dialogue=In order to artificially create new materials from others we will be using transmutation. That being said we must first solve the alchemic equations around the classroom.
+4.0.1.dialogue=You will be attempting to create gold from other elements in this class. That being said, we must first solve the questions on the whiteboards.
 # generic answer 2
-4.0.2.dialogue=Correct answers will reward you with materials which can be placed in the transmutation table. When all materials are placed, the process will start. Don't forget to use the guide!
+4.0.2.dialogue=Correct answers will reward you with materials which can be placed in the transmutation table. When all materials are placed, the process will start.
 # generic answer 6
+4.0.3.dialogue=Let me know when you are ready so we can begin!
+# generic answer 0
+# generic answer 1
 # open codebuilder tutorial
 
 # act 4 scene 1
@@ -177,11 +184,12 @@ leave.class.dialogue=Shouldn't you be in class? You can't attend this class unti
 
 # astronomy class
 # act 5 scene 0
-5.0.0.dialogue=Hiya, I'm Ranni. You are currently in my laboratory, to take part in the class make your way to the rooftop. I will meet you there.
-# generic answer 2
+5.0.0.dialogue=Hiya, I'm Ranni. You are currently in my laboratory. Let me know when you are ready, and I will take you to the rooftop for this class.
+# generic answer 0
+# generic answer 1
 
 # act 5 scene 1
-5.1.0.dialogue=In this class we will harness the power of the stars. To do this we will be create and plot constellations. Take a look inside this notebook for guidance.
+5.1.0.dialogue=In this class we will harness the power of the stars. To do this we will create and plot constellations. Take a look inside this notebook for guidance.
 5.1.0.button.0=Thanks, Will do
 # open codebuilder tutorial
 
