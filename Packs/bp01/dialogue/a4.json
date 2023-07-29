@@ -42,6 +42,25 @@
                 ]
             },
             {
+                "scene_tag": "a4s0d3",
+                "npc_name": {"rawtext": [{"translate": "npc.name.6"}]},
+                "text": {"rawtext": [{"translate": "4.0.3.dialogue", "with": ["\n"]}]},
+                "buttons": [
+                    {
+                        "name": {"rawtext": [{"translate": "generic.answer.0"}]},
+                        "commands": [
+                            ""
+                        ]
+                    },
+                    {
+                        "name": {"rawtext": [{"translate": "generic.answer.1"}]},
+                        "commands": [
+                            ""
+                        ]
+                    }
+                ]
+            },
+            {
                 "scene_tag": "a4s1d0",
                 "npc_name": {"rawtext": [{"translate": "npc.name.6"}]},
                 "text": {"rawtext": [{"translate": "4.1.0.dialogue", "with": ["\n"]}]},

@@ -21,13 +21,13 @@
                 "text": {"rawtext": [{"translate": "2.0.1.dialogue", "with": ["\n"]}]},
                 "buttons": [
                     {
-                        "name": {"rawtext": [{"translate": "2.0.1.button.0"}]},
+                        "name": {"rawtext": [{"translate": "generic.answer.0"}]},
                         "commands": [
                             ""
                         ]
                     },
                     {
-                        "name": {"rawtext": [{"translate": "2.0.1.button.1"}]},
+                        "name": {"rawtext": [{"translate": "generic.answer.1"}]},
                         "commands": [
                             ""
                         ]
