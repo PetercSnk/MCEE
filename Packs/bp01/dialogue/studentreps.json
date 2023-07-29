@@ -3,7 +3,7 @@
     "minecraft:npc_dialogue": {
         "scenes": [
             {
-                "scene_tag": "studentrep",
+                "scene_tag": "studentreps",
                 "npc_name": {"rawtext": [{"translate": "npc.name.8"}]},
                 "text": {"rawtext": [{"translate": "student.rep.dialogue", "with": ["\n"]}]},
                 "buttons": [
