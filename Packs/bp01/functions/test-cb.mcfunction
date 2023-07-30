@@ -1,1 +1,0 @@
-codebuilder navigate @p true https://minecraft.makecode.com/#tutorial:28192-64889-15051-64154

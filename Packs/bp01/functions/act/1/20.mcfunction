@@ -1,0 +1,1 @@
+scoreboard set @p potions_complete 1
