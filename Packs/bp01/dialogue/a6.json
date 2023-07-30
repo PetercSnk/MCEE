@@ -10,13 +10,15 @@
                     {
                         "name": {"rawtext": [{"translate": "6.0.0.button.0"}]},
                         "commands": [
-                            ""
+                            "dialogue change @e [type=npc, tag=npc9] a6s0d1",
+                            "dialogue open @e [type=npc, tag=npc9] @p a6s0d1"
                         ]
                     },
                     {
                         "name": {"rawtext": [{"translate": "6.0.0.button.1"}]},
                         "commands": [
-                            ""
+                            "dialogue change @e [type=npc, tag=npc9] a6s0d2",
+                            "dialogue open @e [type=npc, tag=npc9] @p a6s0d2"
                         ]
                     }
                 ]
@@ -29,13 +31,15 @@
                     {
                         "name": {"rawtext": [{"translate": "generic.answer.4"}]},
                         "commands": [
-                            ""
+                            "dialogue change @e [type=npc, tag=npc9] a6s0d3",
+                            "dialogue open @e [type=npc, tag=npc9] @p a6s0d3"
                         ]
                     },
                     {
                         "name": {"rawtext": [{"translate": "generic.answer.5"}]},
                         "commands": [
-                            ""
+                            "dialogue change @e [type=npc, tag=npc9] a6s0d2",
+                            "dialogue open @e [type=npc, tag=npc9] @p a6s0d2"
                         ]
                     }
                 ]
@@ -61,11 +65,11 @@
                     {
                         "name": {"rawtext": [{"translate": "6.0.3.button.0"}]},
                         "commands": [
-                            ""
+                            "function act/5/03"
                         ]
                     }
                 ]
-            },
+            }
 
         ]
     }

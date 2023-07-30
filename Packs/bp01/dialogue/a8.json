@@ -10,7 +10,9 @@
                     {
                         "name": {"rawtext": [{"translate": "8.0.0.button.0"}]},
                         "commands": [
-                            ""
+                            "dialogue change @e [type=npc, tag=npc9] a8s0d1",
+                            "dialogue open @e [type=npc, tag=npc9] @p a8s0d1",
+                            "function act/8/00"
                         ]
                     }
                 ]
@@ -23,7 +25,8 @@
                     {
                         "name": {"rawtext": [{"translate": "8.0.1.button.0"}]},
                         "commands": [
-                            ""
+                            "dialogue change @e [type=npc, tag=npc9] a8s0d2",
+                            "dialogue open @e [type=npc, tag=npc9] @p a8s0d2"
                         ]
                     }
                 ]
@@ -35,6 +38,20 @@
                 "buttons": [
                     {
                         "name": {"rawtext": [{"translate": "8.0.2.button.0"}]},
+                        "commands": [
+                            "dialogue change @e [type=npc, tag=npc9] a8s0d3",
+                            "function act/8/02"
+                        ]
+                    }
+                ]
+            },
+            {
+                "scene_tag": "a8s0d3",
+                "npc_name": {"rawtext": [{"translate": "npc.name.9"}]},
+                "text": {"rawtext": [{"translate": "8.0.3.dialogue", "with": ["\n"]}]},
+                "buttons": [
+                    {
+                        "name": {"rawtext": [{"translate": "generic.answer.6"}]},
                         "commands": [
                             ""
                         ]
@@ -62,7 +79,8 @@
                     {
                         "name": {"rawtext": [{"translate": "8.2.0.button.0"}]},
                         "commands": [
-                            ""
+                            "dialogue change @e [type=npc, tag=npc9] a8s2d1",
+                            "dialogue open @e [type=npc, tag=npc9] @p a8s2d1"
                         ]
                     }
                 ]
@@ -75,7 +93,7 @@
                     {
                         "name": {"rawtext": [{"translate": "generic.answer.3"}]},
                         "commands": [
-                            ""
+                            "function act/8/21"
                         ]
                     }
                 ]

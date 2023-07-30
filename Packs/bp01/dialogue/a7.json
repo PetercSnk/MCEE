@@ -10,7 +10,7 @@
                     {
                         "name": {"rawtext": [{"translate": "7.0.0.button.0"}]},
                         "commands": [
-                            ""
+                            "function act/7/00"
                         ]
                     }
                 ]

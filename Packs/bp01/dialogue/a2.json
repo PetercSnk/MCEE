@@ -10,7 +10,8 @@
                     {
                         "name": {"rawtext": [{"translate": "generic.answer.2"}]},
                         "commands": [
-                            ""
+                            "dialogue change @e [type=npc, tag=npc4] a2s0d1",
+                            "dialogue open @e [type=npc, tag=npc4] @p a2s0d1"
                         ]
                     }
                 ]
@@ -23,7 +24,7 @@
                     {
                         "name": {"rawtext": [{"translate": "generic.answer.0"}]},
                         "commands": [
-                            ""
+                            "function act/2/01"
                         ]
                     },
                     {
@@ -42,7 +43,8 @@
                     {
                         "name": {"rawtext": [{"translate": "generic.answer.2"}]},
                         "commands": [
-                            ""
+                            "dialogue change @e [type=npc, tag=npc4] a2s1d1",
+                            "dialogue open @e [type=npc, tag=npc4] @p a2s1d1"
                         ]
                     }
                 ]
@@ -53,7 +55,14 @@
                 "text": {"rawtext": [{"translate": "2.1.1.dialogue", "with": ["\n"]}]},
                 "buttons": [
                     {
-                        "name": {"rawtext": [{"translate": "2.1.1.button.0"}]},
+                        "name": {"rawtext": [{"translate": "generic.answer.0"}]},
+                        "commands": [
+                            "dialogue change @e [type=npc, tag=npc4] a2s2d0",
+                            "codebuilder navigate @p true INSERT_URL_4_HERBOLOGY"
+                        ]
+                    },
+                    {
+                        "name": {"rawtext": [{"translate": "generic.answer.1"}]},
                         "commands": [
                             ""
                         ]
@@ -68,55 +77,55 @@
                     {
                         "name": {"rawtext": [{"translate": "2.2.0.button.0"}]},
                         "commands": [
-                            ""
+                            "dialogue open @e [type=npc, tag=npc4] @p a2s2d1"
                         ]
                     },
                     {
                         "name": {"rawtext": [{"translate": "2.2.0.button.1"}]},
                         "commands": [
-                            ""
+                            "dialogue open @e [type=npc, tag=npc4] @p a2s2d2"
                         ]
                     },
                     {
                         "name": {"rawtext": [{"translate": "2.2.0.button.2"}]},
                         "commands": [
-                            ""
+                            "dialogue open @e [type=npc, tag=npc4] @p a2s2d3"
                         ]
                     },
                     {
                         "name": {"rawtext": [{"translate": "2.2.0.button.3"}]},
                         "commands": [
-                            ""
+                            "dialogue open @e [type=npc, tag=npc4] @p a2s2d4"
                         ]
                     },
                     {
                         "name": {"rawtext": [{"translate": "2.2.0.button.4"}]},
                         "commands": [
-                            ""
+                            "dialogue open @e [type=npc, tag=npc4] @p a2s2d5"
                         ]
                     },
                     {
                         "name": {"rawtext": [{"translate": "2.2.0.button.5"}]},
                         "commands": [
-                            ""
+                            "dialogue open @e [type=npc, tag=npc4] @p a2s2d6"
                         ]
                     },
                     {
                         "name": {"rawtext": [{"translate": "2.2.0.button.6"}]},
                         "commands": [
-                            ""
+                            "dialogue open @e [type=npc, tag=npc4] @p a2s2d7"
                         ]
                     },
                     {
                         "name": {"rawtext": [{"translate": "2.2.0.button.7"}]},
                         "commands": [
-                            ""
+                            "dialogue open @e [type=npc, tag=npc4] @p a2s2d8"
                         ]
                     },
                     {
                         "name": {"rawtext": [{"translate": "2.2.0.button.8"}]},
                         "commands": [
-                            ""
+                            "dialogue open @e [type=npc, tag=npc4] @p a2s2d9"
                         ]
                     }
                 ]
@@ -246,7 +255,8 @@
                     {
                         "name": {"rawtext": [{"translate": "generic.answer.3"}]},
                         "commands": [
-                            ""
+                            "TEST FOR 5 SAMPLES IN CHEST",
+                            "function act/2/30"
                         ]
                     }
                 ]

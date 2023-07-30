@@ -10,7 +10,8 @@
                     {
                         "name": {"rawtext": [{"translate": "generic.answer.2"}]},
                         "commands": [
-                            ""
+                            "dialogue change @e [type=npc, tag=npc5] a3s0d1",
+                            "dialogue open @e [type=npc, tag=npc5] @p a3s0d1"
                         ]
                     }
                 ]
@@ -23,7 +24,8 @@
                     {
                         "name": {"rawtext": [{"translate": "generic.answer.0"}]},
                         "commands": [
-                            ""
+                            "dialogue change @e [type=npc, tag=npc5] a3s1d0",
+                            "codebuilder navigate @p true INSERT_URL_4_SPELLS"
                         ]
                     },
                     {
@@ -43,6 +45,20 @@
                         "name": {"rawtext": [{"translate": "generic.answer.6"}]},
                         "commands": [
                             ""
+                        ]
+                    }
+                ]
+            },
+            {
+                "scene_tag": "a3s2d0",
+                "npc_name": {"rawtext": [{"translate": "npc.name.5"}]},
+                "text": {"rawtext": [{"translate": "3.2.0.dialogue", "with": ["\n"]}]},
+                "buttons": [
+                    {
+                        "name": {"rawtext": [{"translate": "generic.answer.3"}]},
+                        "commands": [
+                            "TEST FOR 3 SPELLS CAST",
+                            "function act/3/20"
                         ]
                     }
                 ]

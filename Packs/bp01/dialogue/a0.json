@@ -10,13 +10,13 @@
                     {
                         "name": {"rawtext": [{"translate": "generic.answer.4"}]},
                         "commands": [
-                            ""
+                            "function act/0/00"
                         ]
                     },
                     {
                         "name": {"rawtext": [{"translate": "generic.answer.1"}]},
                         "commands": [
-                            ""
+                            "dialogue change @e [type=npc, tag=npc0] a0s0d1"
                         ]
                     }
                 ]
@@ -29,7 +29,7 @@
                     {
                         "name": {"rawtext": [{"translate": "generic.answer.4"}]},
                         "commands": [
-                            ""
+                            "function act/0/00"
                         ]
                     },
                     {
@@ -48,7 +48,7 @@
                     {
                         "name": {"rawtext": [{"translate": "generic.answer.2"}]},
                         "commands": [
-                            ""
+                            "function act/0/10"
                         ]
                     }
                 ]
@@ -74,13 +74,14 @@
                     {
                         "name": {"rawtext": [{"translate": "generic.answer.0"}]},
                         "commands": [
-                            ""
+                            "dialogue change @e [type=npc, tag=npc1] a0s2d3",
+                            "dialogue open @e [type=npc, tag=npc1] @p a0s2d3"
                         ]
                     },
                     {
                         "name": {"rawtext": [{"translate": "generic.answer.1"}]},
                         "commands": [
-                            ""
+                            "dialogue change @e [type=npc, tag=npc1] a0s2d2"
                         ]
                     }
                 ]
@@ -93,7 +94,8 @@
                     {
                         "name": {"rawtext": [{"translate": "generic.answer.0"}]},
                         "commands": [
-                            ""
+                            "dialogue change @e [type=npc, tag=npc1] a0s2d3",
+                            "dialogue open @e [type=npc, tag=npc1] @p a0s2d3"
                         ]
                     },
                     {
@@ -112,7 +114,8 @@
                     {
                         "name": {"rawtext": [{"translate": "generic.answer.2"}]},
                         "commands": [
-                            ""
+                            "function act/0/23",
+                            "scoreboard set @p npc1_001 1"
                         ]
                     }
                 ]
@@ -125,31 +128,46 @@
                     {
                         "name": {"rawtext": [{"translate": "class.button.0"}]},
                         "commands": [
-                            ""
+                            "dialogue change @e [type=npc, tag=npc2] a0s3d1",
+                            "dialogue open @e [type=npc, tag=npc2] @p a0s3d1",
+                            "scoreboard set @p 001_potions 1",
+                            "scoreboard set @p npc1_001 0"
                         ]
                     },
                     {
                         "name": {"rawtext": [{"translate": "class.button.1"}]},
                         "commands": [
-                            ""
+                            "dialogue change @e [type=npc, tag=npc2] a0s3d1",
+                            "dialogue open @e [type=npc, tag=npc2] @p a0s3d1",
+                            "scoreboard set @p 001_herbology 1",
+                            "scoreboard set @p npc1_001 0"
                         ]
                     },
                     {
                         "name": {"rawtext": [{"translate": "class.button.2"}]},
                         "commands": [
-                            ""
+                            "dialogue change @e [type=npc, tag=npc2] a0s3d1",
+                            "dialogue open @e [type=npc, tag=npc2] @p a0s3d1",
+                            "scoreboard set @p 001_spells 1",
+                            "scoreboard set @p npc1_001 0"
                         ]
                     },
                     {
                         "name": {"rawtext": [{"translate": "class.button.3"}]},
                         "commands": [
-                            ""
+                            "dialogue change @e [type=npc, tag=npc2] a0s3d1",
+                            "dialogue open @e [type=npc, tag=npc2] @p a0s3d1",
+                            "scoreboard set @p 001_alchemy 1",
+                            "scoreboard set @p npc1_001 0"
                         ]
                     },
                     {
                         "name": {"rawtext": [{"translate": "class.button.4"}]},
                         "commands": [
-                            ""
+                            "dialogue change @e [type=npc, tag=npc2] a0s3d1",
+                            "dialogue open @e [type=npc, tag=npc2] @p a0s3d1",
+                            "scoreboard set @p 001_astronomy 1",
+                            "scoreboard set @p npc1_001 0"
                         ]
                     }
                 ]
@@ -162,7 +180,7 @@
                     {
                         "name": {"rawtext": [{"translate": "0.3.1.button.0"}]},
                         "commands": [
-                            ""
+                            "dialogue change @e [type=npc, tag=npc2] a0s4d0"
                         ]
                     }
                 ]
@@ -175,31 +193,51 @@
                     {
                         "name": {"rawtext": [{"translate": "class.button.0"}]},
                         "commands": [
-                            ""
+                            "scoreboard set @p 001_potions 1",
+                            "scoreboard set @p 001_herbology 0",
+                            "scoreboard set @p 001_spells 0",
+                            "scoreboard set @p 001_alchemy 0",
+                            "scoreboard set @p 001_astronomy 0"
                         ]
                     },
                     {
                         "name": {"rawtext": [{"translate": "class.button.1"}]},
                         "commands": [
-                            ""
+                            "scoreboard set @p 001_potions 0",
+                            "scoreboard set @p 001_herbology 1",
+                            "scoreboard set @p 001_spells 0",
+                            "scoreboard set @p 001_alchemy 0",
+                            "scoreboard set @p 001_astronomy 0"
                         ]
                     },
                     {
                         "name": {"rawtext": [{"translate": "class.button.2"}]},
                         "commands": [
-                            ""
+                            "scoreboard set @p 001_potions 0",
+                            "scoreboard set @p 001_herbology 0",
+                            "scoreboard set @p 001_spells 1",
+                            "scoreboard set @p 001_alchemy 0",
+                            "scoreboard set @p 001_astronomy 0"
                         ]
                     },
                     {
                         "name": {"rawtext": [{"translate": "class.button.3"}]},
                         "commands": [
-                            ""
+                            "scoreboard set @p 001_potions 0",
+                            "scoreboard set @p 001_herbology 0",
+                            "scoreboard set @p 001_spells 0",
+                            "scoreboard set @p 001_alchemy 1",
+                            "scoreboard set @p 001_astronomy 0"
                         ]
                     },
                     {
                         "name": {"rawtext": [{"translate": "class.button.4"}]},
                         "commands": [
-                            ""
+                            "scoreboard set @p 001_potions 0",
+                            "scoreboard set @p 001_herbology 0",
+                            "scoreboard set @p 001_spells 0",
+                            "scoreboard set @p 001_alchemy 0",
+                            "scoreboard set @p 001_astronomy 1"
                         ]
                     }
                 ]

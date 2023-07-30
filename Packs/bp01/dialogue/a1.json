@@ -10,7 +10,8 @@
                     {
                         "name": {"rawtext": [{"translate": "generic.answer.2"}]},
                         "commands": [
-                            ""
+                            "dialogue change @e [type=npc, tag=npc3] a1s0d1",
+                            "dialogue open @e [type=npc, tag=npc3] @p a1s0d1"
                         ]
                     }
                 ]
@@ -23,7 +24,8 @@
                     {
                         "name": {"rawtext": [{"translate": "1.0.1.button.0"}]},
                         "commands": [
-                            ""
+                            "dialogue change @e [type=npc, tag=npc3] a1s0d2",
+                            "dialogue open @e [type=npc, tag=npc3] @p a1s0d2"
                         ]
                     }
                 ]
@@ -36,7 +38,8 @@
                     {
                         "name": {"rawtext": [{"translate": "generic.answer.4"}]},
                         "commands": [
-                            ""
+                            "codebuilder navigate @p true INSERT_URL_4_POTIONS",
+                            "dialogue change @e [type=npc, tag=npc3] a1s1d0"
                         ]
                     },
                     {
@@ -53,34 +56,29 @@
                 "text": {"rawtext": [{"translate": "1.1.0.dialogue", "with": ["\n"]}]},
                 "buttons": [
                     {
+                        "name": {"rawtext": [{"translate": "generic.answer.2"}]},
+                        "commands": [
+                            ""
+                        ]
+                    },
+                    {
                         "name": {"rawtext": [{"translate": "1.1.0.button.0"}]},
                         "commands": [
-                            ""
-                        ]
-                    },
-                    {
-                        "name": {"rawtext": [{"translate": "1.1.0.button.1"}]},
-                        "commands": [
-                            ""
-                        ]
-                    },
-                    {
-                        "name": {"rawtext": [{"translate": "1.1.0.button.2"}]},
-                        "commands": [
-                            ""
+                            "RESET AGENT"
                         ]
                     }
                 ]
             },
             {
-                "scene_tag": "a1s1d1",
+                "scene_tag": "a1s2d0",
                 "npc_name": {"rawtext": [{"translate": "npc.name.3"}]},
-                "text": {"rawtext": [{"translate": "1.1.1.dialogue", "with": ["\n"]}]},
+                "text": {"rawtext": [{"translate": "1.2.0.dialogue", "with": ["\n"]}]},
                 "buttons": [
                     {
                         "name": {"rawtext": [{"translate": "generic.answer.3"}]},
                         "commands": [
-                            ""
+                            "TEST FOR POTION STRENGTH 2",
+                            "function act/1/20"
                         ]
                     }
                 ]
