@@ -50,6 +50,7 @@ leave.class.dialogue=Shouldn't you be in class? You can't attend this class unti
 # act 0 scene 1
 0.1.0.dialogue=We have arrived! This is the ABACWS building where all our students come to learn magic. Head on inside and my assistant will explain further. Feel free to look around beforehand!
 # generic answer 2
+# npc disappears
 
 # act 0 scene 2
 0.2.0.dialogue=Welcome to ABACWS! I am Melina, the headmasters assistant. A little birdy told me you have magical talent. Before I let you attend any classes you will first need a pet.
@@ -94,11 +95,12 @@ leave.class.dialogue=Shouldn't you be in class? You can't attend this class unti
 # open codebuilder tutorial
 
 # act 1 scene 1
-1.1.0.dialogue=To complete this class you'll need to provide me with a potion of strength II.
-1.1.0.button.0=I have it right here!
-1.1.0.button.1=I still need to brew it
-1.1.0.button.2=Reset agent
-1.1.1.dialogue=Wow! You're amazing at this.
+1.1.0.dialogue=To complete this class you'll need to brew a potion of strength II.
+# generic answer 2
+1.1.0.button.0=Reset agent
+
+# act 1 scene 2
+1.2.0.dialogue=Wow! You're amazing at this.
 # generic answer 3
 # potions complete
 
@@ -114,8 +116,9 @@ generic.answer.1
 # act 2 scene 1
 2.1.0.dialogue=Welcome to Alexandra Gardens. We have a variety of plants kept here for research purposes. They are also nice to admire during breaks.
 # generic answer 2
-2.1.1.dialogue=To complete this class you will need to find 5 different plants and record their properties in appropriate formats. I will provide some of my written notes for you.
-2.1.1.button.0=I'll give it a go
+2.1.1.dialogue=To complete this class you will need to find 5 different plants and record their properties in appropriate formats. Once documented, place the plant in the sample chest. Are you ready to start?
+# generic answer 0
+# generic answer 1
 # open codebuilder tutorial
 
 # act 2 scene 2
@@ -157,7 +160,11 @@ generic.answer.1
 # act 3 scene 1
 3.1.0.dialogue=To complete this class you are required to cast 3 different spells.
 # generic answer 6
+
+# act 3 scene 2
 # use scoreboard to check if 3 have been cast
+3.2.0.dialogue=You have managed to cast 3 spells, great job!
+# generic answer 3
 # spells complete
 
 # alchemy class
@@ -187,6 +194,7 @@ generic.answer.1
 5.0.0.dialogue=Hiya, I'm Ranni. You are currently in my laboratory. Let me know when you are ready, and I will take you to the rooftop for this class.
 # generic answer 0
 # generic answer 1
+# npc disappears and is summoned at rooftop
 
 # act 5 scene 1
 5.1.0.dialogue=In this class we will harness the power of the stars. To do this we will create and plot constellations. Take a look inside this notebook for guidance.
@@ -203,9 +211,9 @@ generic.answer.1
 # generic answer 3
 # astronomy complete
 
+# act 6 scene 0
 # 3 or 4 out of 5 classes complete
 # title scene to notify player of new npc
-# act 6 scene 0
 6.0.0.dialogue=Yo, the names Blaidd. You haven't met me yet, but I work behind the scenes to protect this school and there seems to be something sinister going on.
 6.0.0.button.0=Can I help?
 6.0.0.button.1=Let me complete my classes first
@@ -218,21 +226,25 @@ generic.answer.1
 6.0.3.button=Yes Sir!
 # start end sequence
 
-# 5 out of 5 classes complete
 # act 7 scene 0
+# 5 out of 5 classes complete
+# title scene to notify player to return
 7.0.0.dialogue=We should be more than ready to protect ABACWS now you've completed all your classes.
 7.0.0.button.0=Let's go!
 # start end sequence
 
 # end sequence
 # act 8 scene 0
-8.0.0.dialogue=The weathers taking a turn for the worst. Wait, look over there! Some sort of create is approaching.
+8.0.0.dialogue=The weathers taking a turn for the worst. I can sense some sort of creature is approaching.
 8.0.0.button.0=We need to defeat it.
 8.0.1.dialogue=The only way to defeat it is to place protection stones around ABACWS. The issue is they're only given to exceptional students.
 8.0.1.button.0=I may be able to help with that
 8.0.2.dialogue=You're right! I reckon if you complete 1 final task for each class you completed you'll be rewarded. I'll create some final tasks for you now.
 8.0.2.button=I'll make sure I succeed.
 # tasks appear for each class completed
+8.0.3.dialogue=Complete those tasks!
+# generic answer 6
+
 
 # act 8 scene 1
 8.1.0.dialogue=You did it! Place those 4 protection stones on the pedestals located around the building.
