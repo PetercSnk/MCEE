@@ -1,0 +1,99 @@
+{
+    "format_version": "1.14",
+    "minecraft:npc_dialogue": {
+        "scenes": [
+            {
+                "scene_tag": "end0",
+                "npc_name": {"rawtext": [{"translate": "npc.name.9"}]},
+                "text": {"rawtext": [{"translate": "end.0.dialogue", "with": ["\n"]}]},
+                "buttons": [
+                    {
+                        "name": {"rawtext": [{"translate": "end.0.button.0"}]},
+                        "commands": [
+                            "function story/end/weather",
+                            "function story/end/creature",
+                            "dialogue change @e [type=npc, tag=npc9] end1",
+                            "dialogue open @e [type=npc, tag=npc9] @p end1"
+                            
+                        ]
+                    }
+                ]
+            },
+            {
+                "scene_tag": "end1",
+                "npc_name": {"rawtext": [{"translate": "npc.name.9"}]},
+                "text": {"rawtext": [{"translate": "end.1.dialogue", "with": ["\n"]}]},
+                "buttons": [
+                    {
+                        "name": {"rawtext": [{"translate": "end.1.button.0"}]},
+                        "commands": [
+                            "dialogue change @e [type=npc, tag=npc9] end2",
+                            "dialogue open @e [type=npc, tag=npc9] @p end2"
+                        ]
+                    }
+                ]
+            },
+            {
+                "scene_tag": "end2",
+                "npc_name": {"rawtext": [{"translate": "npc.name.9"}]},
+                "text": {"rawtext": [{"translate": "end.2.dialogue", "with": ["\n"]}]},
+                "buttons": [
+                    {
+                        "name": {"rawtext": [{"translate": "end.2.button.0"}]},
+                        "commands": [
+                            "dialogue change @e [type=npc, tag=npc9] end3",
+                            "function story/end/create_tasks"
+                        ]
+                    }
+                ]
+            },
+            {
+                "scene_tag": "end3",
+                "npc_name": {"rawtext": [{"translate": "npc.name.9"}]},
+                "text": {"rawtext": [{"translate": "end.3.dialogue", "with": ["\n"]}]},
+                "buttons": [
+                    {
+                        "name": {"rawtext": [{"translate": "generic.answer.6"}]}
+                    }
+                ]
+            },
+            {
+                "scene_tag": "end4",
+                "npc_name": {"rawtext": [{"translate": "npc.name.9"}]},
+                "text": {"rawtext": [{"translate": "end.4.dialogue", "with": ["\n"]}]},
+                "buttons": [
+                    {
+                        "name": {"rawtext": [{"translate": "end.4.button.0"}]}
+                    }
+                ]
+            },
+            {
+                "scene_tag": "end5",
+                "npc_name": {"rawtext": [{"translate": "npc.name.9"}]},
+                "text": {"rawtext": [{"translate": "end.5.dialogue", "with": ["\n"]}]},
+                "buttons": [
+                    {
+                        "name": {"rawtext": [{"translate": "end.5.button.0"}]},
+                        "commands": [
+                            "dialogue change @e [type=npc, tag=npc9] end6",
+                            "dialogue open @e [type=npc, tag=npc9] @p end6"
+                        ]
+                    }
+                ]
+            },
+            {
+                "scene_tag": "end6",
+                "npc_name": {"rawtext": [{"translate": "npc.name.9"}]},
+                "text": {"rawtext": [{"translate": "end.6.dialogue", "with": ["\n"]}]},
+                "buttons": [
+                    {
+                        "name": {"rawtext": [{"translate": "generic.answer.3"}]},
+                        "commands": [
+                            "function story/end/complete"
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

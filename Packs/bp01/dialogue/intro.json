@@ -3,133 +3,129 @@
     "minecraft:npc_dialogue": {
         "scenes": [
             {
-                "scene_tag": "a0s0d0",
+                "scene_tag": "intro0",
                 "npc_name": {"rawtext": [{"translate": "npc.name.0"}]},
-                "text": {"rawtext": [{"translate": "0.0.0.dialogue", "with": ["\n"]}]},
+                "text": {"rawtext": [{"translate": "intro.0.dialogue", "with": ["\n"]}]},
                 "buttons": [
                     {
-                        "name": {"rawtext": [{"translate": "generic.answer.4"}]},
+                        "name": {"rawtext": [{"translate": "generic.button.4"}]},
                         "commands": [
-                            "function act/0/00"
+                            "function story/teleport_abacws",
+                            "dialogue change @e [type=npc, tag=npc0] intro2"
                         ]
                     },
                     {
-                        "name": {"rawtext": [{"translate": "generic.answer.1"}]},
+                        "name": {"rawtext": [{"translate": "generic.button.1"}]},
                         "commands": [
-                            "dialogue change @e [type=npc, tag=npc0] a0s0d1"
+                            "dialogue change @e [type=npc, tag=npc0] intro1"
                         ]
                     }
                 ]
             },
             {
-                "scene_tag": "a0s0d1",
+                "scene_tag": "intro1",
                 "npc_name": {"rawtext": [{"translate": "npc.name.0"}]},
-                "text": {"rawtext": [{"translate": "0.0.1.dialogue", "with": ["\n"]}]},
+                "text": {"rawtext": [{"translate": "intro.1.dialogue", "with": ["\n"]}]},
                 "buttons": [
                     {
-                        "name": {"rawtext": [{"translate": "generic.answer.4"}]},
+                        "name": {"rawtext": [{"translate": "generic.button.4"}]},
                         "commands": [
-                            "function act/0/00"
+                            "function story/teleport_abacws",
+                            "dialogue change @e [type=npc, tag=npc0] intro2"
                         ]
                     },
                     {
-                        "name": {"rawtext": [{"translate": "generic.answer.1"}]},
-                        "commands": [
-                            ""
-                        ]
+                        "name": {"rawtext": [{"translate": "generic.button.1"}]}
                     }
                 ]
             },
             {
-                "scene_tag": "a0s1d0",
+                "scene_tag": "intro2",
                 "npc_name": {"rawtext": [{"translate": "npc.name.0"}]},
-                "text": {"rawtext": [{"translate": "0.1.0.dialogue", "with": ["\n"]}]},
+                "text": {"rawtext": [{"translate": "intro.2.dialogue", "with": ["\n"]}]},
                 "buttons": [
                     {
-                        "name": {"rawtext": [{"translate": "generic.answer.2"}]},
+                        "name": {"rawtext": [{"translate": "generic.button.2"}]},
                         "commands": [
-                            "function act/0/10"
+                            "function story/intro/npc0_hide"
                         ]
                     }
                 ]
             },
             {
-                "scene_tag": "a0s2d0",
+                "scene_tag": "intro3",
                 "npc_name": {"rawtext": [{"translate": "npc.name.1"}]},
-                "text": {"rawtext": [{"translate": "0.2.0.dialogue", "with": ["\n"]}]},
+                "text": {"rawtext": [{"translate": "intro.3.dialogue", "with": ["\n"]}]},
                 "buttons": [
                     {
-                        "name": {"rawtext": [{"translate": "generic.answer.2"}]},
+                        "name": {"rawtext": [{"translate": "generic.button.2"}]},
                         "commands": [
-                            ""
+                            "PET CHOOSE - change dialogue"
                         ]
                     }
                 ]
             },
             {
-                "scene_tag": "a0s2d1",
+                "scene_tag": "intro4",
                 "npc_name": {"rawtext": [{"translate": "npc.name.1"}]},
-                "text": {"rawtext": [{"translate": "0.2.1.dialogue", "with": ["\n"]}]},
+                "text": {"rawtext": [{"translate": "intro.4.dialogue", "with": ["\n"]}]},
                 "buttons": [
                     {
-                        "name": {"rawtext": [{"translate": "generic.answer.0"}]},
+                        "name": {"rawtext": [{"translate": "generic.button.0"}]},
                         "commands": [
-                            "dialogue change @e [type=npc, tag=npc1] a0s2d3",
-                            "dialogue open @e [type=npc, tag=npc1] @p a0s2d3"
+                            "dialogue change @e [type=npc, tag=npc1] intro6",
+                            "dialogue open @e [type=npc, tag=npc1] @p intro6"
                         ]
                     },
                     {
-                        "name": {"rawtext": [{"translate": "generic.answer.1"}]},
+                        "name": {"rawtext": [{"translate": "generic.button.1"}]},
                         "commands": [
-                            "dialogue change @e [type=npc, tag=npc1] a0s2d2"
+                            "dialogue change @e [type=npc, tag=npc1] intro5"
                         ]
                     }
                 ]
             },
             {
-                "scene_tag": "a0s2d2",
+                "scene_tag": "intro5",
                 "npc_name": {"rawtext": [{"translate": "npc.name.1"}]},
-                "text": {"rawtext": [{"translate": "0.2.2.dialogue", "with": ["\n"]}]},
+                "text": {"rawtext": [{"translate": "intro.5.dialogue", "with": ["\n"]}]},
                 "buttons": [
                     {
-                        "name": {"rawtext": [{"translate": "generic.answer.0"}]},
+                        "name": {"rawtext": [{"translate": "generic.button.0"}]},
                         "commands": [
-                            "dialogue change @e [type=npc, tag=npc1] a0s2d3",
-                            "dialogue open @e [type=npc, tag=npc1] @p a0s2d3"
+                            "dialogue change @e [type=npc, tag=npc1] intro6",
+                            "dialogue open @e [type=npc, tag=npc1] @p intro6"
                         ]
                     },
                     {
-                        "name": {"rawtext": [{"translate": "generic.answer.1"}]},
-                        "commands": [
-                            ""
-                        ]
+                        "name": {"rawtext": [{"translate": "generic.button.1"}]}
                     }
                 ]
             },
             {
-                "scene_tag": "a0s2d3",
+                "scene_tag": "intro6",
                 "npc_name": {"rawtext": [{"translate": "npc.name.1"}]},
-                "text": {"rawtext": [{"translate": "0.2.3.dialogue", "with": ["\n"]}]},
+                "text": {"rawtext": [{"translate": "intro.6.dialogue", "with": ["\n"]}]},
                 "buttons": [
                     {
-                        "name": {"rawtext": [{"translate": "generic.answer.2"}]},
+                        "name": {"rawtext": [{"translate": "generic.button.2"}]},
                         "commands": [
-                            "function act/0/23",
+                            "function story/intro/npc1_hide",
                             "scoreboard set @p npc1_001 1"
                         ]
                     }
                 ]
             },
             {
-                "scene_tag": "a0s3d0",
+                "scene_tag": "intro7",
                 "npc_name": {"rawtext": [{"translate": "npc.name.2"}]},
-                "text": {"rawtext": [{"translate": "0.3.0.dialogue", "with": ["\n"]}]},
+                "text": {"rawtext": [{"translate": "intro.7.dialogue", "with": ["\n"]}]},
                 "buttons": [
                     {
                         "name": {"rawtext": [{"translate": "class.button.0"}]},
                         "commands": [
-                            "dialogue change @e [type=npc, tag=npc2] a0s3d1",
-                            "dialogue open @e [type=npc, tag=npc2] @p a0s3d1",
+                            "dialogue change @e [type=npc, tag=npc2] intro8",
+                            "dialogue open @e [type=npc, tag=npc2] @p intro8",
                             "scoreboard set @p 001_potions 1",
                             "scoreboard set @p npc1_001 0"
                         ]
@@ -137,8 +133,8 @@
                     {
                         "name": {"rawtext": [{"translate": "class.button.1"}]},
                         "commands": [
-                            "dialogue change @e [type=npc, tag=npc2] a0s3d1",
-                            "dialogue open @e [type=npc, tag=npc2] @p a0s3d1",
+                            "dialogue change @e [type=npc, tag=npc2] intro8",
+                            "dialogue open @e [type=npc, tag=npc2] @p intro8",
                             "scoreboard set @p 001_herbology 1",
                             "scoreboard set @p npc1_001 0"
                         ]
@@ -146,8 +142,8 @@
                     {
                         "name": {"rawtext": [{"translate": "class.button.2"}]},
                         "commands": [
-                            "dialogue change @e [type=npc, tag=npc2] a0s3d1",
-                            "dialogue open @e [type=npc, tag=npc2] @p a0s3d1",
+                            "dialogue change @e [type=npc, tag=npc2] intro8",
+                            "dialogue open @e [type=npc, tag=npc2] @p intro8",
                             "scoreboard set @p 001_spells 1",
                             "scoreboard set @p npc1_001 0"
                         ]
@@ -155,8 +151,8 @@
                     {
                         "name": {"rawtext": [{"translate": "class.button.3"}]},
                         "commands": [
-                            "dialogue change @e [type=npc, tag=npc2] a0s3d1",
-                            "dialogue open @e [type=npc, tag=npc2] @p a0s3d1",
+                            "dialogue change @e [type=npc, tag=npc2] intro8",
+                            "dialogue open @e [type=npc, tag=npc2] @p intro8",
                             "scoreboard set @p 001_alchemy 1",
                             "scoreboard set @p npc1_001 0"
                         ]
@@ -164,8 +160,8 @@
                     {
                         "name": {"rawtext": [{"translate": "class.button.4"}]},
                         "commands": [
-                            "dialogue change @e [type=npc, tag=npc2] a0s3d1",
-                            "dialogue open @e [type=npc, tag=npc2] @p a0s3d1",
+                            "dialogue change @e [type=npc, tag=npc2] intro8",
+                            "dialogue open @e [type=npc, tag=npc2] @p intro8",
                             "scoreboard set @p 001_astronomy 1",
                             "scoreboard set @p npc1_001 0"
                         ]
@@ -173,22 +169,22 @@
                 ]
             },
             {
-                "scene_tag": "a0s3d1",
+                "scene_tag": "intro8",
                 "npc_name": {"rawtext": [{"translate": "npc.name.2"}]},
-                "text": {"rawtext": [{"translate": "0.3.1.dialogue", "with": ["\n"]}]},
+                "text": {"rawtext": [{"translate": "intro.8.dialogue", "with": ["\n"]}]},
                 "buttons": [
                     {
-                        "name": {"rawtext": [{"translate": "0.3.1.button.0"}]},
+                        "name": {"rawtext": [{"translate": "generic.button.7"}]},
                         "commands": [
-                            "dialogue change @e [type=npc, tag=npc2] a0s4d0"
+                            "dialogue change @e [type=npc, tag=npc2] intro9"
                         ]
                     }
                 ]
             },
             {
-                "scene_tag": "a0s4d0",
+                "scene_tag": "intro9",
                 "npc_name": {"rawtext": [{"translate": "npc.name.2"}]},
-                "text": {"rawtext": [{"translate": "0.4.0.dialogue", "with": ["\n"]}]},
+                "text": {"rawtext": [{"translate": "intro.9.dialogue", "with": ["\n"]}]},
                 "buttons": [
                     {
                         "name": {"rawtext": [{"translate": "class.button.0"}]},

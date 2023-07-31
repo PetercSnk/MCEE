@@ -36,6 +36,18 @@
                         "commands": [
                             ""
                         ]
+                    },
+                    {
+                        "name": {"rawtext": [{"translate": "student.rep.button.0"}]},
+                        "commands": [
+                            ""
+                        ]
+                    },
+                    {
+                        "name": {"rawtext": [{"translate": "student.rep.button.1"}]},
+                        "commands": [
+                            ""
+                        ]
                     }
                 ]
             }

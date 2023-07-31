@@ -1,0 +1,84 @@
+{
+    "format_version": "1.14",
+    "minecraft:npc_dialogue": {
+        "scenes": [
+            {
+                "scene_tag": "potions0",
+                "npc_name": {"rawtext": [{"translate": "npc.name.3"}]},
+                "text": {"rawtext": [{"translate": "potions.0.dialogue", "with": ["\n"]}]},
+                "buttons": [
+                    {
+                        "name": {"rawtext": [{"translate": "generic.button.2"}]},
+                        "commands": [
+                            "dialogue change @e [type=npc, tag=npc3] potions1",
+                            "dialogue open @e [type=npc, tag=npc3] @p potions1"
+                        ]
+                    }
+                ]
+            },
+            {
+                "scene_tag": "potions1",
+                "npc_name": {"rawtext": [{"translate": "npc.name.3"}]},
+                "text": {"rawtext": [{"translate": "potions.1.dialogue", "with": ["\n"]}]},
+                "buttons": [
+                    {
+                        "name": {"rawtext": [{"translate": "generic.button.7"}]},
+                        "commands": [
+                            "dialogue change @e [type=npc, tag=npc3] potions2",
+                            "dialogue open @e [type=npc, tag=npc3] @p potions2"
+                        ]
+                    }
+                ]
+            },
+            {
+                "scene_tag": "potions2",
+                "npc_name": {"rawtext": [{"translate": "npc.name.3"}]},
+                "text": {"rawtext": [{"translate": "potions.2.dialogue", "with": ["\n"]}]},
+                "buttons": [
+                    {
+                        "name": {"rawtext": [{"translate": "generic.button.4"}]},
+                        "commands": [
+                            "function inclass/potions",
+                            "function guides/reset",
+                            "codebuilder navigate @p true INSERT_URL_4_POTIONS",
+                            "dialogue change @e [type=npc, tag=npc3] potions3"
+                        ]
+                    },
+                    {
+                        "name": {"rawtext": [{"translate": "generic.button.5"}]}
+                    }
+                ]
+            },
+            {
+                "scene_tag": "potions3",
+                "npc_name": {"rawtext": [{"translate": "npc.name.3"}]},
+                "text": {"rawtext": [{"translate": "potions.3.dialogue", "with": ["\n"]}]},
+                "buttons": [
+                    {
+                        "name": {"rawtext": [{"translate": "generic.button.2"}]}
+                    },
+                    {
+                        "name": {"rawtext": [{"translate": "potions.3.button.0"}]},
+                        "commands": [
+                            "function story/potions/reset_agent"
+                        ]
+                    }
+                ]
+            },
+            {
+                "scene_tag": "potions4",
+                "npc_name": {"rawtext": [{"translate": "npc.name.3"}]},
+                "text": {"rawtext": [{"translate": "potions.4.dialogue", "with": ["\n"]}]},
+                "buttons": [
+                    {
+                        "name": {"rawtext": [{"translate": "generic.button.3"}]},
+                        "commands": [
+                            "function inclass/reset",
+                            "function story/potions/complete"
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

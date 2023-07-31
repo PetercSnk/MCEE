@@ -3,67 +3,63 @@
     "minecraft:npc_dialogue": {
         "scenes": [
             {
-                "scene_tag": "a5s0d0",
+                "scene_tag": "astronomy0",
                 "npc_name": {"rawtext": [{"translate": "npc.name.7"}]},
-                "text": {"rawtext": [{"translate": "5.0.0.dialogue", "with": ["\n"]}]},
+                "text": {"rawtext": [{"translate": "astronomy.0.dialogue", "with": ["\n"]}]},
                 "buttons": [
                     {
                         "name": {"rawtext": [{"translate": "generic.answer.0"}]},
                         "commands": [
-                            "function act/5/00"
+                            "function inclass/astronomy",
+                            "function guides/reset",
+                            "function story/astronomy/teleport_rooftop"
                         ]
                     },
                     {
-                        "name": {"rawtext": [{"translate": "generic.answer.1"}]},
-                        "commands": [
-                            ""
-                        ]
+                        "name": {"rawtext": [{"translate": "generic.answer.1"}]}
                     }
                 ]
             },
             {
-                "scene_tag": "a5s1d0",
+                "scene_tag": "astronomy1",
                 "npc_name": {"rawtext": [{"translate": "npc.name.7"}]},
-                "text": {"rawtext": [{"translate": "5.1.0.dialogue", "with": ["\n"]}]},
+                "text": {"rawtext": [{"translate": "astronomy.1.dialogue", "with": ["\n"]}]},
                 "buttons": [
                     {
-                        "name": {"rawtext": [{"translate": "5.1.0.button.0"}]},
+                        "name": {"rawtext": [{"translate": "astronomy.1.button.0"}]},
                         "commands": [
-                            "dialogue change @e [type=npc, tag=npc7] a5s2d0",
+                            "dialogue change @e [type=npc, tag=npc7] astronomy2",
                             "codebuilder navigate @p true INSERT_URL_4_ASTRONOMY"
                         ]
                     }
                 ]
             },
             {
-                "scene_tag": "a5s2d0",
+                "scene_tag": "astronomy2",
                 "npc_name": {"rawtext": [{"translate": "npc.name.7"}]},
-                "text": {"rawtext": [{"translate": "5.2.0.dialogue", "with": ["\n"]}]},
+                "text": {"rawtext": [{"translate": "astronomy.2.dialogue", "with": ["\n"]}]},
                 "buttons": [
                     {
-                        "name": {"rawtext": [{"translate": "generic.answer.2"}]},
-                        "commands": [
-                            ""
-                        ]
+                        "name": {"rawtext": [{"translate": "generic.answer.2"}]}
                     },
                     {
-                        "name": {"rawtext": [{"translate": "5.2.0.button.0"}]},
+                        "name": {"rawtext": [{"translate": "astronomy.2.button.0"}]},
                         "commands": [
-                            "function act/5/20"
+                            "function story/astronomy/reset_task"
                         ]
                     }
                 ]
             },
             {
-                "scene_tag": "a5s3d0",
+                "scene_tag": "astronomy3",
                 "npc_name": {"rawtext": [{"translate": "npc.name.7"}]},
-                "text": {"rawtext": [{"translate": "5.3.0.dialogue", "with": ["\n"]}]},
+                "text": {"rawtext": [{"translate": "astronomy.3.dialogue", "with": ["\n"]}]},
                 "buttons": [
                     {
                         "name": {"rawtext": [{"translate": "generic.answer.3"}]},
                         "commands": [
-                            "TEST FOR CONSTELLATION",
-                            "function act/5/30"
+                            "function inclass/reset",
+                            "function story/astronomy/complete"
                         ]
                     }
                 ]

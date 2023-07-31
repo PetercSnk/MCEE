@@ -1,0 +1,71 @@
+{
+    "format_version": "1.14",
+    "minecraft:npc_dialogue": {
+        "scenes": [
+            {
+                "scene_tag": "3complete0",
+                "npc_name": {"rawtext": [{"translate": "npc.name.9"}]},
+                "text": {"rawtext": [{"translate": "3complete.0.dialogue", "with": ["\n"]}]},
+                "buttons": [
+                    {
+                        "name": {"rawtext": [{"translate": "3complete.0.button.0"}]},
+                        "commands": [
+                            "dialogue change @e [type=npc, tag=npc9] 3complete1",
+                            "dialogue open @e [type=npc, tag=npc9] @p 3complete1"
+                        ]
+                    },
+                    {
+                        "name": {"rawtext": [{"translate": "3complete.0.button.1"}]},
+                        "commands": [
+                            "dialogue open @e [type=npc, tag=npc9] @p 3complete2"
+                        ]
+                    }
+                ]
+            },
+            {
+                "scene_tag": "3complete1",
+                "npc_name": {"rawtext": [{"translate": "npc.name.9"}]},
+                "text": {"rawtext": [{"translate": "3complete.1.dialogue", "with": ["\n"]}]},
+                "buttons": [
+                    {
+                        "name": {"rawtext": [{"translate": "generic.answer.4"}]},
+                        "commands": [
+                            "dialogue change @e [type=npc, tag=npc9] 3complete3",
+                            "dialogue open @e [type=npc, tag=npc9] @p 3complete3"
+                        ]
+                    },
+                    {
+                        "name": {"rawtext": [{"translate": "generic.answer.5"}]},
+                        "commands": [
+                            "dialogue open @e [type=npc, tag=npc9] @p 3complete2"
+                        ]
+                    }
+                ]
+            },
+            {
+                "scene_tag": "3complete2",
+                "npc_name": {"rawtext": [{"translate": "npc.name.9"}]},
+                "text": {"rawtext": [{"translate": "3complete.2.dialogue", "with": ["\n"]}]},
+                "buttons": [
+                    {
+                        "name": {"rawtext": [{"translate": "3complete.2.button.0"}]}
+                    }
+                ]
+            },
+            {
+                "scene_tag": "3complete3",
+                "npc_name": {"rawtext": [{"translate": "npc.name.9"}]},
+                "text": {"rawtext": [{"translate": "3complete.3.dialogue", "with": ["\n"]}]},
+                "buttons": [
+                    {
+                        "name": {"rawtext": [{"translate": "3complete.3.button.0"}]},
+                        "commands": [
+                            "dialogue change @e [type=npc, tag=npc9] end0",
+                            "dialogue open @e [type=npc, tag=npc9] @p end0"
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

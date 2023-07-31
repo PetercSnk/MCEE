@@ -3,90 +3,86 @@
     "minecraft:npc_dialogue": {
         "scenes": [
             {
-                "scene_tag": "a4s0d0",
+                "scene_tag": "alchemy0",
                 "npc_name": {"rawtext": [{"translate": "npc.name.6"}]},
-                "text": {"rawtext": [{"translate": "4.0.0.dialogue", "with": ["\n"]}]},
+                "text": {"rawtext": [{"translate": "alchemy.0.dialogue", "with": ["\n"]}]},
                 "buttons": [
                     {
-                        "name": {"rawtext": [{"translate": "4.0.0.button.0"}]},
+                        "name": {"rawtext": [{"translate": "alchemy.0.button.0"}]},
                         "commands": [
-                            "dialogue change @e [type=npc, tag=npc6] a4s0d1",
-                            "dialogue open @e [type=npc, tag=npc6] @p a4s0d1"
+                            "dialogue change @e [type=npc, tag=npc6] alchemy1",
+                            "dialogue open @e [type=npc, tag=npc6] @p alchemy1"
                         ]
                     }
                 ]
             },
             {
-                "scene_tag": "a4s0d1",
+                "scene_tag": "alchemy1",
                 "npc_name": {"rawtext": [{"translate": "npc.name.6"}]},
-                "text": {"rawtext": [{"translate": "4.0.1.dialogue", "with": ["\n"]}]},
+                "text": {"rawtext": [{"translate": "alchemy.1.dialogue", "with": ["\n"]}]},
                 "buttons": [
                     {
                         "name": {"rawtext": [{"translate": "generic.answer.2"}]},
                         "commands": [
-                            "dialogue change @e [type=npc, tag=npc6] a4s0d2",
-                            "dialogue open @e [type=npc, tag=npc6] @p a4s0d2"
+                            "dialogue change @e [type=npc, tag=npc6] alchemy2",
+                            "dialogue open @e [type=npc, tag=npc6] @p alchemy2"
                         ]
                     }
                 ]
             },
             {
-                "scene_tag": "a4s0d2",
+                "scene_tag": "alchemy2",
                 "npc_name": {"rawtext": [{"translate": "npc.name.6"}]},
-                "text": {"rawtext": [{"translate": "4.0.2.dialogue", "with": ["\n"]}]},
+                "text": {"rawtext": [{"translate": "alchemy.2.dialogue", "with": ["\n"]}]},
                 "buttons": [
                     {
                         "name": {"rawtext": [{"translate": "generic.answer.6"}]},
                         "commands": [
-                            "dialogue change @e [type=npc, tag=npc6] a4s0d3",
-                            "dialogue open @e [type=npc, tag=npc6] @p a4s0d3"
+                            "dialogue change @e [type=npc, tag=npc6] alchemy3",
+                            "dialogue open @e [type=npc, tag=npc6] @p alchemy3"
                         ]
                     }
                 ]
             },
             {
-                "scene_tag": "a4s0d3",
+                "scene_tag": "alchemy3",
                 "npc_name": {"rawtext": [{"translate": "npc.name.6"}]},
-                "text": {"rawtext": [{"translate": "4.0.3.dialogue", "with": ["\n"]}]},
+                "text": {"rawtext": [{"translate": "alchemy.3.dialogue", "with": ["\n"]}]},
                 "buttons": [
                     {
                         "name": {"rawtext": [{"translate": "generic.answer.0"}]},
                         "commands": [
-                            "dialogue change @e [type=npc, tag=npc6] a4s1d0",
+                            "function inclass/alchemy",
+                            "function guides/reset",
+                            "dialogue change @e [type=npc, tag=npc6] alchemy4",
                             "codebuilder navigate @p true INSERT_URL_4_ALCHEMY"
                         ]
                     },
                     {
-                        "name": {"rawtext": [{"translate": "generic.answer.1"}]},
-                        "commands": [
-                            ""
-                        ]
+                        "name": {"rawtext": [{"translate": "generic.answer.1"}]}
                     }
                 ]
             },
             {
-                "scene_tag": "a4s1d0",
+                "scene_tag": "alchemy4",
                 "npc_name": {"rawtext": [{"translate": "npc.name.6"}]},
-                "text": {"rawtext": [{"translate": "4.1.0.dialogue", "with": ["\n"]}]},
+                "text": {"rawtext": [{"translate": "alchemy.4.dialogue", "with": ["\n"]}]},
                 "buttons": [
                     {
-                        "name": {"rawtext": [{"translate": "generic.answer.2"}]},
-                        "commands": [
-                            ""
-                        ]
+                        "name": {"rawtext": [{"translate": "generic.answer.2"}]}
                     }
                 ]
             },
             {
-                "scene_tag": "a4s2d0",
+                "scene_tag": "alchemy5",
                 "npc_name": {"rawtext": [{"translate": "npc.name.6"}]},
-                "text": {"rawtext": [{"translate": "4.2.0.dialogue", "with": ["\n"]}]},
+                "text": {"rawtext": [{"translate": "alchemy.5.dialogue", "with": ["\n"]}]},
                 "buttons": [
                     {
-                        "name": {"rawtext": [{"translate": "4.2.0.button.0"}]},
+                        "name": {"rawtext": [{"translate": "alchemy.5.button.0"}]},
                         "commands": [
-                            "TEST FOR GOLD BLOCK",
-                            "function act/4/20"
+                            "function inclass/reset",
+                            "function story/alchemy/complete"
                         ]
                     }
                 ]

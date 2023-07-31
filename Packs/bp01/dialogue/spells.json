@@ -1,0 +1,64 @@
+{
+    "format_version": "1.14",
+    "minecraft:npc_dialogue": {
+        "scenes": [
+            {
+                "scene_tag": "spells0",
+                "npc_name": {"rawtext": [{"translate": "npc.name.5"}]},
+                "text": {"rawtext": [{"translate": "spells.0.dialogue", "with": ["\n"]}]},
+                "buttons": [
+                    {
+                        "name": {"rawtext": [{"translate": "generic.button.2"}]},
+                        "commands": [
+                            "dialogue change @e [type=npc, tag=npc5] spells1",
+                            "dialogue open @e [type=npc, tag=npc5] @p spells1"
+                        ]
+                    }
+                ]
+            },
+            {
+                "scene_tag": "spells1",
+                "npc_name": {"rawtext": [{"translate": "npc.name.5"}]},
+                "text": {"rawtext": [{"translate": "spells.1.dialogue", "with": ["\n"]}]},
+                "buttons": [
+                    {
+                        "name": {"rawtext": [{"translate": "generic.button.0"}]},
+                        "commands": [
+                            "function inclass/spells",
+                            "function guides/reset",
+                            "dialogue change @e [type=npc, tag=npc5] spells2",
+                            "codebuilder navigate @p true INSERT_URL_4_SPELLS"
+                        ]
+                    },
+                    {
+                        "name": {"rawtext": [{"translate": "generic.button.1"}]}
+                    }
+                ]
+            },
+            {
+                "scene_tag": "spells2",
+                "npc_name": {"rawtext": [{"translate": "npc.name.5"}]},
+                "text": {"rawtext": [{"translate": "spells.2.dialogue", "with": ["\n"]}]},
+                "buttons": [
+                    {
+                        "name": {"rawtext": [{"translate": "generic.button.6"}]}
+                    }
+                ]
+            },
+            {
+                "scene_tag": "spells3",
+                "npc_name": {"rawtext": [{"translate": "npc.name.5"}]},
+                "text": {"rawtext": [{"translate": "spells.3.dialogue", "with": ["\n"]}]},
+                "buttons": [
+                    {
+                        "name": {"rawtext": [{"translate": "generic.button.3"}]},
+                        "commands": [
+                            "function inclass/reset",
+                            "function story/spells/complete"
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "format_version": "1.14",
+    "minecraft:npc_dialogue": {
+        "scenes": [
+            {
+                "scene_tag": "5complete0",
+                "npc_name": {"rawtext": [{"translate": "npc.name.9"}]},
+                "text": {"rawtext": [{"translate": "5complete.0.dialogue", "with": ["\n"]}]},
+                "buttons": [
+                    {
+                        "name": {"rawtext": [{"translate": "5complete.0.button.0"}]},
+                        "commands": [
+                            "dialogue change @e [type=npc, tag=npc9] end0",
+                            "dialogue open @e [type=npc, tag=npc9] @p end0"
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
