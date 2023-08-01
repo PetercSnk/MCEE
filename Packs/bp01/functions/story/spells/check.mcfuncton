@@ -1,0 +1,1 @@
+execute as @a if score @a spell0 matches 1 if score @a spell1 matches 1 if score @a spell2 matches 1 run function story/spells/complete

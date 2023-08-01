@@ -11,6 +11,7 @@
                         "name": {"rawtext": [{"translate": "generic.button.4"}]},
                         "commands": [
                             "function story/teleport_abacws",
+                            "function story/intro/npc0_move",
                             "dialogue change @e [type=npc, tag=npc0] intro2"
                         ]
                     },
@@ -31,6 +32,7 @@
                         "name": {"rawtext": [{"translate": "generic.button.4"}]},
                         "commands": [
                             "function story/teleport_abacws",
+                            "function story/intro/npc0_move",
                             "dialogue change @e [type=npc, tag=npc0] intro2"
                         ]
                     },

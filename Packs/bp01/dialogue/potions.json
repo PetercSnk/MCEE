@@ -74,7 +74,7 @@
                         "name": {"rawtext": [{"translate": "generic.button.3"}]},
                         "commands": [
                             "function inclass/reset",
-                            "function story/potions/complete"
+                            "dialogue change @e [type=npc, tag=npc3] classcomplete0"
                         ]
                     }
                 ]

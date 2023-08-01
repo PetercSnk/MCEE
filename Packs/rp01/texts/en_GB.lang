@@ -50,6 +50,12 @@ in.class.dialogue=Shouldn't you be in class? You can't attend this class until y
 # generic button 2
 
 # --------------------------------------------------
+# class completion
+
+class.complete.dialogue=You have already completed this class.
+# generic button 2
+
+# --------------------------------------------------
 # intro
 
 intro.0.dialogue=Greetings, I am Edgar, the headmaster at ABACWS school of magic. I noticed a strange source of energy coming from this location! It seems that you may possess the ability to control magic, would you like to attend ABACWS and develop your skills? 
@@ -113,14 +119,14 @@ potions.2.dialogue=Are you ready to start?
 # generic button 5
 # ACTION -> open codebuilder tutorial
 
-potions.3.dialogue=To complete this class you'll need to brew a potion of strength II.
+potions.3.dialogue=To complete this class you'll need to brew a splash potion of strength II.
 # generic button 2
 potions.3.button.0=Reset agent
 
 # CONDITION -> potion strength 2 created
 potions.4.dialogue=Wow! You're amazing at this.
 # generic button 3
-# ACTION -> completion 
+# ACTION -> completion
 
 # --------------------------------------------------
 # herbology class
@@ -136,7 +142,7 @@ herbology.1.dialogue=This class will take place in Alexandra Gardens. You can tr
 herbology.2.dialogue=Welcome to Alexandra Gardens. We have a variety of plants kept here for research purposes. They are also nice to admire during breaks.
 # generic button 2
 # |
-herbology.3.dialogue=To complete this class you will need to find 5 different plants and record their properties in appropriate formats. Once documented, place the plant in the sample chest. Are you ready to start?
+herbology.3.dialogue=To complete this class you will need to find atleast 4 different plants and record their properties in appropriate formats. Place all plants collected in the sample area when done. Are you ready to start?
 # generic button 0
 # generic button 1
 # open codebuilder tutorial
@@ -163,8 +169,8 @@ herbology.12.dialogue=Cornflowers are native to Europe and are part of the Aster
 herbology.13.dialogue=Lilys of the valley are a woodland flowering plant with sweetly scented bell-shaped white flowers. It is native throughout the cool temperate northern hemisphere in Europe and Asia.
 # generic button 6
 
-# CONDITION -> 5 samples collected
-herbology.14.dialogue=Well done! You have collected 5 samples.
+# CONDITION -> 3 samples collected
+herbology.14.dialogue=Well done! You have collected and documented 3 plants.
 # generic button 3
 # ACTION -> completion
 

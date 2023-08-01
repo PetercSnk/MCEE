@@ -1,2 +1,2 @@
-detect potion strength 2
-if yes run end func 20 once
+execute if entity @p [hasitem={item=splash_potion, data=33}] run scoreboard players set @p potions_complete 1
+execute if score @p potions matches 1 if score @p potions_complete matches 1 run function story/potions/complete
