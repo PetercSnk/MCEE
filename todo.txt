@@ -1,0 +1,8 @@
+link basic multi dialogues
+create functions for dialogue answers that require more than 1 command, tp, particles, etc
+scoreboard to detect 3 and 5 lessons complete
+final tasks, make them basic
+add whiteboards for instructions, potion recipes, spell names
+makecode tutorials
+reset agent in lessons its used
+remove agent after each lesson then spawn in for lessons needed
