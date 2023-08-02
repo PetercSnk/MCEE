@@ -40,8 +40,9 @@
                         "commands": [
                             "function inclass/potions",
                             "function guides/reset",
-                            "codebuilder navigate @p true INSERT_URL_4_POTIONS",
-                            "dialogue change @e [type=npc, tag=npc3] potions3"
+                            "dialogue change @e [type=npc, tag=npc3] potions3",
+                            "codebuilder navigate @p true INSERT_URL_4_POTIONS"
+                            
                         ]
                     },
                     {

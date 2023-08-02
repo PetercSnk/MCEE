@@ -45,7 +45,7 @@
                     {
                         "name": {"rawtext": [{"translate": "astronomy.2.button.0"}]},
                         "commands": [
-                            "function story/astronomy/reset_task"
+                            "function story/astronomy/clear_area"
                         ]
                     }
                 ]
@@ -59,7 +59,7 @@
                         "name": {"rawtext": [{"translate": "generic.answer.3"}]},
                         "commands": [
                             "function inclass/reset",
-                            "function story/astronomy/complete"
+                            "dialogue change @e [type=npc, tag=npc7] classcomplete4"
                         ]
                     }
                 ]

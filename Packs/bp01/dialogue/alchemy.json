@@ -82,7 +82,7 @@
                         "name": {"rawtext": [{"translate": "alchemy.5.button.0"}]},
                         "commands": [
                             "function inclass/reset",
-                            "function story/alchemy/complete"
+                            "dialogue change @e [type=npc, tag=npc6] classcomplete3"
                         ]
                     }
                 ]

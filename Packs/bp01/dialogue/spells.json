@@ -42,6 +42,12 @@
                 "buttons": [
                     {
                         "name": {"rawtext": [{"translate": "generic.button.6"}]}
+                    },
+                    {
+                        "name": {"rawtext": [{"translate": "spells.2.button.0"}]},
+                        "commands": [
+                            "SUMMON SNOW GOLEM"
+                        ]
                     }
                 ]
             },
@@ -54,7 +60,7 @@
                         "name": {"rawtext": [{"translate": "generic.button.3"}]},
                         "commands": [
                             "function inclass/reset",
-                            "function story/spells/complete"
+                            "dialogue change @e [type=npc, tag=npc5] classcomplete2"
                         ]
                     }
                 ]
