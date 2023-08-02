@@ -121,7 +121,7 @@ potions.2.dialogue=Are you ready to start?
 
 potions.3.dialogue=To complete this class you'll need to brew a splash potion of strength II.
 # generic button 2
-potions.3.button.0=Reset agent
+potions.3.button.0=Reset pet
 
 # CONDITION -> potion strength 2 created
 potions.4.dialogue=Wow! You're amazing at this.
@@ -142,7 +142,7 @@ herbology.1.dialogue=This class will take place in Alexandra Gardens. You can tr
 herbology.2.dialogue=Welcome to Alexandra Gardens. We have a variety of plants kept here for research purposes. They are also nice to admire during breaks.
 # generic button 2
 # |
-herbology.3.dialogue=To complete this class you will need to find atleast 4 different plants and record their properties in appropriate formats. Place all plants collected in the sample area when done. Are you ready to start?
+herbology.3.dialogue=To complete this class you will need to find a Poppy, Dandelion, Oxeye Daisy, and a Cornflower and record their properties in appropriate formats. Place all plants collected in the sample area when done. Are you ready to start?
 # generic button 0
 # generic button 1
 # open codebuilder tutorial
@@ -180,13 +180,14 @@ herbology.14.dialogue=Well done! You have collected and documented 3 plants.
 spells.0.dialogue=Welcome to spells class! I am Sellen. Today I will teach you how to cast certain spells.
 # generic button 2
 # |
-spells.1.dialogue=To cast a spell we need to recite a specific incantation. Some of these incantations are listed on the whiteboards. Let me know when you are ready, and I will provide the handbook.
+spells.1.dialogue=Each spell requires an exchange, They are not free. Some of these spells are listed on the whiteboards. Let me know when you are ready, and I will provide the handbook.
 # generic button 0
 # generic button 1
 # open codebuilder tutorial
 
 spells.2.dialogue=To complete this class you are required to cast 3 different spells.
 # generic button 6
+spells.2.button.0=Summon new target dummy
 
 # CONDITION -> 3 spells cast
 spells.3.dialogue=You have managed to cast 3 spells, great job!
@@ -230,9 +231,9 @@ astronomy.1.dialogue=In this class we will harness the power of the stars. To do
 astronomy.1.button.0=Thanks, Will do
 # open codebuilder tutorial
 
-astronomy.2.dialogue=To pass astronomy you will need to complete the final task in the constuction of constellation Capricornus.
+astronomy.2.dialogue=To pass astronomy you will need to complete the final task in the construction of the big dipper.
 # generic button 2
-astronomy.2.button.0=Reset task
+astronomy.2.button.0=Clear area
 
 # CONDITION -> constellation complete
 astronomy.3.dialogue=You did a great job! 
