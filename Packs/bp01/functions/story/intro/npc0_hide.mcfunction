@@ -1,0 +1,1 @@
+tp @e [type=npc, tag=npc0] -73 -60 157

@@ -24,14 +24,17 @@ scoreboard players set @a 001_spells 0
 scoreboard players set @a 001_alchemy 0
 scoreboard players set @a 001_astronomy 0
 
-scoreboard objectives add potions_complete dummy
-scoreboard objectives add herbology_complete dummy
-scoreboard objectives add spells_complete dummy
-scoreboard objectives add alchemy_complete dummy
-scoreboard objectives add astronomy_complete dummy
+scoreboard objectives add potions_comp dummy
+scoreboard objectives add herbology_comp dummy
+scoreboard objectives add spells_comp dummy
+scoreboard objectives add alchemy_comp dummy
+scoreboard objectives add astronomy_comp dummy
 
-scoreboard players set @a potions_complete 0
-scoreboard players set @a herbology_complete 0
-scoreboard players set @a spells_complete 0
-scoreboard players set @a alchemy_complete 0
-scoreboard players set @a astronomy_complete 0
+scoreboard players set @a potions_comp 0
+scoreboard players set @a herbology_comp 0
+scoreboard players set @a spells_comp 0
+scoreboard players set @a alchemy_comp 0
+scoreboard players set @a astronomy_comp 0
+
+scoreboard objectives add tmp dummy
+scoreboard players set @a tmp 0

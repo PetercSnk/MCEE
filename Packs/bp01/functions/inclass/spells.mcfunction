@@ -9,3 +9,4 @@ scoreboard players set @p spell0 0
 scoreboard players set @p spell1 0
 scoreboard players set @p spell2 0
 scoreboard players set @p spells 1
+scoreboard players set @p tmp 1

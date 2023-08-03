@@ -11,3 +11,4 @@ scoreboard players set @p plant1 0
 scoreboard players set @p plant2 0
 scoreboard players set @p plant3 0
 scoreboard players set @p herbology 1
+scoreboard players set @p tmp 1

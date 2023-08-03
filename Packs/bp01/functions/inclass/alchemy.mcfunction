@@ -11,3 +11,4 @@ scoreboard players set @p alch1 0
 scoreboard players set @p alch2 0
 scoreboard players set @p alch3 0
 scoreboard players set @p alchemy 1
+scoreboard players set @p tmp 1

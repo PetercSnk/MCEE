@@ -1,0 +1,1 @@
+remove @e [type=npc]

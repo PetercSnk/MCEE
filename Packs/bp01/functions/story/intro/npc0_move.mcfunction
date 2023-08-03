@@ -1,1 +1,1 @@
-tp @e [type=npc, tag=npc0] x y z
+tp @e [type=npc, tag=npc0] -405 -59 279
