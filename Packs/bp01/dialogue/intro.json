@@ -8,15 +8,15 @@
                 "text": {"rawtext": [{"translate": "intro.0.dialogue", "with": ["\n"]}]},
                 "buttons": [
                     {
-                        "name": {"rawtext": [{"translate": "generic.button.4"}]},
+                        "name": {"rawtext": [{"translate": "yes.button"}]},
                         "commands": [
-                            "function story/teleport_abacws",
+                            "function story/intro/teleport_abacws",
                             "function story/intro/npc0_move",
                             "dialogue change @e [type=npc, tag=npc0] intro2"
                         ]
                     },
                     {
-                        "name": {"rawtext": [{"translate": "generic.button.1"}]},
+                        "name": {"rawtext": [{"translate": "notready.button"}]},
                         "commands": [
                             "dialogue change @e [type=npc, tag=npc0] intro1"
                         ]
@@ -29,15 +29,15 @@
                 "text": {"rawtext": [{"translate": "intro.1.dialogue", "with": ["\n"]}]},
                 "buttons": [
                     {
-                        "name": {"rawtext": [{"translate": "generic.button.4"}]},
+                        "name": {"rawtext": [{"translate": "yes.button"}]},
                         "commands": [
-                            "function story/teleport_abacws",
+                            "function story/intro/teleport_abacws",
                             "function story/intro/npc0_move",
                             "dialogue change @e [type=npc, tag=npc0] intro2"
                         ]
                     },
                     {
-                        "name": {"rawtext": [{"translate": "generic.button.1"}]}
+                        "name": {"rawtext": [{"translate": "no.button"}]}
                     }
                 ]
             },
@@ -47,7 +47,7 @@
                 "text": {"rawtext": [{"translate": "intro.2.dialogue", "with": ["\n"]}]},
                 "buttons": [
                     {
-                        "name": {"rawtext": [{"translate": "generic.button.2"}]},
+                        "name": {"rawtext": [{"translate": "okay.button"}]},
                         "commands": [
                             "function story/intro/npc0_hide"
                         ]
@@ -60,7 +60,7 @@
                 "text": {"rawtext": [{"translate": "intro.3.dialogue", "with": ["\n"]}]},
                 "buttons": [
                     {
-                        "name": {"rawtext": [{"translate": "generic.button.2"}]},
+                        "name": {"rawtext": [{"translate": "understood.button"}]},
                         "commands": [
                             "PET CHOOSE - change dialogue"
                         ]
@@ -73,14 +73,14 @@
                 "text": {"rawtext": [{"translate": "intro.4.dialogue", "with": ["\n"]}]},
                 "buttons": [
                     {
-                        "name": {"rawtext": [{"translate": "generic.button.0"}]},
+                        "name": {"rawtext": [{"translate": "yes.button"}]},
                         "commands": [
-                            "dialogue change @e [type=npc, tag=npc1] intro6",
-                            "dialogue open @e [type=npc, tag=npc1] @p intro6"
+                            "dialogue open @e [type=npc, tag=npc1] @p intro6",
+                            "dialogue change @e [type=npc, tag=npc1] intro6"                          
                         ]
                     },
                     {
-                        "name": {"rawtext": [{"translate": "generic.button.1"}]},
+                        "name": {"rawtext": [{"translate": "no.button"}]},
                         "commands": [
                             "dialogue change @e [type=npc, tag=npc1] intro5"
                         ]
@@ -93,14 +93,14 @@
                 "text": {"rawtext": [{"translate": "intro.5.dialogue", "with": ["\n"]}]},
                 "buttons": [
                     {
-                        "name": {"rawtext": [{"translate": "generic.button.0"}]},
+                        "name": {"rawtext": [{"translate": "yes.button"}]},
                         "commands": [
-                            "dialogue change @e [type=npc, tag=npc1] intro6",
-                            "dialogue open @e [type=npc, tag=npc1] @p intro6"
+                            "dialogue open @e [type=npc, tag=npc1] @p intro6",
+                            "dialogue change @e [type=npc, tag=npc1] intro6"
                         ]
                     },
                     {
-                        "name": {"rawtext": [{"translate": "generic.button.1"}]}
+                        "name": {"rawtext": [{"translate": "no.button"}]}
                     }
                 ]
             },
@@ -110,7 +110,7 @@
                 "text": {"rawtext": [{"translate": "intro.6.dialogue", "with": ["\n"]}]},
                 "buttons": [
                     {
-                        "name": {"rawtext": [{"translate": "generic.button.2"}]},
+                        "name": {"rawtext": [{"translate": "okay.button"}]},
                         "commands": [
                             "function story/intro/npc1_hide",
                             "scoreboard set @p npc1_001 1"
@@ -126,8 +126,8 @@
                     {
                         "name": {"rawtext": [{"translate": "class.button.0"}]},
                         "commands": [
-                            "dialogue change @e [type=npc, tag=npc2] intro8",
                             "dialogue open @e [type=npc, tag=npc2] @p intro8",
+                            "dialogue change @e [type=npc, tag=npc2] intro8",
                             "scoreboard set @p 001_potions 1",
                             "scoreboard set @p npc1_001 0"
                         ]
@@ -135,8 +135,8 @@
                     {
                         "name": {"rawtext": [{"translate": "class.button.1"}]},
                         "commands": [
-                            "dialogue change @e [type=npc, tag=npc2] intro8",
                             "dialogue open @e [type=npc, tag=npc2] @p intro8",
+                            "dialogue change @e [type=npc, tag=npc2] intro8",
                             "scoreboard set @p 001_herbology 1",
                             "scoreboard set @p npc1_001 0"
                         ]
@@ -144,8 +144,8 @@
                     {
                         "name": {"rawtext": [{"translate": "class.button.2"}]},
                         "commands": [
-                            "dialogue change @e [type=npc, tag=npc2] intro8",
                             "dialogue open @e [type=npc, tag=npc2] @p intro8",
+                            "dialogue change @e [type=npc, tag=npc2] intro8",
                             "scoreboard set @p 001_spells 1",
                             "scoreboard set @p npc1_001 0"
                         ]
@@ -153,8 +153,8 @@
                     {
                         "name": {"rawtext": [{"translate": "class.button.3"}]},
                         "commands": [
-                            "dialogue change @e [type=npc, tag=npc2] intro8",
                             "dialogue open @e [type=npc, tag=npc2] @p intro8",
+                            "dialogue change @e [type=npc, tag=npc2] intro8",
                             "scoreboard set @p 001_alchemy 1",
                             "scoreboard set @p npc1_001 0"
                         ]
@@ -162,8 +162,8 @@
                     {
                         "name": {"rawtext": [{"translate": "class.button.4"}]},
                         "commands": [
-                            "dialogue change @e [type=npc, tag=npc2] intro8",
                             "dialogue open @e [type=npc, tag=npc2] @p intro8",
+                            "dialogue change @e [type=npc, tag=npc2] intro8",
                             "scoreboard set @p 001_astronomy 1",
                             "scoreboard set @p npc1_001 0"
                         ]
@@ -176,7 +176,7 @@
                 "text": {"rawtext": [{"translate": "intro.8.dialogue", "with": ["\n"]}]},
                 "buttons": [
                     {
-                        "name": {"rawtext": [{"translate": "generic.button.7"}]},
+                        "name": {"rawtext": [{"translate": "understood.button"}]},
                         "commands": [
                             "dialogue change @e [type=npc, tag=npc2] intro9"
                         ]

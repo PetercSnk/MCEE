@@ -8,7 +8,7 @@
                 "text": {"rawtext": [{"translate": "astronomy.0.dialogue", "with": ["\n"]}]},
                 "buttons": [
                     {
-                        "name": {"rawtext": [{"translate": "generic.answer.0"}]},
+                        "name": {"rawtext": [{"translate": "ready.button"}]},
                         "commands": [
                             "function inclass/astronomy",
                             "function guides/reset",
@@ -16,7 +16,7 @@
                         ]
                     },
                     {
-                        "name": {"rawtext": [{"translate": "generic.answer.1"}]}
+                        "name": {"rawtext": [{"translate": "notready.button"}]}
                     }
                 ]
             },
@@ -26,7 +26,7 @@
                 "text": {"rawtext": [{"translate": "astronomy.1.dialogue", "with": ["\n"]}]},
                 "buttons": [
                     {
-                        "name": {"rawtext": [{"translate": "astronomy.1.button.0"}]},
+                        "name": {"rawtext": [{"translate": "okay.button"}]},
                         "commands": [
                             "dialogue change @e [type=npc, tag=npc7] astronomy2",
                             "codebuilder navigate @p true INSERT_URL_4_ASTRONOMY"
@@ -40,7 +40,7 @@
                 "text": {"rawtext": [{"translate": "astronomy.2.dialogue", "with": ["\n"]}]},
                 "buttons": [
                     {
-                        "name": {"rawtext": [{"translate": "generic.answer.2"}]}
+                        "name": {"rawtext": [{"translate": "close.button"}]}
                     },
                     {
                         "name": {"rawtext": [{"translate": "astronomy.2.button.0"}]},
@@ -56,7 +56,7 @@
                 "text": {"rawtext": [{"translate": "astronomy.3.dialogue", "with": ["\n"]}]},
                 "buttons": [
                     {
-                        "name": {"rawtext": [{"translate": "generic.answer.3"}]},
+                        "name": {"rawtext": [{"translate": "complete.button"}]},
                         "commands": [
                             "function inclass/reset",
                             "dialogue change @e [type=npc, tag=npc7] classcomplete4"

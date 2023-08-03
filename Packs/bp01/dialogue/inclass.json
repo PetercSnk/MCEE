@@ -8,7 +8,7 @@
                 "text": {"rawtext": [{"translate": "in.class.dialogue", "with": ["\n"]}]},
                 "buttons": [
                     {
-                        "name": {"rawtext": [{"translate": "generic.answer.2"}]}
+                        "name": {"rawtext": [{"translate": "close.button"}]}
                     }
                 ]
             },
@@ -18,7 +18,7 @@
                 "text": {"rawtext": [{"translate": "in.class.dialogue", "with": ["\n"]}]},
                 "buttons": [
                     {
-                        "name": {"rawtext": [{"translate": "generic.answer.2"}]}
+                        "name": {"rawtext": [{"translate": "close.button"}]}
                     }
                 ]
             },
@@ -28,7 +28,7 @@
                 "text": {"rawtext": [{"translate": "in.class.dialogue", "with": ["\n"]}]},
                 "buttons": [
                     {
-                        "name": {"rawtext": [{"translate": "generic.answer.2"}]}
+                        "name": {"rawtext": [{"translate": "close.button"}]}
                     }
                 ]
             },
@@ -38,7 +38,7 @@
                 "text": {"rawtext": [{"translate": "in.class.dialogue", "with": ["\n"]}]},
                 "buttons": [
                     {
-                        "name": {"rawtext": [{"translate": "generic.answer.2"}]}
+                        "name": {"rawtext": [{"translate": "close.button"}]}
                     }
                 ]
             },
@@ -48,7 +48,7 @@
                 "text": {"rawtext": [{"translate": "in.class.dialogue", "with": ["\n"]}]},
                 "buttons": [
                     {
-                        "name": {"rawtext": [{"translate": "generic.answer.2"}]}
+                        "name": {"rawtext": [{"translate": "close.button"}]}
                     }
                 ]
             }

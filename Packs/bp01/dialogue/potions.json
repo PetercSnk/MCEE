@@ -8,10 +8,10 @@
                 "text": {"rawtext": [{"translate": "potions.0.dialogue", "with": ["\n"]}]},
                 "buttons": [
                     {
-                        "name": {"rawtext": [{"translate": "generic.button.2"}]},
+                        "name": {"rawtext": [{"translate": "next.button"}]},
                         "commands": [
-                            "dialogue change @e [type=npc, tag=npc3] potions1",
-                            "dialogue open @e [type=npc, tag=npc3] @p potions1"
+                            "dialogue open @e [type=npc, tag=npc3] @p potions1",
+                            "dialogue change @e [type=npc, tag=npc3] potions1"
                         ]
                     }
                 ]
@@ -22,10 +22,10 @@
                 "text": {"rawtext": [{"translate": "potions.1.dialogue", "with": ["\n"]}]},
                 "buttons": [
                     {
-                        "name": {"rawtext": [{"translate": "generic.button.7"}]},
+                        "name": {"rawtext": [{"translate": "next.button"}]},
                         "commands": [
-                            "dialogue change @e [type=npc, tag=npc3] potions2",
-                            "dialogue open @e [type=npc, tag=npc3] @p potions2"
+                            "dialogue open @e [type=npc, tag=npc3] @p potions2",
+                            "dialogue change @e [type=npc, tag=npc3] potions2"
                         ]
                     }
                 ]
@@ -36,7 +36,7 @@
                 "text": {"rawtext": [{"translate": "potions.2.dialogue", "with": ["\n"]}]},
                 "buttons": [
                     {
-                        "name": {"rawtext": [{"translate": "generic.button.4"}]},
+                        "name": {"rawtext": [{"translate": "yes.button"}]},
                         "commands": [
                             "function inclass/potions",
                             "function guides/reset",
@@ -46,7 +46,7 @@
                         ]
                     },
                     {
-                        "name": {"rawtext": [{"translate": "generic.button.5"}]}
+                        "name": {"rawtext": [{"translate": "no.button"}]}
                     }
                 ]
             },
@@ -56,7 +56,7 @@
                 "text": {"rawtext": [{"translate": "potions.3.dialogue", "with": ["\n"]}]},
                 "buttons": [
                     {
-                        "name": {"rawtext": [{"translate": "generic.button.2"}]}
+                        "name": {"rawtext": [{"translate": "close.button"}]}
                     },
                     {
                         "name": {"rawtext": [{"translate": "potions.3.button.0"}]},
@@ -72,7 +72,7 @@
                 "text": {"rawtext": [{"translate": "potions.4.dialogue", "with": ["\n"]}]},
                 "buttons": [
                     {
-                        "name": {"rawtext": [{"translate": "generic.button.3"}]},
+                        "name": {"rawtext": [{"translate": "complete.button"}]},
                         "commands": [
                             "function inclass/reset",
                             "dialogue change @e [type=npc, tag=npc3] classcomplete0"

@@ -8,13 +8,12 @@
                 "text": {"rawtext": [{"translate": "end.0.dialogue", "with": ["\n"]}]},
                 "buttons": [
                     {
-                        "name": {"rawtext": [{"translate": "end.0.button.0"}]},
+                        "name": {"rawtext": [{"translate": "next.button"}]},
                         "commands": [
                             "function story/end/weather",
                             "function story/end/creature",
-                            "dialogue change @e [type=npc, tag=npc9] end1",
-                            "dialogue open @e [type=npc, tag=npc9] @p end1"
-                            
+                            "dialogue open @e [type=npc, tag=npc9] @p end1",
+                            "dialogue change @e [type=npc, tag=npc9] end1"                            
                         ]
                     }
                 ]
@@ -25,10 +24,10 @@
                 "text": {"rawtext": [{"translate": "end.1.dialogue", "with": ["\n"]}]},
                 "buttons": [
                     {
-                        "name": {"rawtext": [{"translate": "end.1.button.0"}]},
+                        "name": {"rawtext": [{"translate": "next.button"}]},
                         "commands": [
-                            "dialogue change @e [type=npc, tag=npc9] end2",
-                            "dialogue open @e [type=npc, tag=npc9] @p end2"
+                            "dialogue open @e [type=npc, tag=npc9] @p end2",
+                            "dialogue change @e [type=npc, tag=npc9] end2"
                         ]
                     }
                 ]
@@ -39,7 +38,7 @@
                 "text": {"rawtext": [{"translate": "end.2.dialogue", "with": ["\n"]}]},
                 "buttons": [
                     {
-                        "name": {"rawtext": [{"translate": "end.2.button.0"}]},
+                        "name": {"rawtext": [{"translate": "okay.button"}]},
                         "commands": [
                             "dialogue change @e [type=npc, tag=npc9] end3",
                             "function story/end/create_tasks"
@@ -53,7 +52,7 @@
                 "text": {"rawtext": [{"translate": "end.3.dialogue", "with": ["\n"]}]},
                 "buttons": [
                     {
-                        "name": {"rawtext": [{"translate": "generic.answer.6"}]}
+                        "name": {"rawtext": [{"translate": "close.button"}]}
                     }
                 ]
             },
@@ -63,7 +62,7 @@
                 "text": {"rawtext": [{"translate": "end.4.dialogue", "with": ["\n"]}]},
                 "buttons": [
                     {
-                        "name": {"rawtext": [{"translate": "end.4.button.0"}]}
+                        "name": {"rawtext": [{"translate": "okay.button"}]}
                     }
                 ]
             },
@@ -73,10 +72,10 @@
                 "text": {"rawtext": [{"translate": "end.5.dialogue", "with": ["\n"]}]},
                 "buttons": [
                     {
-                        "name": {"rawtext": [{"translate": "end.5.button.0"}]},
+                        "name": {"rawtext": [{"translate": "next.button"}]},
                         "commands": [
-                            "dialogue change @e [type=npc, tag=npc9] end6",
-                            "dialogue open @e [type=npc, tag=npc9] @p end6"
+                            "dialogue open @e [type=npc, tag=npc9] @p end6",
+                            "dialogue change @e [type=npc, tag=npc9] end6"
                         ]
                     }
                 ]
@@ -87,7 +86,7 @@
                 "text": {"rawtext": [{"translate": "end.6.dialogue", "with": ["\n"]}]},
                 "buttons": [
                     {
-                        "name": {"rawtext": [{"translate": "generic.answer.3"}]},
+                        "name": {"rawtext": [{"translate": "complete.button"}]},
                         "commands": [
                             "function story/end/complete"
                         ]

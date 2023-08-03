@@ -8,10 +8,10 @@
                 "text": {"rawtext": [{"translate": "alchemy.0.dialogue", "with": ["\n"]}]},
                 "buttons": [
                     {
-                        "name": {"rawtext": [{"translate": "alchemy.0.button.0"}]},
+                        "name": {"rawtext": [{"translate": "next.button"}]},
                         "commands": [
-                            "dialogue change @e [type=npc, tag=npc6] alchemy1",
-                            "dialogue open @e [type=npc, tag=npc6] @p alchemy1"
+                            "dialogue open @e [type=npc, tag=npc6] @p alchemy1",
+                            "dialogue change @e [type=npc, tag=npc6] alchemy1"     
                         ]
                     }
                 ]
@@ -22,10 +22,10 @@
                 "text": {"rawtext": [{"translate": "alchemy.1.dialogue", "with": ["\n"]}]},
                 "buttons": [
                     {
-                        "name": {"rawtext": [{"translate": "generic.answer.2"}]},
+                        "name": {"rawtext": [{"translate": "next.button"}]},
                         "commands": [
-                            "dialogue change @e [type=npc, tag=npc6] alchemy2",
-                            "dialogue open @e [type=npc, tag=npc6] @p alchemy2"
+                            "dialogue open @e [type=npc, tag=npc6] @p alchemy2",
+                            "dialogue change @e [type=npc, tag=npc6] alchemy2"                          
                         ]
                     }
                 ]
@@ -36,10 +36,10 @@
                 "text": {"rawtext": [{"translate": "alchemy.2.dialogue", "with": ["\n"]}]},
                 "buttons": [
                     {
-                        "name": {"rawtext": [{"translate": "generic.answer.6"}]},
+                        "name": {"rawtext": [{"translate": "next.button"}]},
                         "commands": [
-                            "dialogue change @e [type=npc, tag=npc6] alchemy3",
-                            "dialogue open @e [type=npc, tag=npc6] @p alchemy3"
+                            "dialogue open @e [type=npc, tag=npc6] @p alchemy3",
+                            "dialogue change @e [type=npc, tag=npc6] alchemy3"
                         ]
                     }
                 ]
@@ -50,7 +50,7 @@
                 "text": {"rawtext": [{"translate": "alchemy.3.dialogue", "with": ["\n"]}]},
                 "buttons": [
                     {
-                        "name": {"rawtext": [{"translate": "generic.answer.0"}]},
+                        "name": {"rawtext": [{"translate": "ready.button"}]},
                         "commands": [
                             "function inclass/alchemy",
                             "function guides/reset",
@@ -59,7 +59,7 @@
                         ]
                     },
                     {
-                        "name": {"rawtext": [{"translate": "generic.answer.1"}]}
+                        "name": {"rawtext": [{"translate": "notready.button"}]}
                     }
                 ]
             },
@@ -69,7 +69,7 @@
                 "text": {"rawtext": [{"translate": "alchemy.4.dialogue", "with": ["\n"]}]},
                 "buttons": [
                     {
-                        "name": {"rawtext": [{"translate": "generic.answer.2"}]}
+                        "name": {"rawtext": [{"translate": "close.button"}]}
                     }
                 ]
             },
@@ -79,7 +79,7 @@
                 "text": {"rawtext": [{"translate": "alchemy.5.dialogue", "with": ["\n"]}]},
                 "buttons": [
                     {
-                        "name": {"rawtext": [{"translate": "alchemy.5.button.0"}]},
+                        "name": {"rawtext": [{"translate": "complete.button"}]},
                         "commands": [
                             "function inclass/reset",
                             "dialogue change @e [type=npc, tag=npc6] classcomplete3"

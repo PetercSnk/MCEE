@@ -8,10 +8,10 @@
                 "text": {"rawtext": [{"translate": "spells.0.dialogue", "with": ["\n"]}]},
                 "buttons": [
                     {
-                        "name": {"rawtext": [{"translate": "generic.button.2"}]},
+                        "name": {"rawtext": [{"translate": "next.button"}]},
                         "commands": [
-                            "dialogue change @e [type=npc, tag=npc5] spells1",
-                            "dialogue open @e [type=npc, tag=npc5] @p spells1"
+                            "dialogue open @e [type=npc, tag=npc5] @p spells1",
+                            "dialogue change @e [type=npc, tag=npc5] spells1"
                         ]
                     }
                 ]
@@ -22,7 +22,7 @@
                 "text": {"rawtext": [{"translate": "spells.1.dialogue", "with": ["\n"]}]},
                 "buttons": [
                     {
-                        "name": {"rawtext": [{"translate": "generic.button.0"}]},
+                        "name": {"rawtext": [{"translate": "ready.button"}]},
                         "commands": [
                             "function inclass/spells",
                             "function guides/reset",
@@ -31,7 +31,7 @@
                         ]
                     },
                     {
-                        "name": {"rawtext": [{"translate": "generic.button.1"}]}
+                        "name": {"rawtext": [{"translate": "notready.button"}]}
                     }
                 ]
             },
@@ -41,7 +41,7 @@
                 "text": {"rawtext": [{"translate": "spells.2.dialogue", "with": ["\n"]}]},
                 "buttons": [
                     {
-                        "name": {"rawtext": [{"translate": "generic.button.6"}]}
+                        "name": {"rawtext": [{"translate": "close.button"}]}
                     },
                     {
                         "name": {"rawtext": [{"translate": "spells.2.button.0"}]},
@@ -57,7 +57,7 @@
                 "text": {"rawtext": [{"translate": "spells.3.dialogue", "with": ["\n"]}]},
                 "buttons": [
                     {
-                        "name": {"rawtext": [{"translate": "generic.button.3"}]},
+                        "name": {"rawtext": [{"translate": "complete.button"}]},
                         "commands": [
                             "function inclass/reset",
                             "dialogue change @e [type=npc, tag=npc5] classcomplete2"

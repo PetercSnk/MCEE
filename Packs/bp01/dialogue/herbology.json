@@ -8,10 +8,10 @@
                 "text": {"rawtext": [{"translate": "herbology.0.dialogue", "with": ["\n"]}]},
                 "buttons": [
                     {
-                        "name": {"rawtext": [{"translate": "generic.answer.2"}]},
+                        "name": {"rawtext": [{"translate": "next.button"}]},
                         "commands": [
-                            "dialogue change @e [type=npc, tag=npc4] herbology1",
-                            "dialogue open @e [type=npc, tag=npc4] @p herbology1"
+                            "dialogue open @e [type=npc, tag=npc4] @p herbology1",
+                            "dialogue change @e [type=npc, tag=npc4] herbology1"    
                         ]
                     }
                 ]
@@ -22,7 +22,7 @@
                 "text": {"rawtext": [{"translate": "herbology.1.dialogue", "with": ["\n"]}]},
                 "buttons": [
                     {
-                        "name": {"rawtext": [{"translate": "generic.answer.0"}]},
+                        "name": {"rawtext": [{"translate": "ready.button"}]},
                         "commands": [
                             "function inclass/herbology",
                             "function guides/reset",
@@ -32,7 +32,7 @@
                         ]
                     },
                     {
-                        "name": {"rawtext": [{"translate": "generic.answer.1"}]}
+                        "name": {"rawtext": [{"translate": "notready.button"}]}
                     }
                 ]
             },
@@ -42,10 +42,10 @@
                 "text": {"rawtext": [{"translate": "herbology.2.dialogue", "with": ["\n"]}]},
                 "buttons": [
                     {
-                        "name": {"rawtext": [{"translate": "generic.answer.2"}]},
+                        "name": {"rawtext": [{"translate": "next.button"}]},
                         "commands": [
-                            "dialogue change @e [type=npc, tag=npc4] herbology3",
-                            "dialogue open @e [type=npc, tag=npc4] @p herbology3"
+                            "dialogue open @e [type=npc, tag=npc4] @p herbology3",
+                            "dialogue change @e [type=npc, tag=npc4] herbology3"     
                         ]
                     }
                 ]
@@ -56,14 +56,14 @@
                 "text": {"rawtext": [{"translate": "herbology.3.dialogue", "with": ["\n"]}]},
                 "buttons": [
                     {
-                        "name": {"rawtext": [{"translate": "generic.answer.0"}]},
+                        "name": {"rawtext": [{"translate": "yes.button"}]},
                         "commands": [
                             "dialogue change @e [type=npc, tag=npc4] herbology4",
                             "codebuilder navigate @p true INSERT_URL_4_HERBOLOGY"
                         ]
                     },
                     {
-                        "name": {"rawtext": [{"translate": "generic.answer.1"}]}
+                        "name": {"rawtext": [{"translate": "no.button"}]}
                     }
                 ]
             },
@@ -97,34 +97,7 @@
                         ]
                     },
                     {
-                        "name": {"rawtext": [{"translate": "herbology.4.button.4"}]},
-                        "commands": [
-                            "dialogue open @e [type=npc, tag=npc4] @p herbology9"
-                        ]
-                    },
-                    {
-                        "name": {"rawtext": [{"translate": "herbology.4.button.5"}]},
-                        "commands": [
-                            "dialogue open @e [type=npc, tag=npc4] @p herbology10"
-                        ]
-                    },
-                    {
-                        "name": {"rawtext": [{"translate": "herbology.4.button.6"}]},
-                        "commands": [
-                            "dialogue open @e [type=npc, tag=npc4] @p herbology11"
-                        ]
-                    },
-                    {
-                        "name": {"rawtext": [{"translate": "herbology.4.button.7"}]},
-                        "commands": [
-                            "dialogue open @e [type=npc, tag=npc4] @p herbology12"
-                        ]
-                    },
-                    {
-                        "name": {"rawtext": [{"translate": "herbology.4.button.8"}]},
-                        "commands": [
-                            "dialogue open @e [type=npc, tag=npc4] @p herbology13"
-                        ]
+                        "name": {"rawtext": [{"translate": "close.button"}]}
                     }
                 ]
             },
@@ -134,7 +107,7 @@
                 "text": {"rawtext": [{"translate": "herbology.5.dialogue", "with": ["\n"]}]},
                 "buttons": [
                     {
-                        "name": {"rawtext": [{"translate": "generic.answer.6"}]}
+                        "name": {"rawtext": [{"translate": "close.button"}]}
                     }
                 ]
             },
@@ -144,7 +117,7 @@
                 "text": {"rawtext": [{"translate": "herbology.6.dialogue", "with": ["\n"]}]},
                 "buttons": [
                     {
-                        "name": {"rawtext": [{"translate": "generic.answer.6"}]}
+                        "name": {"rawtext": [{"translate": "close.button"}]}
                     }
                 ]
             },
@@ -154,7 +127,7 @@
                 "text": {"rawtext": [{"translate": "herbology.7.dialogue", "with": ["\n"]}]},
                 "buttons": [
                     {
-                        "name": {"rawtext": [{"translate": "generic.answer.6"}]}
+                        "name": {"rawtext": [{"translate": "close.button"}]}
                     }
                 ]
             },
@@ -164,7 +137,7 @@
                 "text": {"rawtext": [{"translate": "herbology.8.dialogue", "with": ["\n"]}]},
                 "buttons": [
                     {
-                        "name": {"rawtext": [{"translate": "generic.answer.6"}]}
+                        "name": {"rawtext": [{"translate": "close.button"}]}
                     }
                 ]
             },
@@ -174,57 +147,7 @@
                 "text": {"rawtext": [{"translate": "herbology.9.dialogue", "with": ["\n"]}]},
                 "buttons": [
                     {
-                        "name": {"rawtext": [{"translate": "generic.answer.6"}]}
-                    }
-                ]
-            },
-            {
-                "scene_tag": "herbology10",
-                "npc_name": {"rawtext": [{"translate": "npc.name.4"}]},
-                "text": {"rawtext": [{"translate": "herbology.10.dialogue", "with": ["\n"]}]},
-                "buttons": [
-                    {
-                        "name": {"rawtext": [{"translate": "generic.answer.6"}]}
-                    }
-                ]
-            },
-            {
-                "scene_tag": "herbology11",
-                "npc_name": {"rawtext": [{"translate": "npc.name.4"}]},
-                "text": {"rawtext": [{"translate": "herbology.11.dialogue", "with": ["\n"]}]},
-                "buttons": [
-                    {
-                        "name": {"rawtext": [{"translate": "generic.answer.6"}]}
-                    }
-                ]
-            },
-            {
-                "scene_tag": "herbology12",
-                "npc_name": {"rawtext": [{"translate": "npc.name.4"}]},
-                "text": {"rawtext": [{"translate": "herbology.12.dialogue", "with": ["\n"]}]},
-                "buttons": [
-                    {
-                        "name": {"rawtext": [{"translate": "generic.answer.6"}]}
-                    }
-                ]
-            },
-            {
-                "scene_tag": "herbology13",
-                "npc_name": {"rawtext": [{"translate": "npc.name.4"}]},
-                "text": {"rawtext": [{"translate": "herbology.13.dialogue", "with": ["\n"]}]},
-                "buttons": [
-                    {
-                        "name": {"rawtext": [{"translate": "generic.answer.6"}]}
-                    }
-                ]
-            },
-            {
-                "scene_tag": "herbology14",
-                "npc_name": {"rawtext": [{"translate": "npc.name.4"}]},
-                "text": {"rawtext": [{"translate": "herbology.14.dialogue", "with": ["\n"]}]},
-                "buttons": [
-                    {
-                        "name": {"rawtext": [{"translate": "generic.answer.3"}]},
+                        "name": {"rawtext": [{"translate": "complete.button"}]},
                         "commands": [
                             "function inclass/reset",
                             "dialogue change @e [type=npc, tag=npc4] classcomplete1"
