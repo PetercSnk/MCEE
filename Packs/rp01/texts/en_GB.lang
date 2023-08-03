@@ -13,14 +13,15 @@ npc.name.9=Blaidd
 # --------------------------------------------------
 # generic answer buttons
 
-generic.button.0=I'm ready
-generic.button.1=Not yet
-generic.button.2=Okay
-generic.button.3=Thank you
-generic.button.4=Yes
-generic.button.5=No
-generic.button.6=Understood
-generic.button.7=Got it
+next.button=Next
+complete.button=Complete
+understood.button=Understood
+okay.button=Okay
+ready.button=I'm ready
+notready.button=Not yet
+yes.button=Yes
+no.button=No
+close.button=Close
 
 # --------------------------------------------------
 # all class buttons
@@ -40,53 +41,47 @@ student.rep.dialogue=Hello, I'm a student rep. You seem to be lost, which of the
 # class button 2
 # class button 3
 # class button 4
-student.rep.button.0=Rogier
-student.rep.button.1=Actually nevermind
+# close
 
 # --------------------------------------------------
 # in class
 
 in.class.dialogue=Shouldn't you be in class? You can't attend this class until you're finished.
-# generic button 2
+# close
 
 # --------------------------------------------------
 # class completion
 
 class.complete.dialogue=You have already completed this class.
-# generic button 2
+# close
 
 # --------------------------------------------------
 # intro
 
 intro.0.dialogue=Greetings, I am Edgar, the headmaster at ABACWS school of magic. I noticed a strange source of energy coming from this location! It seems that you may possess the ability to control magic, would you like to attend ABACWS and develop your skills? 
-# generic button 4
-# ACTION -> teleport to abacws
-# generic button 1
+# yes ACTION -> teleport to abacws
+# not ready
 
 intro.1.dialogue=Are you ready now?
-# generic button 4
-# ACTION -> teleport to abacws
-# generic button 1
+# yes ACTION -> teleport to abacws
+# no
 
 intro.2.dialogue=We have arrived! This is the ABACWS building where all our students come to learn magic. Head on inside and my assistant will explain further. Feel free to look around beforehand!
-# generic button 2
-# ACTION -> npc disappears
+# okay ACTION -> npc disappears
 
 intro.3.dialogue=Welcome to ABACWS! I am Melina, the headmasters assistant. A little birdy told me you have magical talent. Before I let you attend any classes you will first need a pet.
-# generic button 2
-# ACTION -> pet choose 
+# understood ACTION -> pet choose 
 
 intro.4.dialogue=Good choice! Are you ready to attend class?
-# generic button 0
-# generic button 1
+# yes
+# no
 
 intro.5.dialogue=Are you ready now?
-# generic button 0
-# generic button 1
+# yes
+# no
 
 intro.6.dialogue=Nice to see you eager to learn. The timetable for today can be found in room 0.01 on this floor, Rogier will be waiting there for you.
-# generic button 2
-# ACTION -> npc disappears
+# okay ACTION -> npc disappears
 
 intro.7.dialogue=Hi there, I'm Rogier! I am in charge of todays classes. What class would you like to attend?
 # class button 0
@@ -96,7 +91,7 @@ intro.7.dialogue=Hi there, I'm Rogier! I am in charge of todays classes. What cl
 # class button 4
 
 intro.8.dialogue=There should be a guide spell active now, follow that to your class. Remember to return to me if you'd like to find another class. You can also speak to one of the student reps if you get lost. They should be around the stairs of each floor.
-# generic button 7
+# understood
 
 intro.9.dialogue=What class would you like to attend?
 # class button 0
@@ -109,189 +104,157 @@ intro.9.dialogue=What class would you like to attend?
 # potions class
 
 potions.0.dialogue=Welcome to potions class, I am Tanith. In this class you will teach your pet to gather ingredients which can then be used to brew potions.
-# generic button 2
+# next button
 # |
 potions.1.dialogue=Remember to follow the recipes, otherwise you'll end up with the wrong potion!
-# generic button 7
+# next button
 # |
 potions.2.dialogue=Are you ready to start?
-# generic button 4
-# generic button 5
-# ACTION -> open codebuilder tutorial
+# yes ACTION -> open codebuilder tutorial
+# no
 
 potions.3.dialogue=To complete this class you'll need to brew a splash potion of strength II.
-# generic button 2
+# close
 potions.3.button.0=Reset pet
 
 # CONDITION -> potion strength 2 created
 potions.4.dialogue=Wow! You're amazing at this.
-# generic button 3
-# ACTION -> completion
+# complete button
 
 # --------------------------------------------------
 # herbology class
 
 herbology.0.dialogue=Welcome to Herbology, I'm Kale. In this class we will learn about various plants and their properties.
-# generic button 2
+# next button
 # |
 herbology.1.dialogue=This class will take place in Alexandra Gardens. You can travel there using the rift, just let me know when you are ready!
-# generic.button.0
-# generic.button.1
-# ACTION -> teleport gardens
+# ready ACTION -> teleport gardens
+# not ready
 
 herbology.2.dialogue=Welcome to Alexandra Gardens. We have a variety of plants kept here for research purposes. They are also nice to admire during breaks.
-# generic button 2
+# next button
 # |
 herbology.3.dialogue=To complete this class you will need to find a Poppy, Dandelion, Oxeye Daisy, and a Cornflower and record their properties in appropriate formats. Place all plants collected in the sample area when done. Are you ready to start?
-# generic button 0
-# generic button 1
-# open codebuilder tutorial
+# yes ACTION -> open codebuilder tutorial
+# no
 
 herbology.4.dialogue=Which plant would you like to know more about?
 herbology.4.button.0=Dandelion
 herbology.4.button.1=Poppy
-herbology.4.button.2=Blue orchid
-herbology.4.button.3=Allium
-herbology.4.button.4=Azure bluet
-herbology.4.button.5=Tulip
-herbology.4.button.6=Oxeye daisy
-herbology.4.button.7=Cornflower
-herbology.4.button.8=Lily of the valley
+herbology.4.button.2=Oxeye daisy
+herbology.4.button.3=Cornflower
+# close
 # |
 herbology.5.dialogue=Dandelions are a common wildflower that are seen all year round. They are yellow and are found in grassland, woodland, towns, and gardens.
 herbology.6.dialogue=Poppies can grow to over a metre tall with flowers 15 centimetres across. Poppies produce edible seeds and are a symbol of rememberance.
-herbology.7.dialogue=Blue orchids are a very rare and sought after by many. Some of its species can be found naturally in India, China, and Australia.
-herbology.8.dialogue=Alliums have hundreds of species, inlcluding the cultivated onion, garlic, scallion, shallot, leek, and chives.
-herbology.9.dialogue=Azure bluets are a species in the Rubiaceae family. They are native to easten Canada and United States. They are found on cliffs, alpine zones, forests, meadows, and shores of rivers and lakes.
-herbology.10.dialogue=Tulips bloom in the spring and their flowers are usually large, showy, and brightly coloured. These colours include red, orange, pink, yellow, and white.
-herbology.11.dialogue=Oxeye daisys are widespread in Europe and temperate regions of Asia. They grow to 80 centimetres tall and the lower parts of the steam are hairy.
-herbology.12.dialogue=Cornflowers are native to Europe and are part of the Asteraceae family. In the past it would often grow as a weed in cornfields, hence its name.
-herbology.13.dialogue=Lilys of the valley are a woodland flowering plant with sweetly scented bell-shaped white flowers. It is native throughout the cool temperate northern hemisphere in Europe and Asia.
-# generic button 6
+herbology.7.dialogue=Oxeye daisys are widespread in Europe and temperate regions of Asia. They grow to 80 centimetres tall and the lower parts of the steam are hairy.
+herbology.8.dialogue=Cornflowers are native to Europe and are part of the Asteraceae family. In the past it would often grow as a weed in cornfields, hence its name.
+# close
 
 # CONDITION -> 3 samples collected
-herbology.14.dialogue=Well done! You have collected and documented 3 plants.
-# generic button 3
-# ACTION -> completion
+herbology.9.dialogue=Well done! You have collected and documented 3 plants.
+# complete button
 
 # --------------------------------------------------
 # spells class
 
 spells.0.dialogue=Welcome to spells class! I am Sellen. Today I will teach you how to cast certain spells.
-# generic button 2
+# next button
 # |
 spells.1.dialogue=Each spell requires an exchange, They are not free. Some of these spells are listed on the whiteboards. Let me know when you are ready, and I will provide the handbook.
-# generic button 0
-# generic button 1
-# open codebuilder tutorial
+# ready ACTION -> open codebuilder tutorial
+# not ready
 
 spells.2.dialogue=To complete this class you are required to cast 3 different spells.
-# generic button 6
+# close
 spells.2.button.0=Summon new target dummy
 
 # CONDITION -> 3 spells cast
 spells.3.dialogue=You have managed to cast 3 spells, great job!
-# generic button 3
-# ACTION -> completion
+# complete button
 
 # --------------------------------------------------
 # alchemy class
 
 alchemy.0.dialogue=Hi there, I'm Rennala. I'll be your alchemy teacher for today.
-alchemy.0.button.0=Nice to meet you
+# next button
 # |
 alchemy.1.dialogue=You will be attempting to create gold from other elements in this class. That being said, we must first solve the questions on the whiteboards.
-# generic button 2
+# next button
 # |
 alchemy.2.dialogue=Correct answers will reward you with materials which can be placed in the transmutation table. When all materials are placed, the process will start.
-# generic button 6
+# next button
 # |
 alchemy.3.dialogue=Let me know when you are ready so we can begin!
-# generic button 0
-# generic button 1
-# open codebuilder tutorial
+# ready ACTION -> open codebuilder tutorial
+# not ready
 
 alchemy.4.dialogue=To pass my class you will need to create a gold block from the materials rewarded!
-# generic button 2
+# close
 
 # CONDITION -> GOLD BLOCK CREATED
 alchemy.5.dialogue=You managed to do it, that's incredible!
-alchemy.5.button.0=Thanks alot!
-# ACTION -> completion
+# complete button
 
 # --------------------------------------------------
 # astronomy class
 
 astronomy.0.dialogue=Hiya, I'm Ranni. You are currently in my laboratory. Let me know when you are ready, and I will take you to the rooftop for this class.
-# generic button 0
-# generic button 1
-# ACTION -> teleport rooftop
+# ready ACTION -> teleport rooftop
+# not ready
 
 astronomy.1.dialogue=In this class we will harness the power of the stars. To do this we will create and plot constellations. Take a look inside this notebook for guidance.
-astronomy.1.button.0=Thanks, Will do
-# open codebuilder tutorial
+# okay ACTION -> open codebuilder tutorial
 
 astronomy.2.dialogue=To pass astronomy you will need to complete the final task in the construction of the big dipper.
-# generic button 2
+# close
 astronomy.2.button.0=Clear area
 
 # CONDITION -> constellation complete
 astronomy.3.dialogue=You did a great job! 
-# generic button 3
-# ACTION -> completion
+# complete button
 
 # --------------------------------------------------
 # 3 out of 5 classes
 
 # CONDITION -> 3/5 classes complete
 # ACTION -> title scene to notify player of new npc
-3complete.0.dialogue=Yo, the names Blaidd. You haven't met me yet, but I work behind the scenes to protect this school and there seems to be something sinister going on.
-3complete.0.button.0=Can I help?
-3complete.0.button.1=Let me complete my classes first
+3complete.0.dialogue=Yo, the names Blaidd. You haven't met me yet, but I work behind the scenes to protect this school and there seems to be something sinister going on. Would you like to help?
+# yes
+# no
 
 3complete.1.dialogue=You sure you want to skip the rest of your classes? You won't be able to finish them if you come with me.
-# generic button 4
-# generic button 5
+# yes
+# no
 
 3complete.2.dialogue=Understandable, it is probably best you complete your classes.
-3complete.2.button.0=I'll be back after I'm done
+# close
 
 3complete.3.dialogue=Let's go protect ABACWS!
 3complete.3.button.0=Yes Sir!
 
 # --------------------------------------------------
-# 5 out of 5 classes complete
-
-# CONDITION 5/5 classes complete
-# ACTION -> title scene to notify player to return
-5complete.0.dialogue=We should be more than ready to protect ABACWS now you've completed all your classes.
-5complete.0.button.0=Let's go!
-
-# --------------------------------------------------
 # end sequence
 
 end.0.dialogue=The weathers taking a turn for the worst. I can sense some sort of creature is approaching.
-end.0.button.0=We need to defeat it.
-# ACTION -> change weather, spawn creature
+# next ACTION -> change weather, spawn creature
 # |
 end.1.dialogue=The only way to defeat it is to place protection stones around ABACWS. The issue is they're only given to exceptional students.
-end.1.button.0=I may be able to help with that
+# next
 # |
-end.2.dialogue=You're right! I reckon if you complete 1 final task for each class you completed you'll be rewarded. I'll create some final tasks for you now.
-end.2.button=I'll make sure I succeed.
-# ACTION -> tasks appear for each class completed
+end.2.dialogue=Wait, you're an expectional student! I reckon if you complete 1 final task for each class you completed you'll be rewarded. I'll create some final tasks for you now.
+# okay ACTION -> tasks appear for each class completed
 
 end.3.dialogue=Complete those tasks!
-# generic button 6
+# close
 
 # CONDITION -> all tasks complete
 end.4.dialogue=You did it! Place those 4 protection stones on the pedestals located around the building.
-end.4.button.0=I'm on it
+# okay
 
 # CONDITION -> all 4 protection stones placed
 end.5.dialogue=Look the barriers going up. The creature is retreating.
-end.5.button.0=I did it
+# next
 # |
 end.6.dialogue=You did a great job, you're an excellent student.
-# generic button 3
-# ACTION -> completion
+# complete
