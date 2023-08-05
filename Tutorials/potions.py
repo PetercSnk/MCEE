@@ -26,7 +26,14 @@
 # agent.teleport(position, direction) - teleports your pet to a position facing NORTH, SOUTH, EAST or WEST
 # remember to use a for loop with range(start, end)!
 
+# speak to Tanith to clear the room and reset your pet 
+
 # write your code here
+
+
+
+
+
 
 
 
@@ -36,6 +43,7 @@
 # we can do this with agent.inspect(AgentInspection.BLOCK, direction)
 # this will provide us with the name of the block
 # use this and our chosen coloured wool block in an if statement to make the comparison
+# block names are PURPLE_WOOL, BLUE_WOOL, CYAN_WOOL, LIME_WOOL, YELLOW_WOOL, ORANGE_WOOL, RED_WOOL, PINK_WOOL, MAGENTA_WOOL, REDSTONE_BLOCK, and GLOWSTONE
 # when a match is made you can interact using agent.interact(direction) and then break the loop
 # edit the code you wrote above
 

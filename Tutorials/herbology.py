@@ -13,14 +13,17 @@
 # make sure to also use a suitable name when assigning data to variables
 
 # example:
-# name = "Flower"           # string
-# height_cm = 25            # integer
-# dangerous = False         # boolean
-# colours = (pink, white)   # tuple
-# lifespan_years = 0.5      # float
-# owners = ["bob", "john"]  # list
+# name = "Flower"               # strings are good for storing a series of characters
+# height_cm = 25                # use an integer when you are using whole numbers
+# dangerous = False             # if something can be either true or false use a boolean
+# colours = ("pink", "white")   # tuples cannot be changed after assigned (immutable), they can also contain different data types within them e.g. ("string", integer)
+# lifespan_years = 0.5          # floats are used when decimals are needed
+# owners = ["bob", "john"]      # lists can be changed after assigned, they can also contain different data types within them e.g. ["string", integer]
 
 # write your code here
+
+
+
 
 
 

@@ -41,23 +41,24 @@ spell3 = "abcd123-.,"       # this should tell user it's incorrect, try your own
 
 # write your code here
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+# def ipo(spell):
+#     lower = spell.lower()
+#     strip = lower.strip()
+#     replace = strip.replace(" ", "")
+#     agent.set_slot(1)
+#     if replace == "alakazam":
+#         agent.set_item(BLACKSTONE, 1, 1)
+#         agent.move(FORWARD, 2)
+#         agent.place(FORWARD)
+#     elif replace == "bamzook":
+#         agent.set_item(ICE, 1, 1)
+#         agent.move(FORWARD, 5)
+#         agent.place(FORWARD)
+#     elif replace == "abracadabra":
+#         agent.set_item(DIAMOND_BLOCK, 1, 1)
+#         agent.move(FORWARD, 11)
+#         agent.place(FORWARD)
+#     else:
+#         print("incorrect")
+#
+# ipo(SPELL)
