@@ -1,17 +1,17 @@
-scoreboard objectives remove potions
-scoreboard objectives remove herbology
-scoreboard objectives remove spells
-scoreboard objectives remove alchemy
-scoreboard objectives remove astronomy
-scoreboard objectives remove npc1_001
-scoreboard objectives remove 001_potions
-scoreboard objectives remove 001_herbology
-scoreboard objectives remove 001_spells
-scoreboard objectives remove 001_alchemy
-scoreboard objectives remove 001_astronomy
-scoreboard objectives remove potions_comp
-scoreboard objectives remove herbology_comp
-scoreboard objectives remove spells_comp
-scoreboard objectives remove alchemy_comp
-scoreboard objectives remove astronomy_comp
-scoreboard objectives remove tmp
+scoreboard players set @a potions 0
+scoreboard players set @a herbology 0
+scoreboard players set @a spells 0
+scoreboard players set @a alchemy 0
+scoreboard players set @a astronomy 0
+scoreboard players set @a npc1_001 0
+scoreboard players set @a 001_potions 0
+scoreboard players set @a 001_herbology 0
+scoreboard players set @a 001_spells 0
+scoreboard players set @a 001_alchemy 0
+scoreboard players set @a 001_astronomy 0
+scoreboard players set @a potions_comp 0
+scoreboard players set @a herbology_comp 0
+scoreboard players set @a spells_comp 0
+scoreboard players set @a alchemy_comp 0
+scoreboard players set @a astronomy_comp 0
+scoreboard players set @a tmp 0
