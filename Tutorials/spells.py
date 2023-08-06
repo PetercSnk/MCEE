@@ -32,6 +32,9 @@ spell3 = "abcd123-.,"       # this should tell user it's incorrect, try your own
 # agent.move(direction, number_of_blocks)   # moves your pet in a direction, x amount of blocks
 # agent.place(DIRECTION)                    # places the selected slot in a direction
 # directions are UP, DOWN, LEFT, RIGHT, FORWARD, and BACK
+# world(x, y, z)                            # specifies a position in the world
+# agent.teleport(position, direction)       # teleports your pet to a position facing NORTH, SOUTH, EAST or WEST
+# the location you will want your pet to start at is x = -267, y = -43, z = 244, facing north
 
 # alakazam requires BLACKSTONE to be placed 2 blocks from the start
 # bamzook requires ICE to be placed 5 blocks from the start
@@ -39,9 +42,8 @@ spell3 = "abcd123-.,"       # this should tell user it's incorrect, try your own
 
 # speak to Sellen to clear the room and reset your pet 
 
+# to complete this class you will need to place all 3 blocks
 # write your code here
-
-
 
 
 

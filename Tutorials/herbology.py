@@ -20,6 +20,7 @@
 # lifespan_years = 0.5          # floats are used when decimals are needed
 # owners = ["bob", "john"]      # lists can be changed after assigned, they can also contain different data types within them e.g. ["string", integer]
 
+# to complete this class you will need to place the correct plants in the sample location
 # write your code here
 
 
@@ -28,4 +29,3 @@
 
 
 
-# to complete this class you will need to place the correct plants in the sample location

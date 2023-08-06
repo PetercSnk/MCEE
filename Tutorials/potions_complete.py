@@ -20,31 +20,40 @@
 
 # first get your pet to traverse the coloured wool blocks and return to the start when it reaches the end
 # useful commands:
-# pos(x, y, z) - specifies a position in the world
-# agent.move(direction, number_of_blocks) - moves your pet in a direction, x amount of blocks
+# world(x, y, z)                            # specifies a position in the world
+# agent.move(direction, number_of_blocks)   # moves your pet in a direction, x amount of blocks
 # directions are UP, DOWN, LEFT, RIGHT, FORWARD, and BACK
-# agent.teleport(position, direction) - teleports your pet to a position facing NORTH, SOUTH, EAST or WEST
+# agent.teleport(position, direction)       # teleports your pet to a position facing NORTH, SOUTH, EAST or WEST
+# the location you will want your pet to start at is x = -323, y = -53, z = 244, facing east
 # remember to use a for loop with range(start, end)!
 
 # speak to Tanith to clear the room and reset your pet 
 
+# to complete this class you will need to brew a splash potion of strength 2
 # write your code here
 
-# start = pos(x, y, z)
-# for index in range(0, coloured_wool_blocks_length):
-#     if agent.inspect(AgentInspection.BLOCK, DOWN) == chosen_coloured_wool_block:
-#         agent.interact(RIGHT)
-#         break
-#     agent.move(FORWARD, 1)
-# agent.teleport(start)
+start = world(-323, -53, 244)
+agent.teleport(start, EAST)
+for index in range(0, 12):
+    agent.move(FORWARD, 1)
+agent.teleport(start, EAST)
+
+start = world(-323, -53, 244)
+agent.teleport(start, EAST)
+for index in range(0, 12):
+    if agent.inspect(AgentInspection.BLOCK, DOWN) == chosen_coloured_wool_block:
+        agent.interact(RIGHT)
+        break
+    agent.move(FORWARD, 1)
+agent.teleport(start, EAST)
 
 # once that works we can implement our comparison
 # before we move our pet we now want to inspect the block below
 # we can do this with agent.inspect(AgentInspection.BLOCK, direction)
-# this will provide us with the name of the block
-# use this and our chosen coloured wool block in an if statement to make the comparison
-# block names are PURPLE_WOOL, BLUE_WOOL, CYAN_WOOL, LIME_WOOL, YELLOW_WOOL, ORANGE_WOOL, RED_WOOL, PINK_WOOL, MAGENTA_WOOL, REDSTONE_BLOCK, and GLOWSTONE
+# this will provide us with the id of the block
+# use this and a chosen id in an if statement to make the comparison
+# the ids for all the blocks are:
+# oak planks = 5, cobblestone = 4, sandstone = 24, quartz block = 155, lime concrete = 236, shroomlight = 766, bricks = 45, 
+# hay bale = 170, purpur block = 201, redstone block = 152, glowstone = 89
 # when a match is made you can interact using agent.interact(direction) and then break the loop
 # edit the code you wrote above
-
-# to complete this class you will need to brew a splash potion of strength 2
