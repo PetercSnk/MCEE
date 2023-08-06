@@ -51,7 +51,7 @@ tp @e [type=npc, tag=npc1] -285 -59 243
 tp @e [type=npc, tag=npc2] -257 -59 245
 tp @e [type=npc, tag=npc3] -330 -53 242
 tp @e [type=npc, tag=npc4] -342 -48 235
-tp @e [type=npc, tag=npc5] -261 -43 244
+tp @e [type=npc, tag=npc5] -272 -43 239
 tp @e [type=npc, tag=npc6] -263 -38 238
 tp @e [type=npc, tag=npc7] -236 -33 234
 tp @e [type=npc, tag=npc80] -288 -59 222
