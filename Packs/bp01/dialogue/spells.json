@@ -27,7 +27,7 @@
                             "function inclass/spells",
                             "function guides/reset",
                             "dialogue change @e [type=npc, tag=npc5] spells2",
-                            "codebuilder navigate @p true INSERT_URL_4_SPELLS"
+                            "codebuilder navigate @p true https://makecode.com/_UkDio2TL97qg"
                         ]
                     },
                     {

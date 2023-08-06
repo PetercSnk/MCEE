@@ -29,7 +29,7 @@
                         "name": {"rawtext": [{"translate": "okay.button"}]},
                         "commands": [
                             "dialogue change @e [type=npc, tag=npc7] astronomy2",
-                            "codebuilder navigate @p true INSERT_URL_4_ASTRONOMY"
+                            "codebuilder navigate @p true https://makecode.com/_MhRAwF8quAtk"
                         ]
                     }
                 ]

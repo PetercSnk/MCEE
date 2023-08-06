@@ -59,7 +59,7 @@
                         "name": {"rawtext": [{"translate": "yes.button"}]},
                         "commands": [
                             "dialogue change @e [type=npc, tag=npc4] herbology4",
-                            "codebuilder navigate @p true INSERT_URL_4_HERBOLOGY"
+                            "codebuilder navigate @p true https://makecode.com/_6m6Ey2ir15aX"
                         ]
                     },
                     {
