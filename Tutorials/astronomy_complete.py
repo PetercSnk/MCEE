@@ -37,9 +37,9 @@ start = world(-270, -28, 227)
 agent.teleport(start, EAST)
 agent.set_slot(1)
 agent.set_item(GLOWSTONE, 64, 1)
-for element in array_1d:
+for x in array_1d:
     agent.move(FORWARD, 1)
-    if element == 1:
+    if x == 1:
         agent.place(BACK)
 
 # if we want to use the whole checkered grid we need to use a 2d array
@@ -72,10 +72,10 @@ start = world(-270, -28, 227)
 agent.teleport(start, EAST)
 agent.set_slot(1)
 agent.set_item(GLOWSTONE, 64, 1)
-for array in array_2d:
-    for element in array:
+for each in array_2d:
+    for y in each:
         agent.move(FORWARD, 1)
-        if element == 1:
+        if y == 1:
             agent.place(BACK)
     agent.move(RIGHT, 1)
     agent.move(BACK, 10)
