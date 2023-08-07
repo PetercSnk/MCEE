@@ -1,1 +1,1 @@
-particle test:rainbow -330 -51 242
+particle notify -330 -50 242

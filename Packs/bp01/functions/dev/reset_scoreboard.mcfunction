@@ -3,6 +3,7 @@ scoreboard players set @a herbology 0
 scoreboard players set @a spells 0
 scoreboard players set @a alchemy 0
 scoreboard players set @a astronomy 0
+scoreboard players set @a 3complete 0
 scoreboard players set @a npc1_001 0
 scoreboard players set @a 001_potions 0
 scoreboard players set @a 001_herbology 0
@@ -14,4 +15,6 @@ scoreboard players set @a herbology_comp 0
 scoreboard players set @a spells_comp 0
 scoreboard players set @a alchemy_comp 0
 scoreboard players set @a astronomy_comp 0
+scoreboard players set @a classes_comp 0
 scoreboard players set @a tmp 0
+scoreboard players set @a 3complete_init 0

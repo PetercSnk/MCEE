@@ -98,5 +98,6 @@ execute if block -264 -28 236 glowstone run particle star -264 -10 236
 execute if block -263 -28 236 glowstone run particle star -263 -10 236
 execute if block -262 -28 236 glowstone run particle star -262 -10 236
 execute if block -261 -28 236 glowstone run particle star -261 -10 236
-execute if block -270 -28 227 glowstone if block -268 -28 228 glowstone if block -266 -28 230 glowstone if block -265 -28 232 glowstone if block -266 -28 234 glowstone if block -261 -28 234 glowstone if block -262 -28 236 glowstone run scoreboard players set @p astronomy_complete 1
-execute if score @p astronomy matches 1 if score @p astronomy_complete matches 1 run function story/astronomy/complete
+execute if block -270 -28 227 glowstone if block -268 -28 228 glowstone if block -266 -28 230 glowstone if block -265 -28 232 glowstone if block -266 -28 234 glowstone if block -261 -28 234 glowstone if block -262 -28 236 glowstone run scoreboard players set @p astronomy_comp 1
+execute if score @p astronomy_comp matches 1 run function story/astronomy/notify
+execute if score @p astronomy_comp matches 1 if score @p tmp matches 1 run function story/astronomy/complete
