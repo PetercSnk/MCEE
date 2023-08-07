@@ -59,6 +59,7 @@
                         "name": {"rawtext": [{"translate": "complete.button"}]},
                         "commands": [
                             "function inclass/reset",
+                            "function story/astronomy/clear_area",
                             "dialogue change @e [type=npc, tag=npc7] classcomplete4"
                         ]
                     }
