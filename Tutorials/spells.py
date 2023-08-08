@@ -20,12 +20,12 @@
 # inputs
 spell0 = "AlAkAzAm"         # alakazam
 spell1 = "  baMzook  "      # bamzook
-spell2 = "AbRa Cada brA"    # abracadabra
+spell2 = " AbRa CadabrA  "  # abracadabra
 spell3 = "abcd123-.,"       # this should tell user it's incorrect, try your own strings to test
 
 # useful commands:
-# INPUT_STRING.lower()                      # makes lowercase
-# INPUT_STRING.strip()                      # removes trailing and leading whitespace
+# INPUT_STRING.to_lower_case()              # makes lowercase
+# INPUT_STRING.trim()                       # removes trailing and leading whitespace
 # INPUT_STRING.replace("x","y")             # replaces character x with character y
 # agent.set_slot(1)                         # sets what slot your pet will use
 # agent.set_item(BLOCK_NAME, COUNT, SLOT)   # sets a slot in your pet to a block
