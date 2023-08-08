@@ -45,10 +45,11 @@ spell3 = "abcd123-.,"       # this should tell user it's incorrect, try your own
 # to complete this class you will need to place all 3 blocks
 # write your code here
 
-current_spell = spell0
-lower = current_spell.lower()
-strip = lower.strip()
+current_spell = spell2
+lower = current_spell.to_lower_case()
+strip = lower.trim()
 replace = strip.replace(" ", "")
+player.say(replace)
 agent.set_slot(1)
 if replace == "alakazam":
     agent.set_item(BLACKSTONE, 1, 1)
@@ -63,4 +64,4 @@ elif replace == "abracadabra":
     agent.move(FORWARD, 11)
     agent.place(FORWARD)
 else:
-    print("incorrect")
+    player.say("incorrect")
