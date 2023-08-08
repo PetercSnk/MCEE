@@ -17,8 +17,8 @@ next.button=Next
 complete.button=Complete
 understood.button=Understood
 okay.button=Okay
-ready.button=I'm ready
-notready.button=Not yet
+ready.button=I'm Ready
+notready.button=Not Yet
 yes.button=Yes
 no.button=No
 close.button=Close
@@ -115,7 +115,6 @@ potions.2.dialogue=Are you ready to start?
 
 potions.3.dialogue=To complete this class you'll need to brew a splash potion of strength II.
 # close
-potions.3.button.0=Reset pet
 
 # CONDITION -> potion strength 2 created
 potions.4.dialogue=Wow! You're amazing at this.
@@ -152,7 +151,7 @@ herbology.8.dialogue=Cornflowers are native to Europe and are part of the Astera
 # close
 
 # CONDITION -> 3 samples collected
-herbology.9.dialogue=Well done! You have collected and documented 3 plants.
+herbology.9.dialogue=Well done! You have collected all 4 samples.
 # complete button
 
 # --------------------------------------------------
@@ -167,7 +166,8 @@ spells.1.dialogue=Each spell requires an exchange, They are not free. Some of th
 
 spells.2.dialogue=To complete this class you are required to cast 3 different spells.
 # close
-spells.2.button.0=Summon new target dummy
+spells.2.button.0=Summon Target
+spells.2.button.1=Clear Area
 
 # CONDITION -> 3 spells cast
 spells.3.dialogue=You have managed to cast 3 spells, great job!
@@ -219,7 +219,7 @@ astronomy.3.dialogue=You did a great job!
 
 # CONDITION -> 3/5 classes complete
 # ACTION -> title scene to notify player of new npc
-3complete.0.dialogue=Yo, the names Blaidd. You haven't met me yet, but I work behind the scenes to protect this school and there seems to be something sinister going on. Would you like to help?
+3complete.0.dialogue=Yo, the names Blaidd. I work behind the scenes to protect this school and there seems to be something sinister going on. Would you like to help?
 # yes
 # no
 
