@@ -1,1 +1,1 @@
-particle notify x y z
+particle notify -294 -56 262

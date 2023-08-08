@@ -16,5 +16,8 @@ scoreboard players set @a spells_comp 0
 scoreboard players set @a alchemy_comp 0
 scoreboard players set @a astronomy_comp 0
 scoreboard players set @a classes_comp 0
+scoreboard players set @a 3complete_comp 0
 scoreboard players set @a tmp 0
 scoreboard players set @a 3complete_init 0
+scoreboard players set @a int 2
+scoreboard players set @a weather 0

@@ -32,6 +32,7 @@ scoreboard objectives add spells_comp dummy
 scoreboard objectives add alchemy_comp dummy
 scoreboard objectives add astronomy_comp dummy
 scoreboard objectives add classes_comp dummy
+scoreboard objectives add 3complete_comp dummy
 
 scoreboard players set @a potions_comp 0
 scoreboard players set @a herbology_comp 0
@@ -39,8 +40,13 @@ scoreboard players set @a spells_comp 0
 scoreboard players set @a alchemy_comp 0
 scoreboard players set @a astronomy_comp 0
 scoreboard players set @a classes_comp 0
+scoreboard players set @a 3complete_comp 0
 
 scoreboard objectives add tmp dummy
 scoreboard players set @a tmp 0
 scoreboard objectives add 3complete_init dummy
 scoreboard players set @a 3complete_init 0
+scoreboard objectives add int dummy
+scoreboard players set @a int 2
+scoreboard objectives add weather dummy
+scoreboard players set @a weather 0
