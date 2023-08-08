@@ -42,7 +42,6 @@
                             "function guides/reset",
                             "dialogue change @e [type=npc, tag=npc3] potions3",
                             "codebuilder navigate @p true https://makecode.com/_Kv34Ce84siw5"
-                            
                         ]
                     },
                     {
@@ -57,12 +56,6 @@
                 "buttons": [
                     {
                         "name": {"rawtext": [{"translate": "close.button"}]}
-                    },
-                    {
-                        "name": {"rawtext": [{"translate": "potions.3.button.0"}]},
-                        "commands": [
-                            "function story/potions/reset_agent"
-                        ]
                     }
                 ]
             },

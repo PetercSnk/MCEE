@@ -12,7 +12,8 @@
                         "commands": [
                             "function inclass/astronomy",
                             "function guides/reset",
-                            "function story/astronomy/teleport_rooftop"
+                            "function story/astronomy/teleport_rooftop",
+                            "function story/astronomy/npc7_move"
                         ]
                     },
                     {

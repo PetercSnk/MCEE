@@ -46,7 +46,13 @@
                     {
                         "name": {"rawtext": [{"translate": "spells.2.button.0"}]},
                         "commands": [
-                            "SUMMON SNOW GOLEM"
+                            "function story/spells/summon_target"
+                        ]
+                    },
+                    {
+                        "name": {"rawtext": [{"translate": "spells.2.button.1"}]},
+                        "commands": [
+                            "function story/spells/clear_area"
                         ]
                     }
                 ]
@@ -60,6 +66,7 @@
                         "name": {"rawtext": [{"translate": "complete.button"}]},
                         "commands": [
                             "function inclass/reset",
+                            "function story/spells/clear_area",
                             "dialogue change @e [type=npc, tag=npc5] classcomplete2"
                         ]
                     }
