@@ -61,7 +61,6 @@
                         "name": {"rawtext": [{"translate": "3complete.3.button.0"}]},
                         "commands": [
                             "scoreboard players set @p 3complete_comp 1",
-                            "function inclass/reset",
                             "dialogue open @e [type=npc, tag=npc9] @p end0",
                             "dialogue change @e [type=npc, tag=npc9] end0"
                         ]

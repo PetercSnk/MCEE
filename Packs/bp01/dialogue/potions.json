@@ -40,8 +40,8 @@
                         "commands": [
                             "function inclass/potions",
                             "function guides/reset",
-                            "dialogue change @e [type=npc, tag=npc3] potions3",
-                            "codebuilder navigate @p true https://makecode.com/_Kv34Ce84siw5"
+                            "codebuilder navigate @p true https://makecode.com/_Kv34Ce84siw5",
+                            "dialogue change @e [type=npc, tag=npc3] potions3"
                         ]
                     },
                     {
