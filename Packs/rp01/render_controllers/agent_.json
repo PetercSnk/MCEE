@@ -1,0 +1,26 @@
+{
+	"format_version": "1.8.0",
+	"render_controllers": {
+		"controller.render.agent": {
+			"arrays": {
+				"textures": {
+				  "array.textures": [
+					  "texture.skin_0",
+					  "texture.skin_1",
+					  "texture.skin_2",
+					  "texture.skin_3"
+					]
+				}
+			},
+			"geometry": "geometry.default",
+			"textures": [
+				"array.textures[query.skin_id]"
+			],
+			"materials": [
+				{
+					"*": "material.default"
+				}
+			]
+		}
+	}
+}
