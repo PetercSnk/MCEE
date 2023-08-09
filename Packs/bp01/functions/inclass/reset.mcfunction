@@ -13,4 +13,3 @@ execute if score @p alchemy_comp matches 1 if score @p alchemy matches 1 run sco
 execute if score @p astronomy_comp matches 0 run dialogue change @e [type=npc, tag=npc7] astronomy0
 execute if score @p astronomy_comp matches 1 if score @p astronomy matches 1 run scoreboard players add @p classes_comp 1
 execute if score @p astronomy_comp matches 1 if score @p astronomy matches 1 run scoreboard players set @p astronomy 0
-execute if score @p 3complete_comp matches 1 if score @p 3complete matches 1 run scoreboard players set @p 3complete 0

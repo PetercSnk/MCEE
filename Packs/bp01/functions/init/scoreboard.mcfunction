@@ -1,3 +1,4 @@
+scoreboard objectives add intro_stage dummy
 scoreboard objectives add potions dummy
 scoreboard objectives add herbology dummy
 scoreboard objectives add spells dummy
@@ -5,6 +6,7 @@ scoreboard objectives add alchemy dummy
 scoreboard objectives add astronomy dummy
 scoreboard objectives add 3complete dummy
 
+scoreboard players set @a intro_stage 1
 scoreboard players set @a potions 0
 scoreboard players set @a herbology 0
 scoreboard players set @a spells 0
@@ -48,5 +50,11 @@ scoreboard objectives add 3complete_init dummy
 scoreboard players set @a 3complete_init 0
 scoreboard objectives add int dummy
 scoreboard players set @a int 2
+scoreboard objectives add zero dummy
+scoreboard players set @a zero 0
 scoreboard objectives add weather dummy
 scoreboard players set @a weather 0
+scoreboard objectives add time dummy
+scoreboard players set @a time 0
+scoreboard objectives add agent dummy
+scoreboard players set @a agent 0
