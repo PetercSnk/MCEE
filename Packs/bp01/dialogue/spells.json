@@ -27,6 +27,7 @@
                             "function inclass/spells",
                             "function guides/reset",
                             "codebuilder navigate @p true https://makecode.com/_UkDio2TL97qg",
+                            "function story/spells/reset_agent",
                             "dialogue change @e [type=npc, tag=npc5] spells2"
                         ]
                     },
@@ -52,7 +53,8 @@
                     {
                         "name": {"rawtext": [{"translate": "spells.2.button.1"}]},
                         "commands": [
-                            "function story/spells/clear_area"
+                            "function story/spells/clear_area",
+                            "function story/spells/reset_agent"
                         ]
                     }
                 ]

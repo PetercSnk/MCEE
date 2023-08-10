@@ -97,7 +97,7 @@
                         "name": {"rawtext": [{"translate": "understood.button"}]},
                         "commands": [
                             "dialogue change @e [type=npc, tag=npc1] intro5",
-                            "codebuilder navigate @p false https://makecode.com/_3YET9xhRveAH"                          
+                            "codebuilder navigate @p false https://minecraft.makecode.com/91142-92610-11164-42863"                          
                         ]
                     }
                 ]
@@ -128,8 +128,8 @@
                         "name": {"rawtext": [{"translate": "okay.button"}]},
                         "commands": [
                             "function story/intro/npc1_hide",
-                            "scoreboard players set @p intro_stage 4",
-                            "scoreboard players set @p npc1_001 1"
+                            "function guides/set_001",
+                            "scoreboard players set @p intro_stage 4"
                         ]
                     }
                 ]
@@ -142,46 +142,41 @@
                     {
                         "name": {"rawtext": [{"translate": "class.button.0"}]},
                         "commands": [
+                            "function guides/set_potions",
                             "dialogue open @e [type=npc, tag=npc2] @p intro8",
-                            "dialogue change @e [type=npc, tag=npc2] intro8",
-                            "scoreboard players set @p 001_potions 1",
-                            "scoreboard players set @p npc1_001 0"
+                            "dialogue change @e [type=npc, tag=npc2] intro8"
                         ]
                     },
                     {
                         "name": {"rawtext": [{"translate": "class.button.1"}]},
                         "commands": [
+                            "function guides/set_herbology",
                             "dialogue open @e [type=npc, tag=npc2] @p intro8",
-                            "dialogue change @e [type=npc, tag=npc2] intro8",
-                            "scoreboard players set @p 001_herbology 1",
-                            "scoreboard players set @p npc1_001 0"
+                            "dialogue change @e [type=npc, tag=npc2] intro8"
                         ]
                     },
                     {
                         "name": {"rawtext": [{"translate": "class.button.2"}]},
                         "commands": [
+                            "function guides/set_spells",
                             "dialogue open @e [type=npc, tag=npc2] @p intro8",
-                            "dialogue change @e [type=npc, tag=npc2] intro8",
-                            "scoreboard players set @p 001_spells 1",
-                            "scoreboard players set @p npc1_001 0"
+                            "dialogue change @e [type=npc, tag=npc2] intro8"
                         ]
                     },
                     {
                         "name": {"rawtext": [{"translate": "class.button.3"}]},
                         "commands": [
+                            "function guides/set_alchemy",
                             "dialogue open @e [type=npc, tag=npc2] @p intro8",
-                            "dialogue change @e [type=npc, tag=npc2] intro8",
-                            "scoreboard players set @p 001_alchemy 1",
-                            "scoreboard players set @p npc1_001 0"
+                            "dialogue change @e [type=npc, tag=npc2] intro8"                  
                         ]
                     },
                     {
                         "name": {"rawtext": [{"translate": "class.button.4"}]},
                         "commands": [
+                            "function guides/set_astronomy",
                             "dialogue open @e [type=npc, tag=npc2] @p intro8",
-                            "dialogue change @e [type=npc, tag=npc2] intro8",
-                            "scoreboard players set @p 001_astronomy 1",
-                            "scoreboard players set @p npc1_001 0"
+                            "dialogue change @e [type=npc, tag=npc2] intro8"
                         ]
                     }
                 ]
@@ -208,51 +203,31 @@
                     {
                         "name": {"rawtext": [{"translate": "class.button.0"}]},
                         "commands": [
-                            "scoreboard players set @p 001_potions 1",
-                            "scoreboard players set @p 001_herbology 0",
-                            "scoreboard players set @p 001_spells 0",
-                            "scoreboard players set @p 001_alchemy 0",
-                            "scoreboard players set @p 001_astronomy 0"
+                            "function guides/set_potions"
                         ]
                     },
                     {
                         "name": {"rawtext": [{"translate": "class.button.1"}]},
                         "commands": [
-                            "scoreboard players set @p 001_potions 0",
-                            "scoreboard players set @p 001_herbology 1",
-                            "scoreboard players set @p 001_spells 0",
-                            "scoreboard players set @p 001_alchemy 0",
-                            "scoreboard players set @p 001_astronomy 0"
+                            "function guides/set_herbology"
                         ]
                     },
                     {
                         "name": {"rawtext": [{"translate": "class.button.2"}]},
                         "commands": [
-                            "scoreboard players set @p 001_potions 0",
-                            "scoreboard players set @p 001_herbology 0",
-                            "scoreboard players set @p 001_spells 1",
-                            "scoreboard players set @p 001_alchemy 0",
-                            "scoreboard players set @p 001_astronomy 0"
+                            "function guides/set_spells"
                         ]
                     },
                     {
                         "name": {"rawtext": [{"translate": "class.button.3"}]},
                         "commands": [
-                            "scoreboard players set @p 001_potions 0",
-                            "scoreboard players set @p 001_herbology 0",
-                            "scoreboard players set @p 001_spells 0",
-                            "scoreboard players set @p 001_alchemy 1",
-                            "scoreboard players set @p 001_astronomy 0"
+                            "function guides/set_alchemy"
                         ]
                     },
                     {
                         "name": {"rawtext": [{"translate": "class.button.4"}]},
                         "commands": [
-                            "scoreboard players set @p 001_potions 0",
-                            "scoreboard players set @p 001_herbology 0",
-                            "scoreboard players set @p 001_spells 0",
-                            "scoreboard players set @p 001_alchemy 0",
-                            "scoreboard players set @p 001_astronomy 1"
+                            "function guides/set_astronomy"
                         ]
                     }
                 ]

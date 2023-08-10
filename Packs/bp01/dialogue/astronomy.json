@@ -32,6 +32,7 @@
                         "commands": [
                             "scoreboard players set @p time 1",
                             "codebuilder navigate @p true https://makecode.com/_YiJKWtddxJuU",
+                            "function story/astronomy/reset_agent",
                             "dialogue change @e [type=npc, tag=npc7] astronomy2"
                         ]
                     }
@@ -48,7 +49,8 @@
                     {
                         "name": {"rawtext": [{"translate": "astronomy.2.button.0"}]},
                         "commands": [
-                            "function story/astronomy/clear_area"
+                            "function story/astronomy/clear_area",
+                            "function story/astronomy/reset_agent"
                         ]
                     }
                 ]
