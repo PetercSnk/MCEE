@@ -1,0 +1,1 @@
+mobevent events_enabled false
