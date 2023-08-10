@@ -1,1 +1,1 @@
-tp @e [type=npc, tag=npc7] -258 -28 226
+tp @e [type=npc, tag=npc7] -259 -27 225 facing -263 -28 229

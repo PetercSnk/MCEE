@@ -12,3 +12,5 @@ scoreboard players set @p alch2 0
 scoreboard players set @p alch3 0
 scoreboard players set @p alchemy 1
 scoreboard players set @p tmp 1
+give @p wool 64 0
+give @p wool 64 15

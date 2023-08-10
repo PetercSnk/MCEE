@@ -11,3 +11,9 @@ execute if score @p time matches 1 run time set night
 execute if score @p agent matches 1 if entity @c [tag=!skin_1] run tag @c add skin_1
 execute if score @p agent matches 2 if entity @c [tag=!skin_2] run tag @c add skin_2
 execute if score @p agent matches 3 if entity @c [tag=!skin_3] run tag @c add skin_3
+execute if score @p npc1_001 matches 1 run function guides/npc1_001
+execute if score @p 001_potions matches 1 run function guides/001_potions
+execute if score @p 001_herbology matches 1 run function guides/001_herbology
+execute if score @p 001_spells matches 1 run function guides/001_spells
+execute if score @p 001_alchemy matches 1 run function guides/001_alchemy
+execute if score @p 001_astronomy matches 1 run function guides/001_astronomy
