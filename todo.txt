@@ -1,6 +1,3 @@
 final tasks, make them basic
 add whiteboards for instructions, potion recipes, spell names, class rooms
 makecode tutorials - make smaller and clearer
-item to reset agent, or tp to you
-remove agent after each lesson then spawn in for lessons needed
-potions 1 item??
