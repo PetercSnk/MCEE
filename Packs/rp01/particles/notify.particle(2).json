@@ -2,7 +2,7 @@
 	"format_version": "1.10.0",
 	"particle_effect": {
 		"description": {
-			"identifier": "notify",
+			"identifier": "notify2",
 			"basic_render_parameters": {
 				"material": "particles_blend",
 				"texture": "textures/particle/particles"
@@ -10,8 +10,8 @@
 		},
 		"components": {
 			"minecraft:emitter_rate_steady": {
-				"spawn_rate": 5,
-				"max_particles": 10
+				"spawn_rate": 25,
+				"max_particles": 50
 			},
 			"minecraft:emitter_lifetime_looping": {
 				"active_time": 1
@@ -26,9 +26,10 @@
 				"rotation": "variable.particle_random_1*360",
 				"rotation_rate": 90
 			},
-			"minecraft:particle_initial_speed": 2,
+			"minecraft:particle_initial_speed": 1,
 			"minecraft:particle_motion_dynamic": {
-				"linear_drag_coefficient": 2,
+				"linear_acceleration": [0, 3, 0],
+				"linear_drag_coefficient": 3,
 				"rotation_acceleration": 2,
 				"rotation_drag_coefficient": 1
 			},
@@ -39,7 +40,7 @@
 					"texture_width": 128,
 					"texture_height": 128,
 					"flipbook": {
-						"base_UV": [24, 72],
+						"base_UV": [58, 0],
 						"size_UV": [8, 8],
 						"step_UV": [-8, 0],
 						"frames_per_second": 8,

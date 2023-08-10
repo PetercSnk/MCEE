@@ -17,11 +17,11 @@
 				"spawn_rate": 250,
 				"max_particles": 600
 			},
-			"minecraft:emitter_lifetime_expression": {
-				"activation_expression": 1
+			"minecraft:emitter_lifetime_once": {
+				"active_time": 5
 			},
 			"minecraft:emitter_shape_disc": {
-				"radius": 2,
+				"radius": 0.1,
 				"surface_only": true,
 				"direction": "outwards"
 			},
