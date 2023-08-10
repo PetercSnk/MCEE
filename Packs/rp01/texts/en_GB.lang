@@ -52,7 +52,7 @@ in.class.dialogue=Shouldn't you be in class? You can't attend this class until y
 # --------------------------------------------------
 # class completion
 
-class.complete.dialogue=You have already completed this class.
+class.complete.dialogue=You have already completed this class. Speak to Rogier, or make your way to another class.
 # close
 
 # --------------------------------------------------
@@ -116,6 +116,7 @@ potions.2.dialogue=Are you ready to start?
 
 potions.3.dialogue=To complete this class you'll need to brew a splash potion of strength II.
 # close
+potions.3.button.0=Reset Agent
 
 # CONDITION -> potion strength 2 created
 potions.4.dialogue=Wow! You're amazing at this.
@@ -168,7 +169,7 @@ spells.1.dialogue=Each spell requires an exchange, They are not free. Some of th
 spells.2.dialogue=To complete this class you are required to cast 3 different spells.
 # close
 spells.2.button.0=Summon Target
-spells.2.button.1=Clear Area
+spells.2.button.1=Reset Area
 
 # CONDITION -> 3 spells cast
 spells.3.dialogue=You have managed to cast 3 spells, great job!
@@ -209,7 +210,7 @@ astronomy.1.dialogue=In this class we will harness the power of the stars. To do
 
 astronomy.2.dialogue=To pass astronomy you will need to construct the big dipper. The layout is provided in your workbook.
 # close
-astronomy.2.button.0=Clear Area
+astronomy.2.button.0=Reset Grid
 
 # CONDITION -> constellation complete
 astronomy.3.dialogue=You did a great job! 
