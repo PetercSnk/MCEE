@@ -217,7 +217,7 @@ astronomy.3.dialogue=You did a great job!
 # complete button
 
 # --------------------------------------------------
-# 3 out of 5 classes
+# 3 out of 5 classes complete
 
 # CONDITION -> 3/5 classes complete
 # ACTION -> title scene to notify player of new npc
@@ -232,31 +232,63 @@ astronomy.3.dialogue=You did a great job!
 3complete.2.dialogue=Understandable, it is probably best you complete your classes. Return to me once you are done.
 # close
 
-3complete.3.dialogue=Let's go protect ABACWS!
-3complete.3.button.0=Yes Sir!
+3complete.3.dialogue=You've completed all your classes, nice job! Are you ready to help me out?
+# yes
+# no
+
+3complete.4.dialogue=Let's go protect ABACWS!
+3complete.4.button.0=Yes Sir! 
+# ACTION -> change weather
 
 # --------------------------------------------------
 # end sequence
 
-end.0.dialogue=The weathers taking a turn for the worst. I can sense some sort of creature is approaching.
-# next ACTION -> change weather, spawn creature
+end.0.dialogue=The weathers taking a turn for the worst. I can sense some sort of creature approaching.
+# next 
 # |
-end.1.dialogue=The only way to defeat it is to place protection stones around ABACWS. The issue is they're only given to exceptional students.
+end.1.dialogue=The only way to stop it is to place protection stones around ABACWS. The issue is i'm only allowed to give them to exceptional students.
 # next
 # |
-end.2.dialogue=Wait, you're an expectional student! I reckon if you complete 1 final task for each class you completed you'll be rewarded. I'll create some final tasks for you now.
+end.2.dialogue=Wait, you're an expectional student! If you can answer these questions about the classes you completed I can give you them.
 # okay ACTION -> tasks appear for each class completed
 
-end.3.dialogue=Complete those tasks!
-# close
+end.3.dialogue=What is the worst case search time in linear search where n is the length of the array?
+end.3.button.0=n
+end.3.button.1=1
+end.3.button.2=n^2
+end.3.button.3=n/2
+
+end.4.dialogue=True and False are examples of what data type?
+end.4.button.0=String
+end.4.button.1=Integer
+end.4.button.2=Boolean
+end.4.button.3=Float
+
+end.5.dialogue=What is the first stage of the IPO concept?
+end.5.button.0=Process
+end.5.button.1=Input
+end.5.button.2=Output
+
+end.6.dialogue=When we make 3 binary shifts to the right what is that the equivalent of?
+end.6.button.0=Divide by 3
+end.6.button.1=Divide by 4
+end.6.button.2=Divide by 8
+end.6.button.3=Divide by 6
+
+end.7.dialogue=How many dimensions is the following array [[[0, 1],[1, 0]],[[2, 9],[3, 7]],[[4, 3],[2, 2]],[[7, 7],[1, 0]]]?
+end.7.button.0=3
+end.7.button.1=4
+end.7.button.2=5
+end.7.button.3=6
 
 # CONDITION -> all tasks complete
-end.4.dialogue=You did it! Place those 4 protection stones on the pedestals located around the building.
+end.8.dialogue=You did it! Take these 4 protection stones and place them on the pedestals located around the building.
+# okay
+
+end.9.dialogue=Quick! You gotta place the protection stones.
 # okay
 
 # CONDITION -> all 4 protection stones placed
-end.5.dialogue=Look the barriers going up. The creature is retreating.
-# next
-# |
-end.6.dialogue=You did a great job, you're an excellent student.
-# complete
+end.10.dialogue=You've done it! I knew I could count on you. You did a great job. Would you like to explore or restart the map?
+end.10.button.0=Explore
+end.10.button.1=Restart

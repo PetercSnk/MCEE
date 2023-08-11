@@ -30,8 +30,8 @@
                     {
                         "name": {"rawtext": [{"translate": "yes.button"}]},
                         "commands": [
-                            "dialogue open @e [type=npc, tag=npc9] @p 3complete3",
-                            "dialogue change @e [type=npc, tag=npc9] 3complete3"
+                            "dialogue open @e [type=npc, tag=npc9] @p 3complete4",
+                            "dialogue change @e [type=npc, tag=npc9] 3complete4"
                         ]
                     },
                     {
@@ -58,10 +58,29 @@
                 "text": {"rawtext": [{"translate": "3complete.3.dialogue", "with": ["\n"]}]},
                 "buttons": [
                     {
-                        "name": {"rawtext": [{"translate": "3complete.3.button.0"}]},
+                        "name": {"rawtext": [{"translate": "yes.button"}]},
+                        "commands": [
+                            "dialogue open @e [type=npc, tag=npc9] @p 3complete4",
+                            "dialogue change @e [type=npc, tag=npc9] 3complete4"
+                        ]
+                    },
+                    {
+                        "name": {"rawtext": [{"translate": "no.button"}]}
+                    }
+                ]
+            },
+            {
+                "scene_tag": "3complete4",
+                "npc_name": {"rawtext": [{"translate": "npc.name.9"}]},
+                "text": {"rawtext": [{"translate": "3complete.4.dialogue", "with": ["\n"]}]},
+                "buttons": [
+                    {
+                        "name": {"rawtext": [{"translate": "3complete.4.button.0"}]},
                         "commands": [
                             "scoreboard players set @p 3complete_comp 1",
-                            "dialogue open @e [type=npc, tag=npc9] @p end0",
+                            "scoreboard players set @p weather 1",
+                            "scoreboard players set @p time 1",
+                            "scoreboard players set @p end 1",
                             "dialogue change @e [type=npc, tag=npc9] end0"
                         ]
                     }
