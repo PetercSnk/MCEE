@@ -1,3 +1,2 @@
-final tasks, make them basic
 add whiteboards for instructions, potion recipes, spell names, class rooms
 makecode tutorials - make smaller and clearer
