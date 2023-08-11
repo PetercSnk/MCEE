@@ -1,11 +1,15 @@
+execute unless score @p init matches 1 run function init/init
 execute if score @p intro_stage > @p zero run function story/intro/check
 execute if score @p potions matches 1 run function story/potions/check
 execute if score @p herbology matches 1 run function story/herbology/check
 execute if score @p spells matches 1 run function story/spells/check
 execute if score @p alchemy matches 1 run function story/alchemy/check
 execute if score @p astronomy matches 1 run function story/astronomy/check
+execute if score @p end matches 1 run function story/end/check
 execute if score @p classes_comp > @p int if score @p 3complete_comp matches 0 run function story/3complete/check
+execute if score @p classes_comp matches 5 if score @p 5complete_init matches 0 run function story/3complete/5complete
 execute if score @p weather matches 0 run weather clear
+execute if score @p weather matches 1 run weather thunder
 execute if score @p time matches 0 run time set day
 execute if score @p time matches 1 run time set night
 execute if score @p agent matches 1 if entity @c [tag=!skin_1] run tag @c add skin_1
