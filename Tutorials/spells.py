@@ -33,6 +33,7 @@ spell3 = "abcd123-.,"       # output: "error"
 # agent.set_item(BLOCK_NAME, COUNT, SLOT_NUM)   # puts n blocks in slot SLOT_NUM
 # agent.move(DIRECTION, NUM_BLOCKS)             # moves a direction, x amount of blocks
 # agent.place(DIRECTION)                        # places the active slot in direction
+
 # DIRECTIONS are UP, DOWN, LEFT, RIGHT, FORWARD, and BACK
 # SLOT_NUM can be 1-27
 

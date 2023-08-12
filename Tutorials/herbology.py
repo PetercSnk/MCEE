@@ -1,31 +1,38 @@
 # the aim of this class is to use and understand data types
 
-# it is important to assign appropriate data types in your code as it will make your life much easier
-# to do this you should look at how and why you are using it
+# always consider what data types are most appropriate for your code 
+# to do this you should look at how and why you are using them
+
+# in Python data types will be assigned for us, nice!
+# BUT, it is important to know what data type is assigned
+# the data type assigned may not be the one you want
 
 # the data types we will look at in this class are:
 # integer, string, float, boolean, list, and tuple
 
-# as we are using Python we do not always need to specify the data type as it is done for us
-# however, it is important to know what data type is assigned as it is not always the one you want
+# use integers for whole numbers
+# height_cm = 25                
 
-# in this class you will need to go out and explore the gardens, find plants and document their properties
-# make sure to also use a suitable name when assigning data to variables
+# strings are good for storing a series of characters
+# name = "Flower"    
 
-# example:
-# name = "Flower"               # strings are good for storing a series of characters
-# height_cm = 25                # use an integer when you are using whole numbers
-# dangerous = False             # if something can be either true or false use a boolean
-# colours = ("pink", "white")   # tuples cannot be changed after assigned (immutable), they can also contain different data types within them e.g. ("string", integer)
-# lifespan_years = 0.5          # floats are used when decimals are needed
-# owners = ["bob", "john"]      # lists can be changed after assigned, they can also contain different data types within them e.g. ["string", integer]
+# floats are used when decimals are needed
+# lifespan_years = 0.5          
 
-# to complete this class you will need to place the correct plants in the sample location
+# if something can be either true or false use a boolean
+# dangerous = False            
+
+# lists are good for storing and manipulating data
+# owners = ["bob", "john"]    
+
+# tuples cannot be changed after assigned (immutable)
+# good for returning multiple things in a function!
+# colours = ("pink", "white")   
+
+# go out and explore the gardens, find plants and document their properties
+# make sure to use a suitable name when assigning your data to variables
+
+# to complete this class you will need collect the required samples 
+
 # write your code here
-
-
-
-
-
-
 
