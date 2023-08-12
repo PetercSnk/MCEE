@@ -15,3 +15,4 @@ execute if score @p astronomy_comp matches 1 if score @p astronomy matches 1 run
 execute if score @p astronomy_comp matches 1 if score @p astronomy matches 1 run scoreboard players set @p astronomy 0
 function inclass/clear_agent
 clear @p
+playsound firework.launch @p

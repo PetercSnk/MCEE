@@ -1,7 +1,7 @@
-dialogue change @e [type=npc, tag=npc3] inclass0
-dialogue change @e [type=npc, tag=npc4] inclass1
-dialogue change @e [type=npc, tag=npc6] inclass3
-dialogue change @e [type=npc, tag=npc7] inclass4
+execute if score @p potions_comp matches 0 run dialogue change @e [type=npc, tag=npc3] inclass0
+execute if score @p herbology_comp matches 0 run dialogue change @e [type=npc, tag=npc4] inclass1
+execute if score @p alchemy_comp matches 0 run dialogue change @e [type=npc, tag=npc6] inclass3
+execute if score @p astronomy_comp matches 0 run dialogue change @e [type=npc, tag=npc7] inclass4
 scoreboard objectives add spell0 dummy
 scoreboard objectives add spell1 dummy
 scoreboard objectives add spell2 dummy
