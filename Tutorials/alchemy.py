@@ -1,14 +1,30 @@
-# the aim of this class is to understand binary and how to apply addition and shifts
+# the aim of this class is to understand binary addition and shifts
 
-# you should be familiar with the decimal system which is where we represent numbers using the symbols 0 to 9
+# the decimal system represents numbers using the symbols 0 to 9
 # decimal is base 10 as we have 10 symbols (0 - 9)
-# a number like 1234 has a 4 in the 10^0 (1) slot, 3 in the 10^1 (10) slot, 2 in the 10^2 (100) slot, and 1 in the 10^3 (1000) slot
+# the value of each place is calculated by multiplying by 10^N
+
+# let's look at the number 1024
+
+# thousands (1000s) column  = 1*10^3
+# hundreds (100s) column    = 0*10^2
+# tens (10s) column         = 2*10^1
+# ones (1s) column          = 4*10^0
+
+# add all these values up 1*1000 + 0*100 + 2*10 + 4*1 = 1024
 
 # binary is base 2 as we only have 2 symbols, 0 and 1
-# we do not represent numbers as 10^x, instead we represent them as 2^x
-# this means our "slots" are 2^0 (1), 2^1 (2), 2^2 (4), 2^3 (8), 2^4 (16), 2^5 (32), and so on ...
-# the binary number 1101 has 1 in the 2^0, 0 in the 2^1, 1 in the 2^2, and 1 in the 2^3
-# this results in 1*1 + 0*2 + 1*4 + 1*8 = 13
+# the value of each place is now calculated by multipling by 2^N
+
+# let's look at the binary number 10101
+
+# sixteens (16s) column     = 1*2^4
+# eights (8s) column        = 0*2^3
+# fours (4s) column         = 1*2^2
+# twos (2s) column          = 0*2^1
+# ones (1s) column          = 1*2^0
+
+# add all these values up 1*16 + 0*8 + 1*4 + 0*2 + 1*1 = 21
 
 # to add 2 binary numbers we can follow these rules:
 # 0 + 0 = 0
@@ -22,22 +38,23 @@
 # 1100 1001 
 # 111  11  
 
-# if extra help is needed go through the example here: https://www.bbc.co.uk/bitesize/guides/z26rcdm/revision/4
+# extra help here: https://www.bbc.co.uk/bitesize/guides/z26rcdm/revision/4
 
 # shifts are simpler and just move all numbers either left or right
-# as we are in base 2 a shift one place to the left mutiplies by 2, one shift to the right divides by 2
+# 1 shift to the left mutiplies by 2
+# 1 shift to the right divides by 2
 
-# example:
-# 8  4  2  1 this is the "slot" the number is in
-# 0  1  0  1 << shift 2 places to the left
-# this is 5 in decimal
+# example with binary number 0101, or 5 in decimal:
+# 8s  4s  2s  1s
+# 0   1   0   1 
 
-# 32  16  8  4  2  1
-# 0   1   0  1  0  0
-# as we are shifting 2 places to the left it we multiply by 4 which results in 20 in decimal, 5*4 = 20
+# shifted 2 places to the left is the following:
+# 32s  16s  8s  4s  2s  1s
+# 0    1    0   1   0   0
+# 2 shifts to the left is the same as multiplying by 2 then 2 again (4)
 
-# your turn to try now, use this area for workings
-# when you know the answer use the black and white wool blocks to place it 
+# your turn to try now
+# use the black and white wool to place your answers in the sections
 # black wool = 1, white wool = 0
 
 # RED SECTION
