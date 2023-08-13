@@ -31,7 +31,7 @@
                         "name": {"rawtext": [{"translate": "okay.button"}]},
                         "commands": [
                             "scoreboard players set @p time 1",
-                            "codebuilder navigate @p true https://makecode.com/_YiJKWtddxJuU",
+                            "codebuilder navigate @p true https://minecraft.makecode.com/45746-68477-01719-73896",
                             "function story/astronomy/reset_agent",
                             "dialogue change @e [type=npc, tag=npc7] astronomy2"
                         ]
@@ -51,6 +51,12 @@
                         "commands": [
                             "function story/astronomy/clear_area",
                             "function story/astronomy/reset_agent"
+                        ]
+                    },
+                    {
+                        "name": {"rawtext": [{"translate": "answer.button"}]},
+                        "commands": [
+                            "codebuilder navigate @p true https://minecraft.makecode.com/76482-93632-11503-28191"
                         ]
                     }
                 ]

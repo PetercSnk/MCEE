@@ -26,7 +26,7 @@
                         "commands": [
                             "function inclass/spells",
                             "function guides/reset",
-                            "codebuilder navigate @p true https://makecode.com/_UkDio2TL97qg",
+                            "codebuilder navigate @p true https://minecraft.makecode.com/84967-75610-01497-46140",
                             "function story/spells/reset_agent",
                             "dialogue change @e [type=npc, tag=npc5] spells2"
                         ]
@@ -55,6 +55,12 @@
                         "commands": [
                             "function story/spells/clear_area",
                             "function story/spells/reset_agent"
+                        ]
+                    },
+                    {
+                        "name": {"rawtext": [{"translate": "answer.button"}]},
+                        "commands": [
+                            "codebuilder navigate @p true https://minecraft.makecode.com/90271-16991-01110-82326"
                         ]
                     }
                 ]

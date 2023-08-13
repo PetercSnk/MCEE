@@ -58,7 +58,7 @@
                     {
                         "name": {"rawtext": [{"translate": "yes.button"}]},
                         "commands": [
-                            "codebuilder navigate @p true https://makecode.com/_6m6Ey2ir15aX",
+                            "codebuilder navigate @p true https://minecraft.makecode.com/39530-62702-76778-60246",
                             "dialogue change @e [type=npc, tag=npc4] herbology4"
                         ]
                     },

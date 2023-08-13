@@ -54,7 +54,7 @@
                         "commands": [
                             "function inclass/alchemy",
                             "function guides/reset",
-                            "codebuilder navigate @p true https://makecode.com/_ecc7ECM1Hak0",
+                            "codebuilder navigate @p true https://minecraft.makecode.com/58311-29027-05566-71490",
                             "dialogue change @e [type=npc, tag=npc6] alchemy4"
                         ]
                     },
@@ -70,6 +70,12 @@
                 "buttons": [
                     {
                         "name": {"rawtext": [{"translate": "close.button"}]}
+                    },
+                    {
+                        "name": {"rawtext": [{"translate": "answer.button"}]},
+                        "commands": [
+                            "codebuilder navigate @p true https://minecraft.makecode.com/67954-24289-08824-65964"
+                        ]
                     }
                 ]
             },
