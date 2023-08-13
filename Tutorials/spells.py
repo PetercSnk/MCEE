@@ -19,6 +19,7 @@ spell3 = "abcd123-.,"       # output: "error"
 # write your code here for task 1
 
 
+
 # once you have managed that we can now command our familiar
 # for each output, a certain block should be placed 
 
@@ -40,4 +41,5 @@ spell3 = "abcd123-.,"       # output: "error"
 # talk to Sellen to reset familiar and clear area
 
 # write your code here for task 2
+
 
