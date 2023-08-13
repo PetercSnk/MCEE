@@ -33,4 +33,4 @@ tp @e [type=npc, tag=npc85] -280 -33 226
 tp @e [type=npc, tag=npc9] -269 -53 219
 
 tp @p -41 -58 226
-function init/misc
+execute as @p run function init/misc

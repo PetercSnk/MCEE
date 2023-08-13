@@ -1,5 +1,7 @@
-setworldspawn -41 -58 226
 gamerule sendcommandfeedback false
+remove @c
+tp @p -41 -58 226
+setworldspawn -41 -58 226
 mobevent events_enabled false
 gamemode survival @a
 gamerule domobspawning false
@@ -10,4 +12,4 @@ gamerule doinsomnia false
 gamerule falldamage false
 gamerule firedamage false
 difficulty peaceful
-effect @a saturation 86400 1 true
+effect @p saturation 86400 1 true
