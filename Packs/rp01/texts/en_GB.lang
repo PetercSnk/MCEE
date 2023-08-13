@@ -22,6 +22,7 @@ notready.button=Not Yet
 yes.button=Yes
 no.button=No
 close.button=Close
+answer.button=Answers
 
 # --------------------------------------------------
 # all class buttons
@@ -58,7 +59,7 @@ class.complete.dialogue=You have already completed this class. Speak to Rogier, 
 # --------------------------------------------------
 # intro
 
-intro.0.dialogue=Greetings, I am Edgar, the headmaster at ABACWS school of magic. I noticed a strange source of energy coming from this location! It seems that you may possess the ability to control magic, would you like to attend ABACWS and develop your skills? 
+intro.0.dialogue=Greetings, I am Edgar, the headmaster at ABACWS school of magic. I noticed a strange source of energy coming from this location! It seems that you may possess the ability to control magic. Would you like to attend ABACWS and develop your skills? 
 # yes ACTION -> teleport to abacws
 # not ready
 
@@ -117,6 +118,7 @@ potions.2.dialogue=Are you ready to start?
 potions.3.dialogue=To complete this class you'll need to brew a splash potion of strength II.
 # close
 potions.3.button.0=Reset Agent
+# answer
 
 # CONDITION -> potion strength 2 created
 potions.4.dialogue=Wow! You're amazing at this.
