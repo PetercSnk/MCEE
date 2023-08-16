@@ -1,12 +1,12 @@
 intro https://minecraft.makecode.com/91142-92610-11164-42863
 
-potions https://minecraft.makecode.com/12111-88984-10645-29467
+potions https://minecraft.makecode.com/11258-32672-59648-39753
 herbology https://minecraft.makecode.com/39530-62702-76778-60246
 spells https://minecraft.makecode.com/84967-75610-01497-46140
 alchemy https://minecraft.makecode.com/58311-29027-05566-71490
 astronomy https://minecraft.makecode.com/45746-68477-01719-73896
 
-potions_complete https://minecraft.makecode.com/06340-14462-29847-89930
+potions_complete https://minecraft.makecode.com/94108-51380-00900-86868
 spells_complete https://minecraft.makecode.com/90271-16991-01110-82326
 alchemy_complete https://minecraft.makecode.com/67954-24289-08824-65964
 astronomy_complete https://minecraft.makecode.com/76482-93632-11503-28191

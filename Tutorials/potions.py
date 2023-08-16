@@ -14,7 +14,7 @@
 
 # to complete this class brew a splash potion of strength 2
 
-# use a for loop with range(start, end) to traverse the blocks
+# use a for loop with range(NUM_BLOCKS) to traverse the blocks
 # use these commands to control your familiar:
 
 # agent.inspect(AgentInspection.BLOCK, DIRECTION)   # id of inspected block

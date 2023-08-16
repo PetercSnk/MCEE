@@ -40,7 +40,7 @@
                         "commands": [
                             "function inclass/potions",
                             "function guides/reset",
-                            "codebuilder navigate @p true https://minecraft.makecode.com/12111-88984-10645-29467",
+                            "codebuilder navigate @p true https://minecraft.makecode.com/11258-32672-59648-39753",
                             "function story/potions/reset_agent",
                             "dialogue change @e [type=npc, tag=npc3] potions3"
                         ]
@@ -67,7 +67,7 @@
                     {
                         "name": {"rawtext": [{"translate": "answer.button"}]},
                         "commands": [
-                            "codebuilder navigate @p true https://minecraft.makecode.com/06340-14462-29847-89930"
+                            "codebuilder navigate @p true https://minecraft.makecode.com/94108-51380-00900-86868"
                         ]
                     }
                 ]
