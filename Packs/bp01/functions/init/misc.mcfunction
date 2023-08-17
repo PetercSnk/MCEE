@@ -1,4 +1,5 @@
 gamerule sendcommandfeedback false
+clear @p
 remove @c
 tp @p -41 -58 226
 setworldspawn -41 -58 226

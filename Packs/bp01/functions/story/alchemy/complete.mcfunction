@@ -27,5 +27,4 @@ setblock -266 -38 228 air
 setblock -267 -38 228 air
 setblock -268 -38 228 air
 setblock -269 -38 228 air
-setblock -252 -38 238 air
 scoreboard players set @p tmp 0
