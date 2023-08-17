@@ -36,7 +36,7 @@
 
 chosen_block_id = 5
 start = world(-323, -53, 244)
-for index in range(0, 12):
+for index in range(12):
     if agent.inspect(AgentInspection.BLOCK, DOWN) == chosen_block_id:
         agent.interact(RIGHT)
         break
