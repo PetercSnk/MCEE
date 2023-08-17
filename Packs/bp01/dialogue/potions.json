@@ -67,7 +67,13 @@
                     {
                         "name": {"rawtext": [{"translate": "answer.button"}]},
                         "commands": [
-                            "codebuilder navigate @p true https://minecraft.makecode.com/94108-51380-00900-86868"
+                            "codebuilder navigate @p true https://minecraft.makecode.com/92850-72299-11212-95166"
+                        ]
+                    },
+                    {
+                        "name": {"rawtext": [{"translate": "reload.button"}]},
+                        "commands": [
+                            "codebuilder navigate @p true https://minecraft.makecode.com/11258-32672-59648-39753"
                         ]
                     }
                 ]

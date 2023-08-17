@@ -76,6 +76,12 @@
                         "commands": [
                             "codebuilder navigate @p true https://minecraft.makecode.com/67954-24289-08824-65964"
                         ]
+                    },
+                    {
+                        "name": {"rawtext": [{"translate": "reload.button"}]},
+                        "commands": [
+                            "codebuilder navigate @p true https://minecraft.makecode.com/58311-29027-05566-71490"
+                        ]
                     }
                 ]
             },
@@ -88,6 +94,7 @@
                         "name": {"rawtext": [{"translate": "complete.button"}]},
                         "commands": [
                             "function inclass/reset",
+                            "setblock -252 -38 238 air",
                             "dialogue change @e [type=npc, tag=npc6] classcomplete3"
                         ]
                     }

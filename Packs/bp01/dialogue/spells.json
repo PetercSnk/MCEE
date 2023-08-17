@@ -62,6 +62,12 @@
                         "commands": [
                             "codebuilder navigate @p true https://minecraft.makecode.com/90271-16991-01110-82326"
                         ]
+                    },
+                    {
+                        "name": {"rawtext": [{"translate": "reload.button"}]},
+                        "commands": [
+                            "codebuilder navigate @p true https://minecraft.makecode.com/84967-75610-01497-46140"
+                        ]
                     }
                 ]
             },

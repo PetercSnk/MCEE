@@ -220,6 +220,7 @@
                         "name": {"rawtext": [{"translate": "okay.button"}]},
                         "commands": [
                             "give @p emerald_block 4",
+                            "give @p diamond_pickaxe",
                             "dialogue change @e [type=npc, tag=npc9] end9"
                         ]
                     }
