@@ -23,6 +23,7 @@ yes.button=Yes
 no.button=No
 close.button=Close
 answer.button=Answers
+reload.button=Reload
 
 # --------------------------------------------------
 # all class buttons
@@ -254,7 +255,7 @@ end.1.dialogue=The only way to stop it is to place protection stones around ABAC
 end.2.dialogue=Wait, you're an expectional student! If you can answer these questions about the classes you completed I can give you them.
 # okay ACTION -> tasks appear for each class completed
 
-end.3.dialogue=What is the worst case search time in linear search where n is the length of the array?
+end.3.dialogue=What is the worst-case search time in linear search where n is the length of the array?
 end.3.button.0=n
 end.3.button.1=1
 end.3.button.2=n^2
