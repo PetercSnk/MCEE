@@ -1,4 +1,3 @@
-scoreboard objectives add init dummy
 scoreboard objectives add intro_stage dummy
 scoreboard objectives add potions dummy
 scoreboard objectives add herbology dummy
@@ -8,7 +7,6 @@ scoreboard objectives add astronomy dummy
 scoreboard objectives add 3complete dummy
 scoreboard objectives add end dummy
 
-scoreboard players set @a init 1
 scoreboard players set @a intro_stage 1
 scoreboard players set @a potions 0
 scoreboard players set @a herbology 0
@@ -78,3 +76,6 @@ scoreboard players set @a pillar0 0
 scoreboard players set @a pillar1 0
 scoreboard players set @a pillar2 0
 scoreboard players set @a pillar3 0
+
+scoreboard objectives add init dummy
+scoreboard players set @a init 1
