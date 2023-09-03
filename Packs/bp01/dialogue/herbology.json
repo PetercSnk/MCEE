@@ -155,8 +155,9 @@
                     {
                         "name": {"rawtext": [{"translate": "complete.button"}]},
                         "commands": [
+                            "function story/herbology/reset",
                             "function inclass/reset",
-                            "dialogue change @e [type=npc, tag=npc4] classcomplete1"
+                            "dialogue change @e [type=npc, tag=npc4] classcomplete1" 
                         ]
                     }
                 ]
