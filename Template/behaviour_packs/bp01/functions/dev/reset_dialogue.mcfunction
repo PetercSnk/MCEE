@@ -1,0 +1,15 @@
+dialogue change @e [type=npc, tag=npc0] intro0
+dialogue change @e [type=npc, tag=npc1] intro3
+dialogue change @e [type=npc, tag=npc2] intro7
+dialogue change @e [type=npc, tag=npc3] potions0
+dialogue change @e [type=npc, tag=npc4] herbology0
+dialogue change @e [type=npc, tag=npc5] spells0
+dialogue change @e [type=npc, tag=npc6] alchemy0
+dialogue change @e [type=npc, tag=npc7] astronomy0
+dialogue change @e [type=npc, tag=npc80] studentreps0
+dialogue change @e [type=npc, tag=npc81] studentreps0
+dialogue change @e [type=npc, tag=npc82] studentreps0
+dialogue change @e [type=npc, tag=npc83] studentreps0
+dialogue change @e [type=npc, tag=npc84] studentreps0
+dialogue change @e [type=npc, tag=npc85] studentreps0
+dialogue change @e [type=npc, tag=npc9] 3complete0

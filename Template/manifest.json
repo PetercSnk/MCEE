@@ -1,0 +1,20 @@
+{
+    "format_version" : 1,
+    "header" : {
+       "description" : "pack.description",
+       "name" : "pack.name",
+       "uuid" : "b8cea4a2-f311-459e-a0bd-692c8602956e",
+       "version" : [ 1, 0, 0 ]
+    },
+    "metadata" : {
+       "authors" : [ "Peter Snook" ]
+    },
+    "modules" : [
+       {
+          "description" : "",
+          "type" : "world_template",
+          "uuid" : "23168ea1-9707-4a8c-88e5-08ae93ec083f",
+          "version" : [ 1, 0, 0 ]
+       }
+    ]
+ }

@@ -1,0 +1,18 @@
+{
+    "format_version": 2,
+    "header": {
+        "description": "Resource Pack for ABACWS",
+        "name": "ABACWS Resource Pack",
+        "uuid": "784cb7e4-75be-4186-abb7-673d997c5027",
+        "version": [1, 0, 0],
+        "min_engine_version": [1, 19, 52]
+    },
+    "modules": [
+        {
+            "description":"Resource Pack for ABACWS",
+            "type": "resources",
+            "uuid": "56c0327d-2e8b-4383-88c7-dddb48d7ed7e",
+            "version": [1, 0, 0]
+        }
+    ]
+}

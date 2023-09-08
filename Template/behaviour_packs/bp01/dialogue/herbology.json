@@ -1,0 +1,167 @@
+{
+    "format_version": "1.14",
+    "minecraft:npc_dialogue": {
+        "scenes": [
+            {
+                "scene_tag": "herbology0",
+                "npc_name": {"rawtext": [{"translate": "npc.name.4"}]},
+                "text": {"rawtext": [{"translate": "herbology.0.dialogue", "with": ["\n"]}]},
+                "buttons": [
+                    {
+                        "name": {"rawtext": [{"translate": "next.button"}]},
+                        "commands": [
+                            "dialogue open @e [type=npc, tag=npc4] @p herbology1",
+                            "dialogue change @e [type=npc, tag=npc4] herbology1"    
+                        ]
+                    }
+                ]
+            },
+            {
+                "scene_tag": "herbology1",
+                "npc_name": {"rawtext": [{"translate": "npc.name.4"}]},
+                "text": {"rawtext": [{"translate": "herbology.1.dialogue", "with": ["\n"]}]},
+                "buttons": [
+                    {
+                        "name": {"rawtext": [{"translate": "ready.button"}]},
+                        "commands": [
+                            "function inclass/herbology",
+                            "function guides/reset",
+                            "function story/herbology/teleport_alex",
+                            "function story/herbology/npc4_move",
+                            "dialogue change @e [type=npc, tag=npc4] herbology2"
+                        ]
+                    },
+                    {
+                        "name": {"rawtext": [{"translate": "notready.button"}]}
+                    }
+                ]
+            },
+            {
+                "scene_tag": "herbology2",
+                "npc_name": {"rawtext": [{"translate": "npc.name.4"}]},
+                "text": {"rawtext": [{"translate": "herbology.2.dialogue", "with": ["\n"]}]},
+                "buttons": [
+                    {
+                        "name": {"rawtext": [{"translate": "next.button"}]},
+                        "commands": [
+                            "dialogue open @e [type=npc, tag=npc4] @p herbology3",
+                            "dialogue change @e [type=npc, tag=npc4] herbology3"     
+                        ]
+                    }
+                ]
+            },
+            {
+                "scene_tag": "herbology3",
+                "npc_name": {"rawtext": [{"translate": "npc.name.4"}]},
+                "text": {"rawtext": [{"translate": "herbology.3.dialogue", "with": ["\n"]}]},
+                "buttons": [
+                    {
+                        "name": {"rawtext": [{"translate": "yes.button"}]},
+                        "commands": [
+                            "codebuilder navigate @p true https://minecraft.makecode.com/39530-62702-76778-60246",
+                            "dialogue change @e [type=npc, tag=npc4] herbology4"
+                        ]
+                    },
+                    {
+                        "name": {"rawtext": [{"translate": "no.button"}]}
+                    }
+                ]
+            },
+            {
+                "scene_tag": "herbology4",
+                "npc_name": {"rawtext": [{"translate": "npc.name.4"}]},
+                "text": {"rawtext": [{"translate": "herbology.4.dialogue", "with": ["\n"]}]},
+                "buttons": [
+                    {
+                        "name": {"rawtext": [{"translate": "close.button"}]}
+                    },   
+                    {
+                        "name": {"rawtext": [{"translate": "herbology.4.button.0"}]},
+                        "commands": [
+                            "dialogue open @e [type=npc, tag=npc4] @p herbology5"
+                        ]
+                    },
+                    {
+                        "name": {"rawtext": [{"translate": "herbology.4.button.1"}]},
+                        "commands": [
+                            "dialogue open @e [type=npc, tag=npc4] @p herbology6"
+                        ]
+                    },
+                    {
+                        "name": {"rawtext": [{"translate": "herbology.4.button.2"}]},
+                        "commands": [
+                            "dialogue open @e [type=npc, tag=npc4] @p herbology7"
+                        ]
+                    },
+                    {
+                        "name": {"rawtext": [{"translate": "herbology.4.button.3"}]},
+                        "commands": [
+                            "dialogue open @e [type=npc, tag=npc4] @p herbology8"
+                        ]
+                    },
+                    {
+                        "name": {"rawtext": [{"translate": "reload.button"}]},
+                        "commands": [
+                            "codebuilder navigate @p true https://minecraft.makecode.com/39530-62702-76778-60246"
+                        ]
+                    }
+                ]
+            },
+            {
+                "scene_tag": "herbology5",
+                "npc_name": {"rawtext": [{"translate": "npc.name.4"}]},
+                "text": {"rawtext": [{"translate": "herbology.5.dialogue", "with": ["\n"]}]},
+                "buttons": [
+                    {
+                        "name": {"rawtext": [{"translate": "close.button"}]}
+                    }
+                ]
+            },
+            {
+                "scene_tag": "herbology6",
+                "npc_name": {"rawtext": [{"translate": "npc.name.4"}]},
+                "text": {"rawtext": [{"translate": "herbology.6.dialogue", "with": ["\n"]}]},
+                "buttons": [
+                    {
+                        "name": {"rawtext": [{"translate": "close.button"}]}
+                    }
+                ]
+            },
+            {
+                "scene_tag": "herbology7",
+                "npc_name": {"rawtext": [{"translate": "npc.name.4"}]},
+                "text": {"rawtext": [{"translate": "herbology.7.dialogue", "with": ["\n"]}]},
+                "buttons": [
+                    {
+                        "name": {"rawtext": [{"translate": "close.button"}]}
+                    }
+                ]
+            },
+            {
+                "scene_tag": "herbology8",
+                "npc_name": {"rawtext": [{"translate": "npc.name.4"}]},
+                "text": {"rawtext": [{"translate": "herbology.8.dialogue", "with": ["\n"]}]},
+                "buttons": [
+                    {
+                        "name": {"rawtext": [{"translate": "close.button"}]}
+                    }
+                ]
+            },
+            {
+                "scene_tag": "herbology9",
+                "npc_name": {"rawtext": [{"translate": "npc.name.4"}]},
+                "text": {"rawtext": [{"translate": "herbology.9.dialogue", "with": ["\n"]}]},
+                "buttons": [
+                    {
+                        "name": {"rawtext": [{"translate": "complete.button"}]},
+                        "commands": [
+                            "function story/herbology/reset",
+                            "function inclass/reset",
+                            "dialogue change @e [type=npc, tag=npc4] classcomplete1" 
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

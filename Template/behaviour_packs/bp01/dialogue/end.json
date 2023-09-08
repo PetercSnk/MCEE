@@ -1,0 +1,262 @@
+{
+    "format_version": "1.14",
+    "minecraft:npc_dialogue": {
+        "scenes": [
+            {
+                "scene_tag": "end0",
+                "npc_name": {"rawtext": [{"translate": "npc.name.9"}]},
+                "text": {"rawtext": [{"translate": "end.0.dialogue", "with": ["\n"]}]},
+                "buttons": [
+                    {
+                        "name": {"rawtext": [{"translate": "next.button"}]},
+                        "commands": [
+                            "dialogue open @e [type=npc, tag=npc9] @p end1",
+                            "dialogue change @e [type=npc, tag=npc9] end1"                            
+                        ]
+                    }
+                ]
+            },
+            {
+                "scene_tag": "end1",
+                "npc_name": {"rawtext": [{"translate": "npc.name.9"}]},
+                "text": {"rawtext": [{"translate": "end.1.dialogue", "with": ["\n"]}]},
+                "buttons": [
+                    {
+                        "name": {"rawtext": [{"translate": "next.button"}]},
+                        "commands": [
+                            "dialogue open @e [type=npc, tag=npc9] @p end2",
+                            "dialogue change @e [type=npc, tag=npc9] end2"
+                        ]
+                    }
+                ]
+            },
+            {
+                "scene_tag": "end2",
+                "npc_name": {"rawtext": [{"translate": "npc.name.9"}]},
+                "text": {"rawtext": [{"translate": "end.2.dialogue", "with": ["\n"]}]},
+                "buttons": [
+                    {
+                        "name": {"rawtext": [{"translate": "okay.button"}]},
+                        "commands": [
+                            "scoreboard players set @p end_stage 1"
+                        ]
+                    }
+                ]
+            },
+            {
+                "scene_tag": "end3",
+                "npc_name": {"rawtext": [{"translate": "npc.name.9"}]},
+                "text": {"rawtext": [{"translate": "end.3.dialogue", "with": ["\n"]}]},
+                "buttons": [
+                    {
+                        "name": {"rawtext": [{"translate": "end.3.button.0"}]},
+                        "commands": [
+                            "scoreboard players set @p question 1",
+                            "playsound random.levelup @p"
+                        ]
+                    },
+                    {
+                        "name": {"rawtext": [{"translate": "end.3.button.1"}]},
+                        "commands": [
+                            "dialogue open @e [type=npc, tag=npc9] @p end3",
+                            "playsound random.glass @p"
+                        ]
+                    },
+                    {
+                        "name": {"rawtext": [{"translate": "end.3.button.2"}]},
+                        "commands": [
+                            "dialogue open @e [type=npc, tag=npc9] @p end3",
+                            "playsound random.glass @p"
+                        ]
+                    },
+                    {
+                        "name": {"rawtext": [{"translate": "end.3.button.3"}]},
+                        "commands": [
+                            "dialogue open @e [type=npc, tag=npc9] @p end3",
+                            "playsound random.glass @p"
+                        ]
+                    }
+                ]
+            },
+            {
+                "scene_tag": "end4",
+                "npc_name": {"rawtext": [{"translate": "npc.name.9"}]},
+                "text": {"rawtext": [{"translate": "end.4.dialogue", "with": ["\n"]}]},
+                "buttons": [
+                    {
+                        "name": {"rawtext": [{"translate": "end.4.button.0"}]},
+                        "commands": [
+                            "dialogue open @e [type=npc, tag=npc9] @p end4",
+                            "playsound random.glass @p"
+                        ]
+                    },
+                    {
+                        "name": {"rawtext": [{"translate": "end.4.button.1"}]},
+                        "commands": [
+                            "dialogue open @e [type=npc, tag=npc9] @p end4",
+                            "playsound random.glass @p"
+                        ]
+                    },
+                    {
+                        "name": {"rawtext": [{"translate": "end.4.button.2"}]},
+                        "commands": [
+                            "scoreboard players set @p question 2",
+                            "playsound random.levelup @p"
+                        ]
+                    },
+                    {
+                        "name": {"rawtext": [{"translate": "end.4.button.3"}]},
+                        "commands": [
+                            "dialogue open @e [type=npc, tag=npc9] @p end4",
+                            "playsound random.glass @p"
+                        ]
+                    }
+                ]
+            },
+            {
+                "scene_tag": "end5",
+                "npc_name": {"rawtext": [{"translate": "npc.name.9"}]},
+                "text": {"rawtext": [{"translate": "end.5.dialogue", "with": ["\n"]}]},
+                "buttons": [
+                    {
+                        "name": {"rawtext": [{"translate": "end.5.button.0"}]},
+                        "commands": [
+                            "dialogue open @e [type=npc, tag=npc9] @p end5",
+                            "playsound random.glass @p"
+                        ]
+                    },
+                    {
+                        "name": {"rawtext": [{"translate": "end.5.button.1"}]},
+                        "commands": [
+                            "scoreboard players set @p question 3",
+                            "playsound random.levelup @p"
+                        ]
+                    },
+                    {
+                        "name": {"rawtext": [{"translate": "end.5.button.2"}]},
+                        "commands": [
+                            "dialogue open @e [type=npc, tag=npc9] @p end5",
+                            "playsound random.glass @p"
+                        ]
+                    }
+                ]
+            },
+            {
+                "scene_tag": "end6",
+                "npc_name": {"rawtext": [{"translate": "npc.name.9"}]},
+                "text": {"rawtext": [{"translate": "end.6.dialogue", "with": ["\n"]}]},
+                "buttons": [
+                    {
+                        "name": {"rawtext": [{"translate": "end.6.button.0"}]},
+                        "commands": [
+                            "dialogue open @e [type=npc, tag=npc9] @p end6",
+                            "playsound random.glass @p"
+                        ]
+                    },
+                    {
+                        "name": {"rawtext": [{"translate": "end.6.button.1"}]},
+                        "commands": [
+                            "dialogue open @e [type=npc, tag=npc9] @p end6",
+                            "playsound random.glass @p"
+                        ]
+                    },
+                    {
+                        "name": {"rawtext": [{"translate": "end.6.button.2"}]},
+                        "commands": [
+                            "scoreboard players set @p question 4",
+                            "playsound random.levelup @p"
+                        ]
+                    },
+                    {
+                        "name": {"rawtext": [{"translate": "end.6.button.3"}]},
+                        "commands": [
+                            "dialogue open @e [type=npc, tag=npc9] @p end6",
+                            "playsound random.glass @p"
+                        ]
+                    }
+                ]
+            },
+            {
+                "scene_tag": "end7",
+                "npc_name": {"rawtext": [{"translate": "npc.name.9"}]},
+                "text": {"rawtext": [{"translate": "end.7.dialogue", "with": ["\n"]}]},
+                "buttons": [
+                    {
+                        "name": {"rawtext": [{"translate": "end.7.button.0"}]},
+                        "commands": [
+                            "scoreboard players set @p question 5",
+                            "playsound random.levelup @p"
+                        ]
+                    },
+                    {
+                        "name": {"rawtext": [{"translate": "end.7.button.1"}]},
+                        "commands": [
+                            "dialogue open @e [type=npc, tag=npc9] @p end7",
+                            "playsound random.glass @p"
+                        ]
+                    },
+                    {
+                        "name": {"rawtext": [{"translate": "end.7.button.2"}]},
+                        "commands": [
+                            "dialogue open @e [type=npc, tag=npc9] @p end7",
+                            "playsound random.glass @p"
+                        ]
+                    },
+                    {
+                        "name": {"rawtext": [{"translate": "end.7.button.3"}]},
+                        "commands": [
+                            "dialogue open @e [type=npc, tag=npc9] @p end7",
+                            "playsound random.glass @p"
+                        ]
+                    }
+                ]
+            },
+            {
+                "scene_tag": "end8",
+                "npc_name": {"rawtext": [{"translate": "npc.name.9"}]},
+                "text": {"rawtext": [{"translate": "end.8.dialogue", "with": ["\n"]}]},
+                "buttons": [
+                    {
+                        "name": {"rawtext": [{"translate": "okay.button"}]},
+                        "commands": [
+                            "give @p emerald_block 4",
+                            "give @p diamond_pickaxe",
+                            "dialogue change @e [type=npc, tag=npc9] end9"
+                        ]
+                    }
+                ]
+            },
+            {
+                "scene_tag": "end9",
+                "npc_name": {"rawtext": [{"translate": "npc.name.9"}]},
+                "text": {"rawtext": [{"translate": "end.9.dialogue", "with": ["\n"]}]},
+                "buttons": [
+                    {
+                        "name": {"rawtext": [{"translate": "okay.button"}]}
+                    }
+                ]
+            },
+            {
+                "scene_tag": "end10",
+                "npc_name": {"rawtext": [{"translate": "npc.name.9"}]},
+                "text": {"rawtext": [{"translate": "end.10.dialogue", "with": ["\n"]}]},
+                "buttons": [
+                    {
+                        "name": {"rawtext": [{"translate": "end.10.button.0"}]},
+                        "commands": [
+                            "function story/end/remove",
+                            "function story/end/explore"
+                        ]
+                    },
+                    {
+                        "name": {"rawtext": [{"translate": "end.10.button.1"}]},
+                        "commands": [
+                            "function story/end/remove",
+                            "function story/end/reset"
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

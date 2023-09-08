@@ -1,0 +1,1 @@
+execute as @p run teleport @c -267 -43 244 facing -267 -43 243

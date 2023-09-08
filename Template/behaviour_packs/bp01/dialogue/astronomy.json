@@ -1,0 +1,88 @@
+{
+    "format_version": "1.14",
+    "minecraft:npc_dialogue": {
+        "scenes": [
+            {
+                "scene_tag": "astronomy0",
+                "npc_name": {"rawtext": [{"translate": "npc.name.7"}]},
+                "text": {"rawtext": [{"translate": "astronomy.0.dialogue", "with": ["\n"]}]},
+                "buttons": [
+                    {
+                        "name": {"rawtext": [{"translate": "ready.button"}]},
+                        "commands": [
+                            "function inclass/astronomy",
+                            "function guides/reset",
+                            "function story/astronomy/teleport_rooftop",
+                            "function story/astronomy/npc7_move",
+                            "dialogue change @e [type=npc, tag=npc7] astronomy1"
+                        ]
+                    },
+                    {
+                        "name": {"rawtext": [{"translate": "notready.button"}]}
+                    }
+                ]
+            },
+            {
+                "scene_tag": "astronomy1",
+                "npc_name": {"rawtext": [{"translate": "npc.name.7"}]},
+                "text": {"rawtext": [{"translate": "astronomy.1.dialogue", "with": ["\n"]}]},
+                "buttons": [
+                    {
+                        "name": {"rawtext": [{"translate": "okay.button"}]},
+                        "commands": [
+                            "scoreboard players set @p time 1",
+                            "codebuilder navigate @p true https://minecraft.makecode.com/45746-68477-01719-73896",
+                            "function story/astronomy/reset_agent",
+                            "dialogue change @e [type=npc, tag=npc7] astronomy2"
+                        ]
+                    }
+                ]
+            },
+            {
+                "scene_tag": "astronomy2",
+                "npc_name": {"rawtext": [{"translate": "npc.name.7"}]},
+                "text": {"rawtext": [{"translate": "astronomy.2.dialogue", "with": ["\n"]}]},
+                "buttons": [
+                    {
+                        "name": {"rawtext": [{"translate": "close.button"}]}
+                    },
+                    {
+                        "name": {"rawtext": [{"translate": "astronomy.2.button.0"}]},
+                        "commands": [
+                            "function story/astronomy/clear_area",
+                            "function story/astronomy/reset_agent"
+                        ]
+                    },
+                    {
+                        "name": {"rawtext": [{"translate": "answer.button"}]},
+                        "commands": [
+                            "codebuilder navigate @p true https://minecraft.makecode.com/76482-93632-11503-28191"
+                        ]
+                    },
+                    {
+                        "name": {"rawtext": [{"translate": "reload.button"}]},
+                        "commands": [
+                            "codebuilder navigate @p true https://minecraft.makecode.com/45746-68477-01719-73896"
+                        ]
+                    }
+                ]
+            },
+            {
+                "scene_tag": "astronomy3",
+                "npc_name": {"rawtext": [{"translate": "npc.name.7"}]},
+                "text": {"rawtext": [{"translate": "astronomy.3.dialogue", "with": ["\n"]}]},
+                "buttons": [
+                    {
+                        "name": {"rawtext": [{"translate": "complete.button"}]},
+                        "commands": [
+                            "function inclass/reset",
+                            "function story/astronomy/clear_area",
+                            "scoreboard players set @p time 0",
+                            "dialogue change @e [type=npc, tag=npc7] classcomplete4"
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

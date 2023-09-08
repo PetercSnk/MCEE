@@ -1,0 +1,297 @@
+# npc names
+npc.name.0=Headmaster Edgar
+npc.name.1=Melina
+npc.name.2=Rogier
+npc.name.3=Tanith
+npc.name.4=Kale
+npc.name.5=Sellen
+npc.name.6=Rennala
+npc.name.7=Ranni
+npc.name.8=Student Rep
+npc.name.9=Blaidd
+
+# --------------------------------------------------
+# generic answer buttons
+
+next.button=Next
+complete.button=Complete
+understood.button=Understood
+okay.button=Okay
+ready.button=I'm Ready
+notready.button=Not Yet
+yes.button=Yes
+no.button=No
+close.button=Close
+answer.button=Answers
+reload.button=Reload
+
+# --------------------------------------------------
+# all class buttons
+
+class.button.0=Potions
+class.button.1=Herbology
+class.button.2=Spells
+class.button.3=Alchemy
+class.button.4=Astronomy
+
+# --------------------------------------------------
+# student reps
+
+student.rep.dialogue=Hello, I'm a student rep. You seem to be lost, which of these locations would you like to me send you to?
+# class button 0
+# class button 1
+# class button 2
+# class button 3
+# class button 4
+# close
+
+# --------------------------------------------------
+# in class
+
+in.class.dialogue=Shouldn't you be in class? You can't attend this class until you're finished.
+# close
+
+# --------------------------------------------------
+# class completion
+
+class.complete.dialogue=You have already completed this class. Speak to Rogier, or make your way to another class.
+# close
+
+# --------------------------------------------------
+# intro
+
+intro.0.dialogue=Greetings, I am Edgar, the headmaster at ABACWS school of magic. I noticed a strange source of energy coming from this location! It seems that you may possess the ability to control magic. Would you like to attend ABACWS and develop your skills? 
+# yes ACTION -> teleport to abacws
+# not ready
+
+intro.1.dialogue=Are you ready now?
+# yes ACTION -> teleport to abacws
+# no
+
+intro.2.dialogue=We have arrived! This is the ABACWS building where all our students come to learn magic. Head on inside and my assistant will explain further. Feel free to look around beforehand!
+# okay ACTION -> npc disappears
+
+intro.3.dialogue=Welcome to ABACWS! I am Melina, the headmasters assistant. Before I let you attend class you will need to choose a familiar. You can choose from Pixie Pink, Casey Orange, and Bob Blue.
+intro.3.button.0=Pixie
+intro.3.button.1=Casey
+intro.3.button.2=Bob
+
+intro.4.dialogue=Good choice! Your familiar will be helping you out during the day. They are directly linked to your workbook which you can access by pressing the "c" key.
+# understood
+
+intro.5.dialogue=Are you ready start class now?
+# yes
+# no
+
+intro.6.dialogue=Nice to see you eager to learn. The timetable for today can be found in room 0.01 on this floor, Rogier will be waiting there for you.
+# okay ACTION -> npc disappears
+
+intro.7.dialogue=Hi there, I'm Rogier! I am in charge of todays classes. What class would you like to attend?
+# class button 0
+# class button 1
+# class button 2
+# class button 3
+# class button 4
+
+intro.8.dialogue=There should be a guide spell active now, follow that to your class. Remember to return to me if you'd like to find another class. You can also speak to one of the student reps if you get lost. They should be around the stairs of each floor.
+# understood
+
+intro.9.dialogue=What class would you like to attend?
+# class button 0
+# class button 1
+# class button 2
+# class button 3
+# class button 4
+
+# --------------------------------------------------
+# potions class
+
+potions.0.dialogue=Welcome to potions class, I am Tanith. In this class you will teach your familiar to gather ingredients which can then be used to brew potions.
+# next button
+# |
+potions.1.dialogue=Remember to follow the recipes, otherwise you'll end up with the wrong potion!
+# next button
+# |
+potions.2.dialogue=Are you ready to start?
+# yes ACTION -> open codebuilder tutorial
+# no
+
+potions.3.dialogue=To complete this class you'll need to brew a splash potion of strength II.
+# close
+potions.3.button.0=Reset Agent
+# answer
+
+# CONDITION -> potion strength 2 created
+potions.4.dialogue=Wow! You're amazing at this.
+# complete button
+
+# --------------------------------------------------
+# herbology class
+
+herbology.0.dialogue=Welcome to Herbology, I'm Kale. In this class we will learn about various plants and their properties.
+# next button
+# |
+herbology.1.dialogue=This class will take place in Alexandra Gardens. You can travel there using the rift, just let me know when you are ready!
+# ready ACTION -> teleport gardens
+# not ready
+
+herbology.2.dialogue=Welcome to Alexandra Gardens. We have a variety of plants kept here for research purposes. They are also nice to admire during breaks.
+# next button
+# |
+herbology.3.dialogue=To complete this class you will need to find a Poppy, Dandelion, Oxeye Daisy, and a Cornflower and record their properties in appropriate formats. Place all plants collected in the sample area when done. Are you ready to start?
+# yes ACTION -> open codebuilder tutorial
+# no
+
+herbology.4.dialogue=Which plant would you like to know more about?
+herbology.4.button.0=Dandelion
+herbology.4.button.1=Poppy
+herbology.4.button.2=Oxeye daisy
+herbology.4.button.3=Cornflower
+# close
+# |
+herbology.5.dialogue=Dandelions are a common wildflower that are seen all year round. They are yellow and are found in grassland, woodland, towns, and gardens.
+herbology.6.dialogue=Poppies can grow to over a metre tall with flowers 15 centimetres across. Poppies produce edible seeds and are a symbol of rememberance.
+herbology.7.dialogue=Oxeye daisys are widespread in Europe and temperate regions of Asia. They grow to 80 centimetres tall and the lower parts of the steam are hairy.
+herbology.8.dialogue=Cornflowers are native to Europe and are part of the Asteraceae family. In the past it would often grow as a weed in cornfields, hence its name.
+# close
+
+# CONDITION -> 3 samples collected
+herbology.9.dialogue=Well done! You have collected all 4 samples.
+# complete button
+
+# --------------------------------------------------
+# spells class
+
+spells.0.dialogue=Welcome to spells class! I am Sellen. Today I will teach you how to cast certain spells.
+# next button
+# |
+spells.1.dialogue=Each spell requires an exchange, They are not free. Some of these spells are listed on the whiteboards. Let me know when you are ready, and I will provide the workbook.
+# ready ACTION -> open codebuilder tutorial
+# not ready
+
+spells.2.dialogue=To complete this class you are required to cast 3 different spells.
+# close
+spells.2.button.0=Summon Target
+spells.2.button.1=Reset Area
+
+# CONDITION -> 3 spells cast
+spells.3.dialogue=You have managed to cast 3 spells, great job!
+# complete button
+
+# --------------------------------------------------
+# alchemy class
+
+alchemy.0.dialogue=Hi there, I'm Rennala. I'll be your alchemy teacher for today.
+# next button
+# |
+alchemy.1.dialogue=You will be attempting to create gold from other elements in this class. That being said, we must first solve the questions on the whiteboards.
+# next button
+# |
+alchemy.2.dialogue=Correct answers will reward you with materials which can be placed in the transmutation table. When all materials are placed, the process will start.
+# next button
+# |
+alchemy.3.dialogue=Let me know when you are ready so we can begin!
+# ready ACTION -> open codebuilder tutorial
+# not ready
+
+alchemy.4.dialogue=To pass my class you will need to create a gold block from the materials rewarded!
+# close
+
+# CONDITION -> GOLD BLOCK CREATED
+alchemy.5.dialogue=You managed to do it, that's incredible!
+# complete button
+
+# --------------------------------------------------
+# astronomy class
+
+astronomy.0.dialogue=Hiya, I'm Ranni. You are currently in my laboratory. Let me know when you are ready, and I will take you to the rooftop for this class.
+# ready ACTION -> teleport rooftop
+# not ready
+
+astronomy.1.dialogue=In this class we will harness the power of the stars. To do this we will create and plot constellations on the grid and they will appear in the night sky. Take a look inside your wookbook for guidance.
+# okay ACTION -> open codebuilder tutorial
+
+astronomy.2.dialogue=To pass astronomy you will need to construct the big dipper. The layout is provided in your workbook.
+# close
+astronomy.2.button.0=Reset Grid
+
+# CONDITION -> constellation complete
+astronomy.3.dialogue=You did a great job! 
+# complete button
+
+# --------------------------------------------------
+# 3 out of 5 classes complete
+
+# CONDITION -> 3/5 classes complete
+# ACTION -> title scene to notify player of new npc
+3complete.0.dialogue=Yo, the names Blaidd. I work behind the scenes to protect this school and there seems to be something sinister going on. Would you like to help?
+# yes
+# no
+
+3complete.1.dialogue=You sure you want to skip the rest of your classes? You won't be able to finish them if you come with me.
+# yes
+# no
+
+3complete.2.dialogue=Understandable, it is probably best you complete your classes. Return to me once you are done.
+# close
+
+3complete.3.dialogue=You've completed all your classes, nice job! Are you ready to help me out?
+# yes
+# no
+
+3complete.4.dialogue=Let's go protect ABACWS!
+3complete.4.button.0=Yes Sir! 
+# ACTION -> change weather
+
+# --------------------------------------------------
+# end sequence
+
+end.0.dialogue=The weathers taking a turn for the worst. I can sense some sort of creature approaching.
+# next 
+# |
+end.1.dialogue=The only way to stop it is to place protection stones around ABACWS. The issue is i'm only allowed to give them to exceptional students.
+# next
+# |
+end.2.dialogue=Wait, you're an expectional student! If you can answer these questions about the classes you completed I can give you them.
+# okay ACTION -> tasks appear for each class completed
+
+end.3.dialogue=What is the worst-case search time in linear search where n is the length of the array?
+end.3.button.0=n
+end.3.button.1=1
+end.3.button.2=n^2
+end.3.button.3=n/2
+
+end.4.dialogue=True and False are examples of what data type?
+end.4.button.0=String
+end.4.button.1=Integer
+end.4.button.2=Boolean
+end.4.button.3=Float
+
+end.5.dialogue=What is the first stage of the IPO concept?
+end.5.button.0=Process
+end.5.button.1=Input
+end.5.button.2=Output
+
+end.6.dialogue=When we make 3 binary shifts to the right what is that the equivalent of?
+end.6.button.0=Divide by 3
+end.6.button.1=Divide by 4
+end.6.button.2=Divide by 8
+end.6.button.3=Divide by 6
+
+end.7.dialogue=How many dimensions is the following array [[[0, 1],[1, 0]],[[2, 9],[3, 7]],[[4, 3],[2, 2]],[[7, 7],[1, 0]]]?
+end.7.button.0=3
+end.7.button.1=4
+end.7.button.2=5
+end.7.button.3=6
+
+# CONDITION -> all tasks complete
+end.8.dialogue=You did it! Take these 4 protection stones and place them on the pedestals located around the building.
+# okay
+
+end.9.dialogue=Quick! You gotta place the protection stones.
+# okay
+
+# CONDITION -> all 4 protection stones placed
+end.10.dialogue=You've done it! I knew I could count on you. You did a great job. Would you like to explore or restart the map?
+end.10.button.0=Explore
+end.10.button.1=Restart

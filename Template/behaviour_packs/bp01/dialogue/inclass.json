@@ -1,0 +1,57 @@
+{
+    "format_version": "1.14",
+    "minecraft:npc_dialogue": {
+        "scenes": [
+            {
+                "scene_tag": "inclass0",
+                "npc_name": {"rawtext": [{"translate": "npc.name.3"}]},
+                "text": {"rawtext": [{"translate": "in.class.dialogue", "with": ["\n"]}]},
+                "buttons": [
+                    {
+                        "name": {"rawtext": [{"translate": "close.button"}]}
+                    }
+                ]
+            },
+            {
+                "scene_tag": "inclass1",
+                "npc_name": {"rawtext": [{"translate": "npc.name.4"}]},
+                "text": {"rawtext": [{"translate": "in.class.dialogue", "with": ["\n"]}]},
+                "buttons": [
+                    {
+                        "name": {"rawtext": [{"translate": "close.button"}]}
+                    }
+                ]
+            },
+            {
+                "scene_tag": "inclass2",
+                "npc_name": {"rawtext": [{"translate": "npc.name.5"}]},
+                "text": {"rawtext": [{"translate": "in.class.dialogue", "with": ["\n"]}]},
+                "buttons": [
+                    {
+                        "name": {"rawtext": [{"translate": "close.button"}]}
+                    }
+                ]
+            },
+            {
+                "scene_tag": "inclass3",
+                "npc_name": {"rawtext": [{"translate": "npc.name.6"}]},
+                "text": {"rawtext": [{"translate": "in.class.dialogue", "with": ["\n"]}]},
+                "buttons": [
+                    {
+                        "name": {"rawtext": [{"translate": "close.button"}]}
+                    }
+                ]
+            },
+            {
+                "scene_tag": "inclass4",
+                "npc_name": {"rawtext": [{"translate": "npc.name.7"}]},
+                "text": {"rawtext": [{"translate": "in.class.dialogue", "with": ["\n"]}]},
+                "buttons": [
+                    {
+                        "name": {"rawtext": [{"translate": "close.button"}]}
+                    }
+                ]
+            }
+        ]
+    }
+}

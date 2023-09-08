@@ -1,0 +1,105 @@
+{
+    "format_version": "1.14",
+    "minecraft:npc_dialogue": {
+        "scenes": [
+            {
+                "scene_tag": "alchemy0",
+                "npc_name": {"rawtext": [{"translate": "npc.name.6"}]},
+                "text": {"rawtext": [{"translate": "alchemy.0.dialogue", "with": ["\n"]}]},
+                "buttons": [
+                    {
+                        "name": {"rawtext": [{"translate": "next.button"}]},
+                        "commands": [
+                            "dialogue open @e [type=npc, tag=npc6] @p alchemy1",
+                            "dialogue change @e [type=npc, tag=npc6] alchemy1"     
+                        ]
+                    }
+                ]
+            },
+            {
+                "scene_tag": "alchemy1",
+                "npc_name": {"rawtext": [{"translate": "npc.name.6"}]},
+                "text": {"rawtext": [{"translate": "alchemy.1.dialogue", "with": ["\n"]}]},
+                "buttons": [
+                    {
+                        "name": {"rawtext": [{"translate": "next.button"}]},
+                        "commands": [
+                            "dialogue open @e [type=npc, tag=npc6] @p alchemy2",
+                            "dialogue change @e [type=npc, tag=npc6] alchemy2"                          
+                        ]
+                    }
+                ]
+            },
+            {
+                "scene_tag": "alchemy2",
+                "npc_name": {"rawtext": [{"translate": "npc.name.6"}]},
+                "text": {"rawtext": [{"translate": "alchemy.2.dialogue", "with": ["\n"]}]},
+                "buttons": [
+                    {
+                        "name": {"rawtext": [{"translate": "next.button"}]},
+                        "commands": [
+                            "dialogue open @e [type=npc, tag=npc6] @p alchemy3",
+                            "dialogue change @e [type=npc, tag=npc6] alchemy3"
+                        ]
+                    }
+                ]
+            },
+            {
+                "scene_tag": "alchemy3",
+                "npc_name": {"rawtext": [{"translate": "npc.name.6"}]},
+                "text": {"rawtext": [{"translate": "alchemy.3.dialogue", "with": ["\n"]}]},
+                "buttons": [
+                    {
+                        "name": {"rawtext": [{"translate": "ready.button"}]},
+                        "commands": [
+                            "function inclass/alchemy",
+                            "function guides/reset",
+                            "codebuilder navigate @p true https://minecraft.makecode.com/58311-29027-05566-71490",
+                            "dialogue change @e [type=npc, tag=npc6] alchemy4"
+                        ]
+                    },
+                    {
+                        "name": {"rawtext": [{"translate": "notready.button"}]}
+                    }
+                ]
+            },
+            {
+                "scene_tag": "alchemy4",
+                "npc_name": {"rawtext": [{"translate": "npc.name.6"}]},
+                "text": {"rawtext": [{"translate": "alchemy.4.dialogue", "with": ["\n"]}]},
+                "buttons": [
+                    {
+                        "name": {"rawtext": [{"translate": "close.button"}]}
+                    },
+                    {
+                        "name": {"rawtext": [{"translate": "answer.button"}]},
+                        "commands": [
+                            "codebuilder navigate @p true https://minecraft.makecode.com/67954-24289-08824-65964"
+                        ]
+                    },
+                    {
+                        "name": {"rawtext": [{"translate": "reload.button"}]},
+                        "commands": [
+                            "codebuilder navigate @p true https://minecraft.makecode.com/58311-29027-05566-71490"
+                        ]
+                    }
+                ]
+            },
+            {
+                "scene_tag": "alchemy5",
+                "npc_name": {"rawtext": [{"translate": "npc.name.6"}]},
+                "text": {"rawtext": [{"translate": "alchemy.5.dialogue", "with": ["\n"]}]},
+                "buttons": [
+                    {
+                        "name": {"rawtext": [{"translate": "complete.button"}]},
+                        "commands": [
+                            "function inclass/reset",
+                            "setblock -252 -38 238 air",
+                            "dialogue change @e [type=npc, tag=npc6] classcomplete3"
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

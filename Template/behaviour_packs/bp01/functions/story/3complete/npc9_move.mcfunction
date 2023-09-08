@@ -1,0 +1,1 @@
+tp @e [type=npc, tag=npc9] -294 -59 262 facing -291 -59 256

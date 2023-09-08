@@ -1,0 +1,47 @@
+{
+    "format_version": "1.14",
+    "minecraft:npc_dialogue": {
+        "scenes": [
+            {
+                "scene_tag": "studentreps0",
+                "npc_name": {"rawtext": [{"translate": "npc.name.8"}]},
+                "text": {"rawtext": [{"translate": "student.rep.dialogue", "with": ["\n"]}]},
+                "buttons": [
+                    {
+                        "name": {"rawtext": [{"translate": "class.button.0"}]},
+                        "commands": [
+                            "function teleports/potions"
+                        ]
+                    },
+                    {
+                        "name": {"rawtext": [{"translate": "class.button.1"}]},
+                        "commands": [
+                            "function teleports/herbology"
+                        ]
+                    },
+                    {
+                        "name": {"rawtext": [{"translate": "class.button.2"}]},
+                        "commands": [
+                            "function teleports/spells"
+                        ]
+                    },
+                    {
+                        "name": {"rawtext": [{"translate": "class.button.3"}]},
+                        "commands": [
+                            "function teleports/alchemy"
+                        ]
+                    },
+                    {
+                        "name": {"rawtext": [{"translate": "class.button.4"}]},
+                        "commands": [
+                            "function teleports/astronomy"
+                        ]
+                    },
+                    {
+                        "name": {"rawtext": [{"translate": "close.button"}]}
+                    }
+                ]
+            }
+        ]
+    }
+}
