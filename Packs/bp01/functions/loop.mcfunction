@@ -1,4 +1,4 @@
-execute unless score @p init matches 1 run function init/init
+execute if block -39 -57 226 polished_blackstone_button 12 run function init/init
 execute if score @p intro_stage > @p zero run function story/intro/check
 execute if score @p potions matches 1 run function story/potions/check
 execute if score @p herbology matches 1 run function story/herbology/check

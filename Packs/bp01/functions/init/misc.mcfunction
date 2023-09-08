@@ -14,3 +14,4 @@ gamerule falldamage false
 gamerule firedamage false
 difficulty peaceful
 effect @p saturation 86400 1 true
+playsound ambient.weather.lightning.impact @p -30 -59 216
